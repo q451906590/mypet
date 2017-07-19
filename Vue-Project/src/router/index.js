@@ -14,7 +14,11 @@ import login from '@/components/user/login'
 import register from '@/components/user/register'
 import search from '@/components/search'
 import mine from '@/components/mine'
-
+import minedetail from '@/components/mine/minedetail'
+import all from '@/components/mine/all'
+import pay from '@/components/mine/pay'
+import no from '@/components/mine/no'
+import account from '@/components/mine/account'
 
 Vue.use(Router)
 
@@ -78,10 +82,6 @@ export default new Router({
 				path:"register",
 				component:register
     			}
-//  			{
-//				path:"picture",
-//				component:picture
-//  			}
     		]
    },
      {
@@ -92,7 +92,32 @@ export default new Router({
    {
    		path:"/mine",
    		name:"mine",
-   		component:mine
+   		component:mine		   		
+   },
+   {
+  	 	path:"/minedetail",
+   		name:"minedetail",
+   		component:minedetail	,
+   		redirect:'minedetail/all',
+   		children:[
+   			{
+   				path:"all",
+				component:all
+   			},
+   			{
+   				path:"pay",
+				component:pay
+   			},
+   			{
+   				path:"no",
+				component:no
+   			}
+   		]
+   },
+   {
+   		path:"/account",
+   		name:"account",
+   		component:account	
    }
   ]
 })

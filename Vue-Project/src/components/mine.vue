@@ -7,7 +7,7 @@
   		<div class="wrap">
   			<img src="../../static/img/mine/probg.png" alt="无法加载" class="peosonHeader"/>
   			<md-avatar class="md-large top">
-			  	<img src="../../static/img/mine/head.gif" alt="无法加载">
+			  	<img src="../../static/img/mine/head.gif" alt="无法加载" @click="person">
 			</md-avatar>
 			<p class="username">{{username}}</p>
 			<div class="level">
@@ -15,23 +15,45 @@
 			</div>
   		</div>
   		<div class="shoppinglist">
-  			<div>商城订单</div>
-  			<div class="list">
-  				<i class="fa fa-money fa-2x" aria-hidden="true"></i>
+  			<h4 class="shop">商城订单</h4>
+  			<div class="list" @click="mydetail">
+  				<img src="../../static/img/mine/wallet.png"/>
   				<p>待付款</p>
   			</div>
-  			<div class="list">
-  				<i class="fa fa-car fa-2x" aria-hidden="true"></i>
+  			<div class="list" @click="mydetail">
+  				<img src="../../static/img/mine/car.png"/>
   				<p>待发货</p>
   			</div>
-  			<div class="list">
-  				<i class="fa fa-gift fa-2x" aria-hidden="true"></i>
+  			<div class="list" @click="no">
+  				<img src="../../static/img/mine/gift.png"/>
   				<p>待收货</p>
   			</div>
-  			<div class="list">
-  				<i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i>
+  			<div class="list" @click="no">
+  				<img src="../../static/img/mine/good.png"/>
   				<p>待评价</p>
   			</div>
+  		</div>
+  		<div class="severlist">
+  			<h4 class="shop">个人信息</h4>
+  			<div class="list" @click="account">
+  				<img src="../../static/img/mine/mine.png"/>
+  				<p>我的账户</p>
+  			</div>
+  			<div class="list cue" @click="coupon">
+  				<img src="../../static/img/mine/coupons.png"/>
+  				<p>我的优惠券</p>
+  			</div>
+  			<div class="list" @click="gift">
+  				<img src="../../static/img/mine/gift2.png"/>
+  				<p>兑奖中心</p>
+  			</div>
+  			<div class="list fav" @click="favour">
+  				<img src="../../static/img/mine/favourite.png"/>
+  				<p>我的收藏</p>
+  			</div>
+  		</div>
+  		<div class="bg" >
+  			<img src="../../static/img/mine/home.png" alt="无法加载" @click="backhome"/>
   		</div>
 	</div>
 </template>
@@ -42,6 +64,32 @@
 			return {
 				username:"mobo1357944"			
 			}
+		},
+		methods:{
+			backhome:function(){
+				this.$router.push({path:"/"})
+			},
+			mydetail:function(){
+				this.$router.push({path:"/minedetail"})
+			},
+			no(){
+				this.$router.push({path:"/minedetail/no"})
+			},
+			account(){
+				this.$router.push({path:"/account"})
+			},
+			coupon(){
+				this.$router.push({path:"/coupon"})
+			},
+			gift(){
+				this.$router.push({path:"/gift"})
+			},
+			favour(){
+				this.$router.push({path:"/favour"})
+			},
+			person(){
+				this.$router.push({path:"/account"})
+			}
 		}
 	}
 </script>
@@ -49,16 +97,18 @@
 <style lang="scss" scoped type="text/css">
 	@import "../assets/func.scss";
 	.mine{
+		  background-Color:#efefef;
 			.head{
 		 height:px2em(80px);
 		 overflow:hidden;
+		 background-Color:#fff;
 		 .back{
 		  font-size: px2em(60px);
 		  margin-left:  px2em(10px);
 		  float:left;
 		  color: #fc4a00;
 		  padding-left:px2em(30px);
-		  margin-top: px2em(10px);
+		  margin-top: px2em(10px);		  
 		 }		 
 		 p{
 		  width: px2em(640px);
@@ -68,16 +118,10 @@
 		  line-height: px2em(80px);
 		  float: left;
 		 }
-		 .register{
-		  font-size: px2em(30px);
-		  margin-right:px2em(10px);
-		  height:px2em(60px);
-		  line-height: px2em(60px);
-		  float:right;
-		 }
+		 
 		}
 		.wrap{
-			position: relative;
+			position: relative;			
 			.top{
 				width:px2em(120px);
 				height:px2em(120px);
@@ -120,10 +164,69 @@
 		}
 		.shoppinglist{
 			font-size: px2em(30px);
+			font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+			background-Color:#fff;
+			.shop{
+				height: px2em(80px);
+				line-height:px2em(80px);
+				padding-left: px2em(30px);
+				border-bottom: 1px solid darkgray;
+			}
 			.list{
 				float: left;
-				margin: px2em(10px) 0 0 px2em(70px);
-				border: 1px solid #000;
+				margin: px2em(20px) 0 px2em(30px) px2em(75px);	
+				img{
+					width: px2em(50px);
+					margin: 0 0 px2em(30px) px2em(20px);
+				}		
+								
+			}
+		}
+		.severlist:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.severlist{
+			 background-Color:#fff;
+			 font-size: px2em(30px);
+			font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+			margin-top: px2em(30px);
+			.shop{
+				height: px2em(80px);
+				line-height:px2em(80px);
+				padding-left: px2em(30px);
+				border-bottom: 1px solid darkgray;
+			}
+			.list{
+				float: left;
+				margin: px2em(20px) 0 px2em(30px) px2em(50px);	
+				img{
+					width: px2em(50px);
+					margin: px2em(10px) 0 px2em(20px) px2em(35px);
+				}										
+			}
+			.cue{
+					img{
+						width: px2em(65px);
+						margin: 0 0 px2em(15px) px2em(44px);
+					}
+			}
+			.fav{
+					img{
+						width: px2em(65px);
+						margin: 0 0 px2em(15px) px2em(30px);
+					}
+			}
+		}	
+		.bg{
+			height: px2em(400px);
+			position: relative;
+			img{
+				position: absolute;
+				top: 50%;
+				left: px2em(30px);
+				transform: translateY(-50%);
 			}
 		}
 	}

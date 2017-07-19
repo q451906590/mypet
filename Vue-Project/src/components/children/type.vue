@@ -71,13 +71,11 @@ export default{
 	}
 }
 .more{
-
 	float: left;
 	width: px2em(150px);
 	height: px2em(150px);
 	margin: px2em(35px) px2em(10px);
 	img{
-
 		width:px2em(90px) ;
 		margin-left:px2em(30px) ;
 	}
