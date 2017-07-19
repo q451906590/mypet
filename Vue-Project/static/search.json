@@ -1,7 +1,81 @@
 {
 	"result":{
 		"dog":{
-			"guantou":[     
+      "dogfood":[
+        {
+          "smallimg":"./static/img/pic/dogfood/p1/dog-food-small1.jpg",
+          "bigimg":["./static/img/pic/dogfood/p1/dog-food-big1-1.jpg","./static/img/pic/dogfood/p1/dog-food-big1-2.jpg","./static/img/pic/dogfood/p1/dog-food-big1-3.jpg"],
+          "graphicimg":["./static/img/pic/dogfood/p1/graphic1-1.jpg","./static/img/pic/dogfood/p1/graphic1-2.jpg","./static/img/pic/dogfood/p1/graphic1-3.jpg"],
+          "title":"法国皇家ROYAL CANIN 小型犬离乳期奶糕1kg MIS30",
+          "price":"63.00",
+          "comment": 2107,
+          "buy":434780
+        },
+        {
+          "smallimg":"./static/img/pic/dogfood/p2/dog-food-small2.jpg",
+          "bigimg":["./static/img/pic/dogfood/p2/dog-food-big2-1.jpg","./static/img/pic/dogfood/p2/dog-food-big2-2.jpg","./static/img/pic/dogfood/p2/dog-food-big2-3.jpg"],
+          "graphicimg":["./static/img/pic/dogfood/p2/graphic2-1.jpg","./static/img/pic/dogfood/p2/graphic2-2.jpg","./static/img/pic/dogfood/p2/graphic2-3.jpg"],
+          "title":"法国皇家ROYAL CANIN 泰迪贵宾成犬粮专用狗粮3kg PD30",
+          "price":"190.00",
+          "comment": 2797,
+          "buy":401701
+        },
+        {
+          "smallimg":"./static/img/pic/dogfood/p3/dog-food-small3.jpg",
+          "bigimg":["./static/img/pic/dogfood/p3/dog-food-big3-1.jpg","./static/img/pic/dogfood/p3/dog-food-big3-2.jpg","./static/img/pic/dogfood/p3/dog-food-big3-3.jpg"],
+          "graphicimg":["./static/img/pic/dogfood/p3/graphic3-1.jpg","./static/img/pic/dogfood/p3/graphic3-2.jpg","./static/img/pic/dogfood/p3/graphic3-3.jpg"],
+          "title":"宝路 中小型成犬粮牛肉肝蔬菜及谷物狗粮1.8kg",
+          "price":"48.00",
+          "comment": 648,
+          "buy":246878
+        },
+        {
+          "smallimg":"./static/img/pic/dogfood/p4/dog-food-small4.jpg",
+          "bigimg":["./static/img/pic/dogfood/p4/dog-food-big4-1.jpg","./static/img/pic/dogfood/p4/dog-food-big4-2.jpg","./static/img/pic/dogfood/p4/dog-food-big4-3.jpg"],
+          "graphicimg":["./static/img/pic/dogfood/p4/graphic4-1.jpg","./static/img/pic/dogfood/p4/graphic4-2.jpg","./static/img/pic/dogfood/p4/graphic4-3.jpg"],
+          "title":"法国皇家ROYAL CANIN 10个月-8岁小型成犬粮2kg PR27",
+          "price":"99.00",
+          "comment": 1228,
+          "buy":228487
+        },
+        {
+          "smallimg":"./static/img/pic/dogfood/p5/dog-food-small5.jpg",
+          "bigimg":["./static/img/pic/dogfood/p5/dog-food-big5-1.jpg","./static/img/pic/dogfood/p5/dog-food-big5-2.jpg","./static/img/pic/dogfood/p5/dog-food-big5-3.jpg"],
+          "graphicimg":["./static/img/pic/dogfood/p1/graphic5-1.jpg","./static/img/pic/dogfood/p5/graphic5-2.jpg","./static/img/pic/dogfood/p5/graphic5-3.jpg"],
+          "title":"宝路 幼犬粮肉类奶蔬菜谷物配方狗粮1.3kg",
+          "price":"37.30",
+          "comment": 743,
+          "buy":166421
+        },
+        {
+          "smallimg":"./static/img/pic/dogfood/p6/dog-food-small6.jpg",
+          "bigimg":["./static/img/pic/dogfood/p6/dog-food-big6-1.jpg","./static/img/pic/dogfood/p6/dog-food-big6-2.jpg","./static/img/pic/dogfood/p6/dog-food-big6-3.jpg"],
+          "graphicimg":["./static/img/pic/dogfood/p6/graphic6-1.jpg","./static/img/pic/dogfood/p6/graphic6-2.jpg","./static/img/pic/dogfood/p6/graphic6-3.jpg"],
+          "title":"法国皇家ROYAL CANIN 小型犬幼犬粮专用狗粮2kg MIJ31",
+          "price":"104.00",
+          "comment": 1142,
+          "buy":119815
+        },
+        {
+          "smallimg":"./static/img/pic/dogfood/p7/dog-food-small7.jpg",
+          "bigimg":["./static/img/pic/dogfood/p7/dog-food-big7-1.jpg","./static/img/pic/dogfood/p7/dog-food-big7-2.jpg","./static/img/pic/dogfood/p7/dog-food-big7-3.jpg"],
+          "graphicimg":["./static/img/pic/dogfood/p1/graphic7-1.jpg","./static/img/pic/dogfood/p7/graphic7-2.jpg","./static/img/pic/dogfood/p7/graphic7-3.jpg"],
+          "title":"法国皇家ROYAL CANIN 小型犬粮怀孕哺乳离乳奶糕 3kg MIS30",
+          "price":"170.00",
+          "comment": 1997,
+          "buy":112229
+        },
+        {
+          "smallimg":"./static/img/pic/dogfood/p8/dog-food-small8.jpg",
+          "bigimg":["./static/img/pic/dogfood/p8/dog-food-big8-1.jpg","./static/img/pic/dogfood/p8/dog-food-big8-2.jpg","./static/img/pic/dogfood/p8/dog-food-big8-3.jpg"],
+          "graphicimg":["./static/img/pic/dogfood/p1/graphic8-1.jpg","./static/img/pic/dogfood/p8/graphic8-2.jpg","./static/img/pic/dogfood/p8/graphic8-3.jpg"],
+          "title":"法国皇家ROYAL CANIN  A3优选幼犬粮哺乳期母犬及幼犬适用 8kg",
+          "price":"189.00",
+          "comment": 3013,
+          "buy":108556
+        }
+      ],
+			"guantou":[
 			           {
 			             "smallimg":"./static/img/pic/guantou/p1/c.jpg",
 			             "bigimg":["./static/img/pic/guantou/p1/a1.jpg","./static/img/pic/guantou/p1/a2.jpg","./static/img/pic/guantou/p1/a3.jpg"],
@@ -40,7 +114,7 @@
 			           },
 			           {
 			             "smallimg":"./static/img/pic/guantou/p5/c.jpg",
-			             "bigimg":["./static/img/pic/guantou/p5/a1.jpg","./static/img/pic/dog-food/p5/a2.jpg","./static/img/pic/guantou/p5/a3.jpg"],
+			             "bigimg":["./static/img/pic/guantou/p5/a1.jpg","./static/img/pic/guantou/p5/a2.jpg","./static/img/pic/guantou/p5/a3.jpg"],
 			             "graphicimg":["./static/img/pic/guantou/p5/b1.jpg","./static/img/pic/guantou/p5/b2.jpg","./static/img/pic/guantou/p5/b3.jpg","./static/img/pic/guantou/p5/b4.jpg","./static/img/pic/guantou/p5/b5.jpg","./static/img/pic/guantou/p5/b6.jpg","./static/img/pic/guantou/p5/b7.jpg","./static/img/pic/guantou/p5/b8.jpg"],
 			             "title":"顽皮Wanpy happy100犬用鸡肉慕斯狗罐头95g 狗湿粮",
 			             "price":"4.30",
@@ -50,7 +124,7 @@
 			           {
 			             "smallimg":"./static/img/pic/guantou/p6/c.jpg",
 			             "bigimg":["./static/img/pic/guantou/p6/a1.jpg","./static/img/pic/guantou/p6/a2.jpg","./static/img/pic/guantou/p6/a3.jpg"],
-			             "graphicimg":["./static/img/pic/guantou/p6/b1.jpg","./static/img/pic/guantou/p6/b2.jpg","./static/img/pic/guantou/p6/b3.jpg","./static/img/pic/guantou/p6/b4.jpg","./static/img/pic/guantou/p6/b5.jpg","./static/img/pic/guantou/p6/b6.jpg","./static/img/pic/guantou/p6/b7.jpg","./static/img/pic/guantou/p6/b8.jpg"],
+			             "graphicimg":["./static/img/pic/guantou/p6/b1.jpg","./static/img/pic/guantou/p6/b2.jpg","./static/img/pic/guantou/p6/b3.jpg","./static/img/pic/guantou/p6/b4.jpg","./static/img/pic/guantou/p6/b5.jpg","./static/img/pic/guantou/p6/b6.jpg","./static/img/pic/guantou/p6/b7.jpg","./static/img/pic/guantou/p6/b8.jpg","./static/img/pic/guantou/p6/b9.jpg"],
 			             "title":"爱丽思IRIS 牛肉米饭狗罐头100g*3罐 狗湿粮",
 			             "price":"14.00",
 			             "comment": 142,
@@ -59,7 +133,7 @@
 			           {
 			             "smallimg":"./static/img/pic/guantou/p7/c.jpg",
 			             "bigimg":["./static/img/pic/guantou/p7/a1.jpg","./static/img/pic/guantou/p7/a2.jpg","./static/img/pic/guantou/p7/a3.jpg"],
-			             "graphicimg":["./static/img/pic/guantou/p7/b1.jpg","./static/img/pic/guantou/p7/b2.jpg","./static/img/pic/guantou/p7/b3.jpg","./static/img/pic/guantou/p7/b4.jpg","./static/img/pic/guantou/p7/b5.jpg","./static/img/pic/guantou/p7/b6.jpg","./static/img/pic/guantou/p7/b7.jpg","./static/img/pic/guantou/p7/b8.jpg"],
+			             "graphicimg":["./static/img/pic/guantou/p7/b1.jpg","./static/img/pic/guantou/p7/b2.jpg","./static/img/pic/guantou/p7/b3.jpg","./static/img/pic/guantou/p7/b4.jpg","./static/img/pic/guantou/p7/b5.jpg","./static/img/pic/guantou/p7/b6.jpg","./static/img/pic/guantou/p7/b7.jpg","./static/img/pic/guantou/p7/b8.jpg","./static/img/pic/guantou/p7/b9.jpg"],
 			             "title":"怡亲Yoken 牛肉蔬菜配方狗罐头375g 狗湿粮",
 			             "price":"8.10",
 			             "comment": 197,
@@ -73,22 +147,898 @@
 			             "price":"39.90",
 			             "comment": 73,
 			             "buy":181
-			           } 
+			           }
 			             ],
 			             "lingshi":[
 				                   {
 				             "smallimg":"./static/img/pic/lingshi/p1/c.jpg",
 				             "bigimg":["./static/img/pic/lingshi/p1/a1.jpg","./static/img/pic/lingshi/p1/a2.jpg","./static/img/pic/lingshi/p1/a3.jpg"],
-				             "graphicimg":["./static/img/pic/lingshi/p1/b1.jpg","./static/img/pic/lingshi/p1/b2.jpg","./static/img/pic/lingshi/p1/b3.jpg","./static/img/pic/lingshi/p1/b4.jpg","./static/img/pic/lingshi/p1/b5.jpg","./static/img/pic/lingshi/p1/b6.jpg","./static/img/pic/lingshi/p18/b7.jpg","./static/img/pic/lingshi/p1/b8.jpg"],
-				             "title":"宝路 成犬精选鲜肝妙鲜包100g*12包 狗湿粮",
-				             "price":"39.90",
+				             "graphicimg":["./static/img/pic/lingshi/p1/b1.jpg","./static/img/pic/lingshi/p1/b2.jpg","./static/img/pic/lingshi/p1/b3.jpg","./static/img/pic/lingshi/p1/b4.jpg","./static/img/pic/lingshi/p1/b5.jpg","./static/img/pic/lingshi/p1/b6.jpg","./static/img/pic/lingshi/p1/b7.jpg","./static/img/pic/lingshi/p1/b8.jpg"],
+				             "title":"宝路 幼犬钙奶棒洁齿咬胶60g 补钙磨牙两不误 狗零食",
+				             "price":"9.90",
 				             "comment": 73,
 				             "buy":181
-				           } 
-			         ]
+				           },
+				           {
+				             "smallimg":"./static/img/pic/lingshi/p2/c.jpg",
+				             "bigimg":["./static/img/pic/lingshi/p2/a1.jpg","./static/img/pic/lingshi/p2/a2.jpg","./static/img/pic/lingshi/p2/a3.jpg"],
+				             "graphicimg":["./static/img/pic/lingshi/p2/b1.jpg","./static/img/pic/lingshi/p2/b2.jpg","./static/img/pic/lingshi/p2/b3.jpg","./static/img/pic/lingshi/p2/b4.jpg","./static/img/pic/lingshi/p2/b5.jpg","./static/img/pic/lingshi/p2/b6.jpg","./static/img/pic/lingshi/p2/b7.jpg","./static/img/pic/lingshi/p2/b8.jpg"],
+				             "title":"宝路 中小型犬成犬洁齿棒75g 有效减少牙斑牙垢 狗零食",
+				             "price":"11.20",
+				             "comment": 723,
+				             "buy":1141
+				           },
+				           {
+				             "smallimg":"./static/img/pic/lingshi/p3/c.jpg",
+				             "bigimg":["./static/img/pic/lingshi/p3/a1.jpg","./static/img/pic/lingshi/p3/a2.jpg","./static/img/pic/lingshi/p3/a3.jpg"],
+				             "graphicimg":["./static/img/pic/lingshi/p3/b1.jpg","./static/img/pic/lingshi/p3/b2.jpg","./static/img/pic/lingshi/p3/b3.jpg","./static/img/pic/lingshi/p3/b4.jpg","./static/img/pic/lingshi/p3/b5.jpg","./static/img/pic/lingshi/p3/b6.jpg","./static/img/pic/lingshi/p3/b7.jpg","./static/img/pic/lingshi/p3/b8.jpg"],
+				             "title":"曼劳 立体派牛肉口味200g 训练 奖励 狗零食",
+				             "price":"29.90",
+				             "comment": 273,
+				             "buy":681
+				           },
+				           {
+				             "smallimg":"./static/img/pic/lingshi/p4/c.jpg",
+				             "bigimg":["./static/img/pic/lingshi/p4/a1.jpg","./static/img/pic/lingshi/p4/a2.jpg","./static/img/pic/lingshi/p4/a3.jpg"],
+				             "graphicimg":["./static/img/pic/lingshi/p4/b1.jpg","./static/img/pic/lingshi/p4/b2.jpg","./static/img/pic/lingshi/p4/b3.jpg","./static/img/pic/lingshi/p4/b4.jpg","./static/img/pic/lingshi/p4/b5.jpg","./static/img/pic/lingshi/p4/b6.jpg","./static/img/pic/lingshi/p4/b7.jpg","./static/img/pic/lingshi/p4/b8.jpg"],
+				             "title":"它它 杂锦罐装狗狗防口臭饼干1kg 磨牙 狗零食",
+				             "price":"29.90",
+				             "comment": 673,
+				             "buy":281
+				           },
+				           {
+				             "smallimg":"./static/img/pic/lingshi/p5/c.jpg",
+				             "bigimg":["./static/img/pic/lingshi/p5/a1.jpg","./static/img/pic/lingshi/p5/a2.jpg","./static/img/pic/lingshi/p5/a3.jpg"],
+				             "graphicimg":["./static/img/pic/lingshi/p5/b1.jpg","./static/img/pic/lingshi/p5/b2.jpg","./static/img/pic/lingshi/p5/b3.jpg","./static/img/pic/lingshi/p5/b4.jpg","./static/img/pic/lingshi/p5/b5.jpg","./static/img/pic/lingshi/p5/b6.jpg","./static/img/pic/lingshi/p5/b7.jpg","./static/img/pic/lingshi/p5/b8.jpg"],
+				             "title":"怡亲 犬用牛肉火腿肠15g*30支 狗零食",
+				             "price":"15.90",
+				             "comment": 73,
+				             "buy":381
+				           },
+				           {
+				             "smallimg":"./static/img/pic/lingshi/p6/c.jpg",
+				             "bigimg":["./static/img/pic/lingshi/p6/a1.jpg","./static/img/pic/lingshi/p6/a2.jpg","./static/img/pic/lingshi/p6/a3.jpg"],
+				             "graphicimg":["./static/img/pic/lingshi/p6/b1.jpg","./static/img/pic/lingshi/p6/b2.jpg","./static/img/pic/lingshi/p6/b3.jpg","./static/img/pic/lingshi/p6/b4.jpg","./static/img/pic/lingshi/p6/b5.jpg","./static/img/pic/lingshi/p6/b6.jpg","./static/img/pic/lingshi/p6/b7.jpg","./static/img/pic/lingshi/p6/b8.jpg"],
+				             "title":"麦富迪 清口香牛肉味咬胶220g 狗零食",
+				             "price":"20.90",
+				             "comment": 481,
+				             "buy":1026
+				           },
+				           {
+				             "smallimg":"./static/img/pic/lingshi/p7/c.jpg",
+				             "bigimg":["./static/img/pic/lingshi/p7/a1.jpg","./static/img/pic/lingshi/p7/a2.jpg","./static/img/pic/lingshi/p7/a3.jpg"],
+				             "graphicimg":["./static/img/pic/lingshi/p7/b1.jpg","./static/img/pic/lingshi/p7/b2.jpg","./static/img/pic/lingshi/p7/b3.jpg","./static/img/pic/lingshi/p7/b4.jpg","./static/img/pic/lingshi/p7/b5.jpg","./static/img/pic/lingshi/p7/b6.jpg","./static/img/pic/lingshi/p7/b7.jpg","./static/img/pic/lingshi/p7/b8.jpg"],
+				             "title":"怡亲 鸡肉切片45g 狗零食",
+				             "price":"9.90",
+				             "comment": 744,
+				             "buy":1481
+				           },
+				           {
+				             "smallimg":"./static/img/pic/lingshi/p8/c.jpg",
+				             "bigimg":["./static/img/pic/lingshi/p8/a1.jpg","./static/img/pic/lingshi/p8/a2.jpg","./static/img/pic/lingshi/p8/a3.jpg"],
+				             "graphicimg":["./static/img/pic/lingshi/p1/p8.jpg","./static/img/pic/lingshi/p8/b2.jpg","./static/img/pic/lingshi/p8/b3.jpg","./static/img/pic/lingshi/p8/b4.jpg","./static/img/pic/lingshi/p8/b5.jpg","./static/img/pic/lingshi/p8/b6.jpg","./static/img/pic/lingshi/p8/b7.jpg","./static/img/pic/lingshi/p8/b8.jpg"],
+				             "title":"威尔斯 牛奶钙骨头形饼干270g 狗零食",
+				             "price":"18.50",
+				             "comment": 373,
+				             "buy":1381
+				           }
+			         ],
+			         "baojian":[
+  {
+    "smallimg":"./static/img/pic/baojian/p1/c.jpg",
+    "bigimg":["./static/img/pic/baojian/p1/a1.jpg","./static/img/pic/baojian/p1/a2.jpg","./static/img/pic/baojian/p1/a3.jpg"],
+    "graphicimg":["./static/img/pic/baojian/p1/b1.jpg","./static/img/pic/baojian/p1/b2.jpg","./static/img/pic/baojian/p1/b3.jpg","./static/img/pic/baojian/p1/b4.jpg","./static/img/pic/baojian/p1/b5.jpg","./static/img/pic/baojian/p1/b6.jpg","./static/img/pic/baojian/p1/b7.jpg","./static/img/pic/baojian/p1/b8.jpg"],
+    "title":"法国维克Virbac 克补软膏维生素营养膏120.5g 幼犬猫高运动量怀孕哺乳期术后用",
+    "price":"95.30",
+    "comment": 473,
+    "buy":2281
+  },
+  {
+    "smallimg":"./static/img/pic/baojian/p2/c.jpg",
+    "bigimg":["./static/img/pic/baojian/p2/a1.jpg","./static/img/pic/baojian/p2/a2.jpg","./static/img/pic/baojian/p2/a3.jpg"],
+    "graphicimg":["./static/img/pic/baojian/p2/b1.jpg","./static/img/pic/baojian/p2/b2.jpg","./static/img/pic/baojian/p2/b3.jpg","./static/img/pic/baojian/p2/b4.jpg","./static/img/pic/baojian/p2/b5.jpg","./static/img/pic/baojian/p2/b6.jpg","./static/img/pic/baojian/p2/b7.jpg","./static/img/pic/baojian/p2/b8.jpg"],
+    "title":"小宠EHD 犬猫肠胃宝益生菌10包 调理肠胃促消化",
+    "price":"49.90",
+    "comment": 373,
+    "buy":781
+  },
+  {
+    "smallimg":"./static/img/pic/baojian/p3/c.jpg",
+    "bigimg":["./static/img/pic/baojian/p3/a1.jpg","./static/img/pic/baojian/p3/a2.jpg","./static/img/pic/baojian/p3/a3.jpg"],
+    "graphicimg":["./static/img/pic/baojian/p3/b1.jpg","./static/img/pic/baojian/p3/b2.jpg","./static/img/pic/baojian/p3/b3.jpg","./static/img/pic/baojian/p3/b4.jpg","./static/img/pic/baojian/p3/b5.jpg","./static/img/pic/baojian/p3/b6.jpg","./static/img/pic/baojian/p3/b7.jpg","./static/img/pic/baojian/p3/b8.jpg"],
+    "title":"雪亮 宠物专用羊奶粉300g 幼猫狗/怀孕猫狗专用",
+    "price":"9.90",
+    "comment": 73,
+    "buy":181
+  },
+  {
+    "smallimg":"./static/img/pic/baojian/p4/c.jpg",
+    "bigimg":["./static/img/pic/baojian/p4/a1.jpg","./static/img/pic/baojian/p4/a2.jpg","./static/img/pic/baojian/p4/a3.jpg"],
+    "graphicimg":["./static/img/pic/baojian/p4/b1.jpg","./static/img/pic/baojian/p4/b2.jpg","./static/img/pic/baojian/p4/b3.jpg","./static/img/pic/baojian/p4/b4.jpg","./static/img/pic/baojian/p4/b5.jpg","./static/img/pic/baojian/p4/b6.jpg","./static/img/pic/baojian/p4/b7.jpg","./static/img/pic/baojian/p4/b8.jpg"],
+    "title":"维斯康 强力钙咀嚼片150片/瓶 猫狗通用，补充钙质",
+    "price":"35.90",
+    "comment": 373,
+    "buy":126
+  },
+  {
+    "smallimg":"./static/img/pic/baojian/p5/c.jpg",
+    "bigimg":["./static/img/pic/baojian/p5/a1.jpg","./static/img/pic/baojian/p5/a2.jpg","./static/img/pic/baojian/p5/a3.jpg"],
+    "graphicimg":["./static/img/pic/baojian/p5/b1.jpg","./static/img/pic/baojian/p5/b2.jpg","./static/img/pic/baojian/p5/b3.jpg","./static/img/pic/baojian/p5/b4.jpg","./static/img/pic/baojian/p5/b5.jpg","./static/img/pic/baojian/p5/b6.jpg","./static/img/pic/baojian/p5/b7.jpg","./static/img/pic/baojian/p5/b8.jpg"],
+    "title":"麦德氏in-basic羊乳钙片150片/罐 强健骨骼狗专用",
+    "price":"32.40",
+    "comment": 93,
+    "buy":881
+  },
+  {
+    "smallimg":"./static/img/pic/baojian/p6/c.jpg",
+    "bigimg":["./static/img/pic/baojian/p6/a1.jpg","./static/img/pic/baojian/p6/a2.jpg","./static/img/pic/baojian/p6/a3.jpg"],
+    "graphicimg":["./static/img/pic/baojian/p6/b1.jpg","./static/img/pic/baojian/p6/b2.jpg","./static/img/pic/baojian/p6/b3.jpg","./static/img/pic/baojian/p6/b4.jpg","./static/img/pic/baojian/p6/b5.jpg","./static/img/pic/baojian/p6/b6.jpg","./static/img/pic/baojian/p6/b7.jpg","./static/img/pic/baojian/p6/b8.jpg"],
+    "title":"怡亲 猫狗多可特营养膏120.5g",
+    "price":"23.20",
+    "comment": 113,
+    "buy":615
+  },
+  {
+    "smallimg":"./static/img/pic/baojian/p7/c.jpg",
+    "bigimg":["./static/img/pic/baojian/p7/a1.jpg","./static/img/pic/baojian/p7/a2.jpg","./static/img/pic/baojian/p7/a3.jpg"],
+    "graphicimg":["./static/img/pic/baojian/p7/b1.jpg","./static/img/pic/baojian/p7/b2.jpg","./static/img/pic/baojian/p7/b3.jpg","./static/img/pic/baojian/p7/b4.jpg","./static/img/pic/baojian/p7/b5.jpg","./static/img/pic/baojian/p7/b6.jpg","./static/img/pic/baojian/p7/b7.jpg","./static/img/pic/baojian/p7/b8.jpg"],
+    "title":"佑达发育宝 整肠配方350g(原幼犬)+钙胃能450g套装",
+    "price":"189.90",
+    "comment": 73,
+    "buy":181
+  },
+  {
+    "smallimg":"./static/img/pic/baojian/p8/c.jpg",
+    "bigimg":["./static/img/pic/baojian/p8/a1.jpg","./static/img/pic/baojian/p8/a2.jpg","./static/img/pic/baojian/p8/a3.jpg"],
+    "graphicimg":["./static/img/pic/baojian/p1/p8.jpg","./static/img/pic/baojian/p8/b2.jpg","./static/img/pic/baojian/p8/b3.jpg","./static/img/pic/baojian/p8/b4.jpg","./static/img/pic/baojian/p8/b5.jpg","./static/img/pic/baojian/p8/b6.jpg","./static/img/pic/baojian/p8/b7.jpg","./static/img/pic/baojian/p8/b8.jpg"],
+    "title":"维斯康 冰岛有机海藻颗粒300g 发毛固色，黑亮小鼻头，促进毛发生长及伤口愈合",
+    "price":"99.80",
+    "comment": 13,
+    "buy":221
+  }
+			         ],
+			         "yiliao":[
+{
+                     "smallimg":"./static/img/pic/yiliao/p1/c.jpg",
+                     "bigimg":["./static/img/pic/yiliao/p1/a1.jpg","./static/img/pic/yiliao/p1/a2.jpg","./static/img/pic/yiliao/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yiliao/p1/b1.jpg","./static/img/pic/yiliao/p1/b2.jpg","./static/img/pic/yiliao/p1/b3.jpg","./static/img/pic/yiliao/p1/b4.jpg","./static/img/pic/yiliao/p1/b5.jpg","./static/img/pic/yiliao/p1/b6.jpg","./static/img/pic/yiliao/p1/b7.jpg","./static/img/pic/yiliao/p1/b8.jpg"],
+                     "title":"福来恩 10kg以下小型犬滴剂加强型0.67ml 单支无说明书 驱杀跳蚤蜱虫虫卵幼虫",
+                     "price":"49.90",
+                     "comment": 173,
+                     "buy":783
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yiliao/p2/c.jpg",
+                     "bigimg":["./static/img/pic/yiliao/p2/a1.jpg","./static/img/pic/yiliao/p2/a2.jpg","./static/img/pic/yiliao/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yiliao/p2/b1.jpg","./static/img/pic/yiliao/p2/b2.jpg","./static/img/pic/yiliao/p2/b3.jpg","./static/img/pic/yiliao/p2/b4.jpg","./static/img/pic/yiliao/p2/b5.jpg","./static/img/pic/yiliao/p2/b6.jpg","./static/img/pic/yiliao/p2/b7.jpg","./static/img/pic/yiliao/p2/b8.jpg"],
+                     "title":"小宠EHD 洁耳舒50ml 滴耳液洗耳水预防耳螨耳炎",
+                     "price":"22.30",
+                     "comment": 713,
+                     "buy":2184
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yiliao/p3/c.jpg",
+                     "bigimg":["./static/img/pic/yiliao/p3/a1.jpg","./static/img/pic/yiliao/p3/a2.jpg","./static/img/pic/yiliao/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yiliao/p3/b1.jpg","./static/img/pic/yiliao/p3/b2.jpg","./static/img/pic/yiliao/p3/b3.jpg","./static/img/pic/yiliao/p3/b4.jpg","./static/img/pic/yiliao/p3/b5.jpg","./static/img/pic/yiliao/p3/b6.jpg","./static/img/pic/yiliao/p3/b7.jpg","./static/img/pic/yiliao/p3/b8.jpg"],
+                     "title":"福来恩犬心保 牛肉块11kg内小型犬体内驱虫药单粒 蛔虫钩虫心丝虫打虫药",
+                     "price":"24.10",
+                     "comment": 373,
+                     "buy":382
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yiliao/p4/c.jpg",
+                     "bigimg":["./static/img/pic/yiliao/p4/a1.jpg","./static/img/pic/yiliao/p4/a2.jpg","./static/img/pic/yiliao/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yiliao/p4/b1.jpg","./static/img/pic/yiliao/p4/b2.jpg","./static/img/pic/yiliao/p4/b3.jpg","./static/img/pic/yiliao/p4/b4.jpg","./static/img/pic/yiliao/p4/b5.jpg","./static/img/pic/yiliao/p4/b6.jpg","./static/img/pic/yiliao/p4/b7.jpg","./static/img/pic/yiliao/p4/b8.jpg"],
+                     "title":"森巴 芬苯达唑片 犬猫专用内驱  1片/盒 驱杀蛔虫球虫绦虫钩虫等寄生虫",
+                     "price":"25.4",
+                     "comment": 371,
+                     "buy":881
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yiliao/p5/c.jpg",
+                     "bigimg":["./static/img/pic/yiliao/p5/a1.jpg","./static/img/pic/yiliao/p5/a2.jpg","./static/img/pic/yiliao/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yiliao/p5/b1.jpg","./static/img/pic/yiliao/p5/b2.jpg","./static/img/pic/yiliao/p5/b3.jpg","./static/img/pic/yiliao/p5/b4.jpg","./static/img/pic/yiliao/p5/b5.jpg","./static/img/pic/yiliao/p5/b6.jpg","./static/img/pic/yiliao/p5/b7.jpg","./static/img/pic/yiliao/p5/b8.jpg"],
+                     "title":"小宠EHD 蚤立清喷剂60ml 宠物去跳蚤猫狗体外驱虫",
+                     "price":"19.30",
+                     "comment": 561,
+                     "buy":2182
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yiliao/p6/c.jpg",
+                     "bigimg":["./static/img/pic/yiliao/p6/a1.jpg","./static/img/pic/yiliao/p6/a2.jpg","./static/img/pic/yiliao/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yiliao/p6/b1.jpg","./static/img/pic/yiliao/p6/b2.jpg","./static/img/pic/yiliao/p6/b3.jpg","./static/img/pic/yiliao/p6/b4.jpg","./static/img/pic/yiliao/p6/b5.jpg","./static/img/pic/yiliao/p6/b6.jpg","./static/img/pic/yiliao/p6/b7.jpg","./static/img/pic/yiliao/p6/b8.jpg"],
+                     "title":"雷米高Ramical 驱虫一粒清猫狗打虫药6片装 绦虫体内寄生虫驱虫药",
+                     "price":"25.90",
+                     "comment": 343,
+                     "buy":1085
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yiliao/p7/c.jpg",
+                     "bigimg":["./static/img/pic/yiliao/p7/a1.jpg","./static/img/pic/yiliao/p7/a2.jpg","./static/img/pic/yiliao/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yiliao/p7/b1.jpg","./static/img/pic/yiliao/p7/b2.jpg","./static/img/pic/yiliao/p7/b3.jpg","./static/img/pic/yiliao/p7/b4.jpg","./static/img/pic/yiliao/p7/b5.jpg","./static/img/pic/yiliao/p7/b6.jpg","./static/img/pic/yiliao/p7/b7.jpg","./static/img/pic/yiliao/p7/b8.jpg"],
+                     "title":"法国维克Virbac 耳漂耳部护理125ml 清洁耳道杀耳螨消炎除臭",
+                     "price":"126.90",
+                     "comment": 1273,
+                     "buy":351
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yiliao/p8/c.jpg",
+                     "bigimg":["./static/img/pic/yiliao/p8/a1.jpg","./static/img/pic/yiliao/p8/a2.jpg","./static/img/pic/yiliao/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yiliao/p1/p8.jpg","./static/img/pic/yiliao/p8/b2.jpg","./static/img/pic/yiliao/p8/b3.jpg","./static/img/pic/yiliao/p8/b4.jpg","./static/img/pic/yiliao/p8/b5.jpg","./static/img/pic/yiliao/p8/b6.jpg","./static/img/pic/yiliao/p8/b7.jpg","./static/img/pic/yiliao/p8/b8.jpg"],
+                     "title":"金盾 宠物滴耳油50ml 除螨止痒滴耳液",
+                     "price":"30.00",
+                     "comment": 83,
+                     "buy":416
+                   }
+					 ],
+					 "xiangbo":[
+{
+                     "smallimg":"./static/img/pic/xiangbo/p1/c.jpg",
+                     "bigimg":["./static/img/pic/xiangbo/p1/a1.jpg","./static/img/pic/xiangbo/p1/a2.jpg","./static/img/pic/xiangbo/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic/xiangbo/p1/b1.jpg","./static/img/pic/xiangbo/p1/b2.jpg","./static/img/pic/xiangbo/p1/b3.jpg","./static/img/pic/xiangbo/p1/b4.jpg","./static/img/pic/xiangbo/p1/b5.jpg","./static/img/pic/xiangbo/p1/b6.jpg","./static/img/pic/xiangbo/p1/b7.jpg","./static/img/pic/xiangbo/p1/b8.jpg"],
+                     "title":"怡亲多可特 白毛犬专用香波沐浴露 950ml",
+                     "price":"25.00",
+                     "comment": 103,
+                     "buy":352
+                   },
+                   {
+                     "smallimg":"./static/img/pic/xiangbo/p2/c.jpg",
+                     "bigimg":["./static/img/pic/xiangbo/p2/a1.jpg","./static/img/pic/xiangbo/p2/a2.jpg","./static/img/pic/xiangbo/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic/xiangbo/p2/b1.jpg","./static/img/pic/xiangbo/p2/b2.jpg","./static/img/pic/xiangbo/p2/b3.jpg","./static/img/pic/xiangbo/p2/b4.jpg","./static/img/pic/xiangbo/p2/b5.jpg","./static/img/pic/xiangbo/p2/b6.jpg","./static/img/pic/xiangbo/p2/b7.jpg","./static/img/pic/xiangbo/p2/b8.jpg","./static/img/pic/xiangbo/p2/b9.jpg"],
+                     "title":"怡亲多可特 红棕犬专用香波沐浴露 950ml",
+                     "price":"25.90",
+                     "comment": 73,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic/xiangbo/p3/c.jpg",
+                     "bigimg":["./static/img/pic/xiangbo/p3/a1.jpg","./static/img/pic/xiangbo/p3/a2.jpg","./static/img/pic/xiangbo/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic/xiangbo/p3/b1.jpg","./static/img/pic/xiangbo/p3/b2.jpg","./static/img/pic/xiangbo/p3/b3.jpg","./static/img/pic/xiangbo/p3/b4.jpg","./static/img/pic/xiangbo/p3/b5.jpg","./static/img/pic/xiangbo/p3/b6.jpg","./static/img/pic/xiangbo/p3/b7.jpg","./static/img/pic/xiangbo/p3/b8.jpg"],
+                     "title":"怡亲多可特 敏感型除虫香波 500ml",
+                     "price":"12.90",
+                     "comment": 723,
+                     "buy":5181
+                   },
+                   {
+                     "smallimg":"./static/img/pic/xiangbo/p4/c.jpg",
+                     "bigimg":["./static/img/pic/xiangbo/p4/a1.jpg","./static/img/pic/xiangbo/p4/a2.jpg","./static/img/pic/xiangbo/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic/xiangbo/p4/b1.jpg","./static/img/pic/xiangbo/p4/b2.jpg","./static/img/pic/xiangbo/p4/b3.jpg","./static/img/pic/xiangbo/p4/b4.jpg","./static/img/pic/xiangbo/p4/b5.jpg","./static/img/pic/xiangbo/p4/b6.jpg","./static/img/pic/xiangbo/p4/b7.jpg","./static/img/pic/xiangbo/p4/b8.jpg"],
+                     "title":"狮王LION 每日洗二合一香波 柔和花香型 犬用 550ml",
+                     "price":"47.40",
+                     "comment": 43,
+                     "buy":385
+                   },
+                   {
+                     "smallimg":"./static/img/pic/xiangbo/p5/c.jpg",
+                     "bigimg":["./static/img/pic/xiangbo/p5/a1.jpg","./static/img/pic/xiangbo/p5/a2.jpg","./static/img/pic/xiangbo/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic/xiangbo/p5/b1.jpg","./static/img/pic/xiangbo/p5/b2.jpg","./static/img/pic/xiangbo/p5/b3.jpg","./static/img/pic/xiangbo/p5/b4.jpg","./static/img/pic/xiangbo/p5/b5.jpg","./static/img/pic/xiangbo/p5/b6.jpg","./static/img/pic/xiangbo/p5/b7.jpg","./static/img/pic/xiangbo/p5/b8.jpg"],
+                     "title":"怡亲多可特 免洗泡沫香波 犬猫通用 250ml",
+                     "price":"16.50",
+                     "comment": 273,
+                     "buy":33
+                   },
+                   {
+                     "smallimg":"./static/img/pic/xiangbo/p6/c.jpg",
+                     "bigimg":["./static/img/pic/xiangbo/p6/a1.jpg","./static/img/pic/xiangbo/p6/a2.jpg","./static/img/pic/xiangbo/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic/xiangbo/p6/b1.jpg","./static/img/pic/xiangbo/p6/b2.jpg","./static/img/pic/xiangbo/p6/b3.jpg","./static/img/pic/xiangbo/p6/b4.jpg","./static/img/pic/xiangbo/p6/b5.jpg","./static/img/pic/xiangbo/p6/b6.jpg","./static/img/pic/xiangbo/p6/b7.jpg","./static/img/pic/xiangbo/p6/b8.jpg","./static/img/pic/xiangbo/p6/b9.jpg","./static/img/pic/xiangbo/p6/b10.jpg","./static/img/pic/xiangbo/p6/b11.jpg","./static/img/pic/xiangbo/p6/b12.jpg"],
+                     "title":"逸诺 SOS红棕毛犬专用香波沐浴露 530ml",
+                     "price":"32.00",
+                     "comment": 173,
+                     "buy":1281
+                   },
+                   {
+                     "smallimg":"./static/img/pic/xiangbo/p7/c.jpg",
+                     "bigimg":["./static/img/pic/xiangbo/p7/a1.jpg","./static/img/pic/xiangbo/p7/a2.jpg","./static/img/pic/xiangbo/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic/xiangbo/p7/b1.jpg","./static/img/pic/xiangbo/p7/b2.jpg","./static/img/pic/xiangbo/p7/b3.jpg","./static/img/pic/xiangbo/p7/b4.jpg","./static/img/pic/xiangbo/p7/b5.jpg","./static/img/pic/xiangbo/p7/b6.jpg","./static/img/pic/xiangbo/p7/b7.jpg","./static/img/pic/xiangbo/p7/b8.jpg"],
+                     "title":"狮王LION 每日洗二合一香波替换装 柔和花香型 犬用 400ml",
+                     "price":"39.90",
+                     "comment": 723,
+                     "buy":1481
+                   },
+                   {
+                     "smallimg":"./static/img/pic/xiangbo/p8/c.jpg",
+                     "bigimg":["./static/img/pic/xiangbo/p8/a1.jpg","./static/img/pic/xiangbo/p8/a2.jpg","./static/img/pic/xiangbo/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic/xiangbo/p1/p8.jpg","./static/img/pic/xiangbo/p8/b2.jpg","./static/img/pic/xiangbo/p8/b3.jpg","./static/img/pic/xiangbo/p8/b4.jpg","./static/img/pic/xiangbo/p8/b5.jpg","./static/img/pic/xiangbo/p8/b6.jpg","./static/img/pic/xiangbo/p8/b7.jpg","./static/img/pic/xiangbo/p8/b8.jpg"],
+                     "title":"逸诺 PH7蜂胶养肤香波 红棕毛发犬专用 460ml",
+                     "price":"89.90",
+                     "comment": 3,
+                     "buy":81
+                   }
+					 ],
+					 "yongpin":[
+{
+                     "smallimg":"./static/img/pic/yongpin/p1/c.jpg",
+                     "bigimg":["./static/img/pic/yongpin/p1/a1.jpg","./static/img/pic/yongpin/p1/a2.jpg","./static/img/pic/yongpin/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yongpin/p1/b1.jpg","./static/img/pic/yongpin/p1/b2.jpg","./static/img/pic/yongpin/p1/b3.jpg","./static/img/pic/yongpin/p1/b4.jpg","./static/img/pic/yongpin/p1/b5.jpg","./static/img/pic/yongpin/p1/b6.jpg","./static/img/pic/yongpin/p1/b7.jpg","./static/img/pic/yongpin/p1/b8.jpg","./static/img/pic/yongpin/p1/b9.jpg","./static/img/pic/yongpin/p1/b10.jpg","./static/img/pic/yongpin/p1/b11.jpg","./static/img/pic/yongpin/p1/b12.jpg","./static/img/pic/yongpin/p1/b13.jpg","./static/img/pic/yongpin/p1/b14.jpg","./static/img/pic/yongpin/p1/b15.jpg","./static/img/pic/yongpin/p1/b16.jpg","./static/img/pic/yongpin/p1/b17.jpg","./static/img/pic/yongpin/p1/b18.jpg","./static/img/pic/yongpin/p1/b19.jpg"],
+                     "title":"怡亲多可特 宠物尿片狗尿布尿垫 整包",
+                     "price":"13.55",
+                     "comment": 1173,
+                     "buy":3381
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yongpin/p2/c.jpg",
+                     "bigimg":["./static/img/pic/yongpin/p2/a1.jpg","./static/img/pic/yongpin/p2/a2.jpg","./static/img/pic/yongpin/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yongpin/p2/b1.jpg","./static/img/pic/yongpin/p2/b2.jpg","./static/img/pic/yongpin/p2/b3.jpg","./static/img/pic/yongpin/p2/b4.jpg","./static/img/pic/yongpin/p2/b5.jpg","./static/img/pic/yongpin/p2/b6.jpg","./static/img/pic/yongpin/p2/b7.jpg","./static/img/pic/yongpin/p2/b8.jpg"],
+                     "title":"怡亲多可特 平板网格带垫板立柱狗厕所 免尿片狗厕所",
+                     "price":"23.90",
+                     "comment": 473,
+                     "buy":2135
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yongpin/p3/c.jpg",
+                     "bigimg":["./static/img/pic/yongpin/p3/a1.jpg","./static/img/pic/yongpin/p3/a2.jpg","./static/img/pic/yongpin/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yongpin/p3/b1.jpg","./static/img/pic/yongpin/p3/b2.jpg","./static/img/pic/yongpin/p3/b3.jpg","./static/img/pic/yongpin/p3/b4.jpg","./static/img/pic/yongpin/p3/b5.jpg","./static/img/pic/yongpin/p3/b6.jpg","./static/img/pic/yongpin/p3/b7.jpg","./static/img/pic/yongpin/p3/b8.jpg","./static/img/pic/yongpin/p3/b9.jpg","./static/img/pic/yongpin/p3/b10.jpg","./static/img/pic/yongpin/p3/b11.jpg","./static/img/pic/yongpin/p3/b12.jpg","./static/img/pic/yongpin/p3/b13.jpg","./static/img/pic/yongpin/p3/b14.jpg"],
+                     "title":"怡亲多可特 彩装宠物训导尿片",
+                     "price":"18.20",
+                     "comment": 266,
+                     "buy":581
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yongpin/p4/c.jpg",
+                     "bigimg":["./static/img/pic/yongpin/p4/a1.jpg","./static/img/pic/yongpin/p4/a2.jpg","./static/img/pic/yongpin/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yongpin/p4/b1.jpg","./static/img/pic/yongpin/p4/b2.jpg","./static/img/pic/yongpin/p4/b3.jpg","./static/img/pic/yongpin/p4/b4.jpg","./static/img/pic/yongpin/p4/b5.jpg","./static/img/pic/yongpin/p4/b6.jpg"],
+                     "title":"怡亲多可特   三围网格狗狗厕所 多规格",
+                     "price":"22.40",
+                     "comment": 223,
+                     "buy":681
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yongpin/p5/c.jpg",
+                     "bigimg":["./static/img/pic/yongpin/p5/a1.jpg","./static/img/pic/yongpin/p5/a2.jpg","./static/img/pic/yongpin/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yongpin/p5/b1.jpg","./static/img/pic/yongpin/p5/b2.jpg","./static/img/pic/yongpin/p5/b3.jpg","./static/img/pic/yongpin/p5/b4.jpg","./static/img/pic/yongpin/p5/b5.jpg","./static/img/pic/yongpin/p5/b6.jpg"],
+                     "title":"小宠EHD 宠物环境祛味消毒液 白兰香型 500ml",
+                     "price":"35.90",
+                     "comment": 1273,
+                     "buy":3181
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yongpin/p6/c.jpg",
+                     "bigimg":["./static/img/pic/yongpin/p6/a1.jpg","./static/img/pic/yongpin/p6/a2.jpg","./static/img/pic/yongpin/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yongpin/p6/b1.jpg","./static/img/pic/yongpin/p6/b2.jpg","./static/img/pic/yongpin/p6/b3.jpg","./static/img/pic/yongpin/p6/b4.jpg","./static/img/pic/yongpin/p6/b5.jpg","./static/img/pic/yongpin/p6/b6.jpg"],
+                     "title":"中恒 宠物自动饮水器 3.5L水容量",
+                     "price":"19.90",
+                     "comment": 2053,
+                     "buy":13081
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yongpin/p7/c.jpg",
+                     "bigimg":["./static/img/pic/yongpin/p7/a1.jpg","./static/img/pic/yongpin/p7/a2.jpg","./static/img/pic/yongpin/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yongpin/p7/b1.jpg","./static/img/pic/yongpin/p7/b2.jpg","./static/img/pic/yongpin/p7/b3.jpg","./static/img/pic/yongpin/p7/b4.jpg","./static/img/pic/yongpin/p7/b5.jpg","./static/img/pic/yongpin/p7/b6.jpg","./static/img/pic/yongpin/p7/b7.jpg","./static/img/pic/yongpin/p7/b8.jpg","./static/img/pic/yongpin/p8/b9.jpg","./static/img/pic/yongpin/p8/b10.jpg","./static/img/pic/yongpin/p8/b11.jpg","./static/img/pic/yongpin/p8/b12.jpg"],
+                     "title":"中恒 竹炭宠物尿片 整包",
+                     "price":"34.90",
+                     "comment": 73,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic/yongpin/p8/c.jpg",
+                     "bigimg":["./static/img/pic/yongpin/p8/a1.jpg","./static/img/pic/yongpin/p8/a2.jpg","./static/img/pic/yongpin/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic/yongpin/p1/b1.jpg","./static/img/pic/yongpin/p8/b2.jpg","./static/img/pic/yongpin/p8/b3.jpg","./static/img/pic/yongpin/p8/b4.jpg","./static/img/pic/yongpin/p8/b5.jpg","./static/img/pic/yongpin/p8/b6.jpg"],
+                     "title":"怡亲Yoken  宠物拾便器",
+                     "price":"33.60",
+                     "comment": 163,
+                     "buy":488
+                   }
+					 ]
 		},
 		"cat":{
-			
+			"dry":[
+{
+                     "smallimg":"./static/img/pic2/dry/p1/c.jpg",
+                     "bigimg":["./static/img/pic2/dry/p1/a1.jpg","./static/img/pic2/dry/p1/a2.jpg","./static/img/pic2/dry/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/dry/p1/b1.jpg","./static/img/pic2/dry/p1/b2.jpg","./static/img/pic2/dry/p1/b3.jpg","./static/img/pic2/dry/p1/b4.jpg","./static/img/pic2/dry/p1/b5.jpg","./static/img/pic2/dry/p1/b6.jpg","./static/img/pic2/dry/p1/b7.jpg"],
+                     "title":"法国皇家ROYAL CANIN 12月以下及怀孕期母猫幼猫粮2kg K36",
+                     "price":"123.40",
+                     "comment": 2373,
+                     "buy":11381
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/dry/p2/c.jpg",
+                     "bigimg":["./static/img/pic2/dry/p2/a1.jpg","./static/img/pic2/dry/p2/a2.jpg","./static/img/pic2/dry/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/dry/p1/p8.jpg","./static/img/pic2/dry/p8/b2.jpg","./static/img/pic2/dry/p8/b3.jpg","./static/img/pic2/dry/p8/b4.jpg","./static/img/pic2/dry/p8/b5.jpg","./static/img/pic2/dry/p8/b6.jpg"],
+                     "title":"法国皇家ROYAL CANIN 室内成猫去毛球猫粮2kg i27",
+                     "price":"119.90",
+                     "comment": 3773,
+                     "buy":11581
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/dry/p3/c.jpg",
+                     "bigimg":["./static/img/pic2/dry/p3/a1.jpg","./static/img/pic2/dry/p3/a2.jpg","./static/img/pic2/dry/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/dry/p3/b1.jpg","./static/img/pic2/dry/p3/b2.jpg","./static/img/pic2/dry/p3/b3.jpg","./static/img/pic2/dry/p3/b4.jpg","./static/img/pic2/dry/p3/b5.jpg","./static/img/pic2/dry/p3/b6.jpg","./static/img/pic2/dry/p3/b7.jpg","./static/img/pic2/dry/p3/b8.jpg"],
+                     "title":"妙多乐CatChow 成猫粮均衡营养猫粮1.5kg",
+                     "price":"233.90",
+                     "comment": 73,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/dry/p4/c.jpg",
+                     "bigimg":["./static/img/pic2/dry/p4/a1.jpg","./static/img/pic2/dry/p4/a2.jpg","./static/img/pic2/dry/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/dry/p4/b1.jpg","./static/img/pic2/dry/p4/b2.jpg","./static/img/pic2/dry/p4/b3.jpg","./static/img/pic2/dry/p4/b4.jpg","./static/img/pic2/dry/p4/b5.jpg","./static/img/pic2/dry/p4/b6.jpg","./static/img/pic2/dry/p4/b7.jpg","./static/img/pic2/dry/p4/b8.jpg"],
+                     "title":"伟嘉 幼猫粮海洋鱼味猫粮1.2kg",
+                     "price":"38.70",
+                     "comment": 660,
+                     "buy":2381
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/dry/p5/c.jpg",
+                     "bigimg":["./static/img/pic2/dry/p5/a1.jpg","./static/img/pic2/dry/p5/a2.jpg","./static/img/pic2/dry/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/dry/p5/b1.jpg","./static/img/pic2/dry/p5/b2.jpg","./static/img/pic2/dry/p5/b3.jpg","./static/img/pic2/dry/p5/b4.jpg","./static/img/pic2/dry/p5/b5.jpg","./static/img/pic2/dry/p5/b6.jpg","./static/img/pic2/dry/p5/b7.jpg","./static/img/pic2/dry/p5/b8.jpg","./static/img/pic2/dry/p5/b9.jpg"],
+                     "title":"珍宝 喜多鱼成猫粮海洋鱼味猫粮10kg 超高性价比",
+                     "price":"127.50",
+                     "comment": 673,
+                     "buy":4181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/dry/p6/c.jpg",
+                     "bigimg":["./static/img/pic2/dry/p6/a1.jpg","./static/img/pic2/dry/p6/a2.jpg","./static/img/pic2/dry/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/dry/p6/b1.jpg","./static/img/pic2/dry/p6/b2.jpg","./static/img/pic2/dry/p6/b3.jpg","./static/img/pic2/dry/p6/b4.jpg","./static/img/pic2/dry/p6/b5.jpg","./static/img/pic2/dry/p6/b6.jpg","./static/img/pic2/dry/p6/b7.jpg","./static/img/pic2/dry/p6/b8.jpg"],
+                     "title":"伟嘉 成猫粮去毛球配方猫粮1.4kg",
+                     "price":"48.70",
+                     "comment": 475,
+                     "buy":898
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/dry/p7/c.jpg",
+                     "bigimg":["./static/img/pic2/dry/p7/a1.jpg","./static/img/pic2/dry/p7/a2.jpg","./static/img/pic2/dry/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/dry/p7/b1.jpg","./static/img/pic2/dry/p7/b2.jpg","./static/img/pic2/dry/p7/b3.jpg","./static/img/pic2/dry/p7/b4.jpg","./static/img/pic2/dry/p7/b5.jpg","./static/img/pic2/dry/p7/b6.jpg","./static/img/pic2/dry/p7/b7.jpg","./static/img/pic2/dry/p7/b8.jpg"],
+                     "title":"诺瑞好之味 成猫粮海鲜味猫粮10kg",
+                     "price":"99.90",
+                     "comment": 753,
+                     "buy":1801
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/dry/p8/c.jpg",
+                     "bigimg":["./static/img/pic2/dry/p8/a1.jpg","./static/img/pic2/dry/p8/a2.jpg","./static/img/pic2/dry/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/dry/p1/p8.jpg","./static/img/pic2/dry/p8/b2.jpg","./static/img/pic2/dry/p8/b3.jpg","./static/img/pic2/dry/p8/b4.jpg","./static/img/pic2/dry/p8/b5.jpg","./static/img/pic2/dry/p8/b6.jpg"],
+                     "title":"BOTH N3幼猫粮三文鱼鸭肉天然无谷配方猫粮(4lb)1.8kg C61",
+                     "price":"129.90",
+                     "comment": 3773,
+                     "buy":11581
+                   }
+                  ],
+                  "wet":[
+               {
+                     "smallimg":"./static/img/pic2/wet/p1/c.jpg",
+                     "bigimg":["./static/img/pic2/wet/p1/a1.jpg","./static/img/pic2/wet/p1/a2.jpg","./static/img/pic2/wet/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/wet/p1/b1.jpg","./static/img/pic2/wet/p1/b2.jpg","./static/img/pic2/wet/p1/b3.jpg","./static/img/pic2/wet/p1/b4.jpg","./static/img/pic2/wet/p1/b5.jpg","./static/img/pic2/wet/p1/b6.jpg","./static/img/pic2/wet/p1/b7.jpg","./static/img/pic2/wet/p1/b8.jpg"],
+                     "title":"金赏Golden 金枪鱼味猫罐头170g 猫湿粮",
+                     "price":"4.90",
+                     "comment": 475,
+                     "buy":732
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/wet/p2/c.jpg",
+                     "bigimg":["./static/img/pic2/wet/p2/a1.jpg","./static/img/pic2/wet/p2/a2.jpg","./static/img/pic2/wet/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/wet/p2/b1.jpg","./static/img/pic2/wet/p2/b2.jpg","./static/img/pic2/wet/p2/b3.jpg","./static/img/pic2/wet/p2/b4.jpg","./static/img/pic2/wet/p2/b5.jpg","./static/img/pic2/wet/p2/b6.jpg","./static/img/pic2/wet/p2/b7.jpg","./static/img/pic2/wet/p2/b8.jpg","./static/img/pic2/wet/p2/b9.jpg"],
+                     "title":"伟嘉 成猫精选海洋鱼妙鲜包85g 猫湿粮",
+                     "price":"3.90",
+                     "comment": 243,
+                     "buy":683
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/wet/p3/c.jpg",
+                     "bigimg":["./static/img/pic2/wet/p3/a1.jpg","./static/img/pic2/wet/p3/a2.jpg","./static/img/pic2/wet/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/wet/p3/b1.jpg","./static/img/pic2/wet/p3/b2.jpg","./static/img/pic2/wet/p3/b3.jpg","./static/img/pic2/wet/p3/b4.jpg","./static/img/pic2/wet/p3/b5.jpg","./static/img/pic2/wet/p3/b6.jpg","./static/img/pic2/wet/p3/b7.jpg","./static/img/pic2/wet/p3/b8.jpg"],
+                     "title":"怡亲Yoken 幼猫金枪鱼海鲜湿粮110g",
+                     "price":"9.90",
+                     "comment": 26,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/wet/p4/c.jpg",
+                     "bigimg":["./static/img/pic2/wet/p4/a1.jpg","./static/img/pic2/wet/p4/a2.jpg","./static/img/pic2/wet/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/wet/p5/b1.jpg","./static/img/pic2/wet/p5/b2.jpg","./static/img/pic2/wet/p5/b3.jpg","./static/img/pic2/wet/p5/b4.jpg","./static/img/pic2/wet/p5/b5.jpg","./static/img/pic2/wet/p5/b6.jpg","./static/img/pic2/wet/p5/b7.jpg","./static/img/pic2/wet/p5/b8.jpg","./static/img/pic2/wet/p5/b9.jpg","./static/img/pic2/wet/p5/b10.jpg","./static/img/pic2/wet/p5/b11.jpg","./static/img/pic2/wet/p5/b12.jpg","./static/img/pic2/wet/p5/b13.jpg","./static/img/pic2/wet/p5/b14.jpg","./static/img/pic2/wet/p5/b15.jpg"],
+                     "title":"伊纳宝 亲心妙好猫用鲣鱼、小银鱼与鸡肉湿粮80g",
+                     "price":"3.50",
+                     "comment": 673,
+                     "buy":1281
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/wet/p5/c.jpg",
+                     "bigimg":["./static/img/pic2/wet/p5/a1.jpg","./static/img/pic2/wet/p5/a2.jpg","./static/img/pic2/wet/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/wet/p5/b1.jpg","./static/img/pic2/wet/p5/b2.jpg","./static/img/pic2/wet/p5/b3.jpg","./static/img/pic2/wet/p5/b4.jpg","./static/img/pic2/wet/p5/b5.jpg","./static/img/pic2/wet/p5/b6.jpg","./static/img/pic2/wet/p5/b7.jpg","./static/img/pic2/wet/p5/b8.jpg","./static/img/pic2/wet/p5/b9.jpg","./static/img/pic2/wet/p5/b10.jpg","./static/img/pic2/wet/p5/b11.jpg","./static/img/pic2/wet/p5/b12.jpg","./static/img/pic2/wet/p5/b13.jpg","./static/img/pic2/wet/p5/b14.jpg","./static/img/pic2/wet/p5/b15.jpg"],
+                     "title":"伊纳宝 亲心妙好猫用鲣鱼、小银鱼与鸡肉湿粮80g",
+                     "price":"4.00",
+                     "comment": 371,
+                     "buy":1281
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/wet/p6/c.jpg",
+                     "bigimg":["./static/img/pic2/wet/p6/a1.jpg","./static/img/pic2/wet/p6/a2.jpg","./static/img/pic2/wet/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/wet/p6/b1.jpg","./static/img/pic2/wet/p6/b2.jpg","./static/img/pic2/wet/p6/b3.jpg","./static/img/pic2/wet/p6/b4.jpg","./static/img/pic2/wet/p6/b5.jpg","./static/img/pic2/wet/p6/b6.jpg","./static/img/pic2/wet/p6/b7.jpg"],
+                     "title":"SEEDS惜时猫扑喵喵猫单罐金枪鱼 丁香鱼170g 猫湿粮",
+                     "price":"3.30",
+                     "comment": 1073,
+                     "buy":4581
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/wet/p7/c.jpg",
+                     "bigimg":["./static/img/pic2/wet/p7/a1.jpg","./static/img/pic2/wet/p7/a2.jpg","./static/img/pic2/wet/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/wet/p5/b1.jpg","./static/img/pic2/wet/p5/b2.jpg","./static/img/pic2/wet/p5/b3.jpg","./static/img/pic2/wet/p5/b4.jpg","./static/img/pic2/wet/p5/b5.jpg","./static/img/pic2/wet/p5/b6.jpg","./static/img/pic2/wet/p5/b7.jpg","./static/img/pic2/wet/p5/b8.jpg","./static/img/pic2/wet/p5/b9.jpg","./static/img/pic2/wet/p5/b10.jpg","./static/img/pic2/wet/p5/b11.jpg","./static/img/pic2/wet/p5/b12.jpg","./static/img/pic2/wet/p5/b13.jpg","./static/img/pic2/wet/p5/b14.jpg","./static/img/pic2/wet/p5/b15.jpg","./static/img/pic2/wet/p5/b16.jpg"],
+                     "title":"金赏Golden 金枪鱼+鸡肉丝味猫罐头170g*12罐 猫湿粮",
+                     "price":"54.20",
+                     "comment": 353,
+                     "buy":61073
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/wet/p8/c.jpg",
+                     "bigimg":["./static/img/pic2/wet/p8/a1.jpg","./static/img/pic2/wet/p8/a2.jpg","./static/img/pic2/wet/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/wet/p5/b1.jpg","./static/img/pic2/wet/p5/b2.jpg","./static/img/pic2/wet/p5/b3.jpg","./static/img/pic2/wet/p5/b4.jpg","./static/img/pic2/wet/p5/b5.jpg","./static/img/pic2/wet/p5/b6.jpg","./static/img/pic2/wet/p5/b7.jpg","./static/img/pic2/wet/p5/b8.jpg","./static/img/pic2/wet/p5/b9.jpg","./static/img/pic2/wet/p5/b10.jpg","./static/img/pic2/wet/p5/b11.jpg","./static/img/pic2/wet/p5/b12.jpg","./static/img/pic2/wet/p5/b13.jpg","./static/img/pic2/wet/p5/b14.jpg","./static/img/pic2/wet/p5/b15.jpg"],
+                     "title":"伊纳宝 全猫通用金枪鱼、鸡小胸肉与小银鱼湿粮35g",
+                     "price":"2.30",
+                     "comment": 43,
+                     "buy":482
+                   }
+                  ],
+                  "lingshi":[
+               {
+                     "smallimg":"./static/img/pic2/lingshi/p1/c.jpg",
+                     "bigimg":["./static/img/pic2/lingshi/p1/a1.jpg","./static/img/pic2/lingshi/p1/a2.jpg","./static/img/pic2/lingshi/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/lingshi/p1/b1.jpg","./static/img/pic2/lingshi/p1/b2.jpg","./static/img/pic2/lingshi/p1/b3.jpg","./static/img/pic2/lingshi/p1/b4.jpg","./static/img/pic2/lingshi/p1/b5.jpg"],
+                     "title":"路斯 三文鱼肉丁35g 猫零食",
+                     "price":"8.90",
+                     "comment": 374,
+                     "buy":1781
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/lingshi/p2/c.jpg",
+                     "bigimg":["./static/img/pic2/lingshi/p2/a1.jpg","./static/img/pic2/lingshi/p2/a2.jpg","./static/img/pic2/lingshi/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/lingshi/p2/b1.jpg","./static/img/pic2/lingshi/p2/b2.jpg","./static/img/pic2/lingshi/p2/b3.jpg","./static/img/pic2/lingshi/p2/b4.jpg","./static/img/pic2/lingshi/p2/b5.jpg","./static/img/pic2/lingshi/p2/b6.jpg","./static/img/pic2/lingshi/p2/b7.jpg","./static/img/pic2/lingshi/p2/b8.jpg"],
+                     "title":"怡亲 猫咪去毛球 助消化 猫零食 猫薄荷230ml",
+                     "price":"15.90",
+                     "comment": 273,
+                     "buy":681
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/lingshi/p3/c.jpg",
+                     "bigimg":["./static/img/pic2/lingshi/p3/a1.jpg","./static/img/pic2/lingshi/p3/a2.jpg","./static/img/pic2/lingshi/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/lingshi/p3/b1.jpg","./static/img/pic2/lingshi/p3/b2.jpg","./static/img/pic2/lingshi/p3/b3.jpg","./static/img/pic2/lingshi/p3/b4.jpg","./static/img/pic2/lingshi/p3/b5.jpg","./static/img/pic2/lingshi/p3/b6.jpg","./static/img/pic2/lingshi/p3/b7.jpg","./static/img/pic2/lingshi/p3/b8.jpg"],
+                     "title":"黑沙 猫用金枪鱼口味奖励布丁25g*8粒 猫湿粮",
+                     "price":"19.70",
+                     "comment": 373,
+                     "buy":871
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/lingshi/p4/c.jpg",
+                     "bigimg":["./static/img/pic2/lingshi/p4/a1.jpg","./static/img/pic2/lingshi/p4/a2.jpg","./static/img/pic2/lingshi/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/lingshi/p4/b1.jpg","./static/img/pic2/lingshi/p4/b2.jpg","./static/img/pic2/lingshi/p4/b3.jpg","./static/img/pic2/lingshi/p4/b4.jpg","./static/img/pic2/lingshi/p4/b5.jpg","./static/img/pic2/lingshi/p4/b6.jpg","./static/img/pic2/lingshi/p4/b7.jpg","./static/img/pic2/lingshi/p4/b8.jpg"],
+                     "title":"黑沙 猫用虾仁口味奖励布丁25g 猫湿粮单只拆卖",
+                     "price":"39.90",
+                     "comment": 121,
+                     "buy":631
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/lingshi/p5/c.jpg",
+                     "bigimg":["./static/img/pic2/lingshi/p5/a1.jpg","./static/img/pic2/lingshi/p5/a2.jpg","./static/img/pic2/lingshi/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/lingshi/p5/b1.jpg","./static/img/pic2/lingshi/p5/b2.jpg","./static/img/pic2/lingshi/p5/b3.jpg","./static/img/pic2/lingshi/p5/b4.jpg","./static/img/pic2/lingshi/p5/b5.jpg","./static/img/pic2/lingshi/p5/b6.jpg","./static/img/pic2/lingshi/p5/b7.jpg","./static/img/pic2/lingshi/p5/b8.jpg"],
+                     "title":"黑沙 猫用虾仁口味经奖励布丁25g*8 猫湿粮猫零食",
+                     "price":"9.90",
+                     "comment": 473,
+                     "buy":1581
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/lingshi/p6/c.jpg",
+                     "bigimg":["./static/img/pic2/lingshi/p6/a1.jpg","./static/img/pic2/lingshi/p6/a2.jpg","./static/img/pic2/lingshi/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/lingshi/p6/b1.jpg","./static/img/pic2/lingshi/p6/b2.jpg","./static/img/pic2/lingshi/p6/b3.jpg","./static/img/pic2/lingshi/p6/b4.jpg","./static/img/pic2/lingshi/p6/b5.jpg","./static/img/pic2/lingshi/p6/b6.jpg","./static/img/pic2/lingshi/p6/b7.jpg","./static/img/pic2/lingshi/p6/b8.jpg"],
+                     "title":"伊纳宝 金枪鱼、扇贝味零食30g 猫零食",
+                     "price":"6.30",
+                     "comment": 713,
+                     "buy":2181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/lingshi/p7/c.jpg",
+                     "bigimg":["./static/img/pic2/lingshi/p7/a1.jpg","./static/img/pic2/lingshi/p7/a2.jpg","./static/img/pic2/lingshi/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/lingshi/p7/b1.jpg","./static/img/pic2/lingshi/p7/b2.jpg","./static/img/pic2/lingshi/p7/b3.jpg","./static/img/pic2/lingshi/p7/b4.jpg","./static/img/pic2/lingshi/p7/b5.jpg","./static/img/pic2/lingshi/p7/b6.jpg","./static/img/pic2/lingshi/p7/b7.jpg","./static/img/pic2/lingshi/p7/b8.jpg"],
+                     "title":"伊纳宝 妙好猫用鸡汤味烤鸡胸肉1只 猫零食",
+                     "price":"5.90",
+                     "comment": 273,
+                     "buy":851
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/lingshi/p8/c.jpg",
+                     "bigimg":["./static/img/pic2/lingshi/p8/a1.jpg","./static/img/pic2/lingshi/p8/a2.jpg","./static/img/pic2/lingshi/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/lingshi/p1/p8.jpg","./static/img/pic2/lingshi/p8/b2.jpg","./static/img/pic2/lingshi/p8/b3.jpg","./static/img/pic2/lingshi/p8/b4.jpg","./static/img/pic2/lingshi/p8/b5.jpg","./static/img/pic2/lingshi/p8/b6.jpg","./static/img/pic2/lingshi/p8/b7.jpg","./static/img/pic2/lingshi/p8/b8.jpg","./static/img/pic2/lingshi/p8/b9.jpg","./static/img/pic2/lingshi/p8/b10.jpg","./static/img/pic2/lingshi/p8/b11.jpg"],
+                     "title":"HAP-三文鱼软片25g入",
+                     "price":"6.90",
+                     "comment": 7,
+                     "buy":181
+                   }
+                  ],
+                  "baojian":[
+               {
+                     "smallimg":"./static/img/pic2/baojian/p1/c.jpg",
+                     "bigimg":["./static/img/pic2/baojian/p1/a1.jpg","./static/img/pic2/baojian/p1/a2.jpg","./static/img/pic2/baojian/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/baojian/p1/b1.jpg","./static/img/pic2/baojian/p1/b2.jpg","./static/img/pic2/baojian/p1/b3.jpg","./static/img/pic2/baojian/p1/b4.jpg","./static/img/pic2/baojian/p1/b5.jpg","./static/img/pic2/baojian/p1/b6.jpg","./static/img/pic2/baojian/p1/b7.jpg","./static/img/pic2/linbaojiangshi/p1/b8.jpg","./static/img/pic2/linbaojiangshi/p1/b9.jpg","./static/img/pic2/linbaojiangshi/p1/b10.jpg","./static/img/pic2/linbaojiangshi/p1/b11.jpg"],
+                     "title":"维斯康 微量元素咀嚼片150片/瓶 防止异食症",
+                     "price":"35.90",
+                     "comment": 273,
+                     "buy":2584
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/baojian/p2/c.jpg",
+                     "bigimg":["./static/img/pic2/baojian/p2/a1.jpg","./static/img/pic2/baojian/p2/a2.jpg","./static/img/pic2/baojian/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/baojian/p2/b1.jpg","./static/img/pic2/baojian/p2/b2.jpg","./static/img/pic2/baojian/p2/b3.jpg","./static/img/pic2/baojian/p2/b4.jpg","./static/img/pic2/baojian/p2/b5.jpg","./static/img/pic2/baojian/p2/b6.jpg","./static/img/pic2/baojian/p2/b7.jpg","./static/img/pic2/baojian/p2/b8.jpg"],
+                     "title":"BOTH 山羊奶粉450g 适用幼猫幼犬怀孕犬猫 提高免疫力",
+                     "price":"98.90",
+                     "comment": 378,
+                     "buy":20181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/baojian/p3/c.jpg",
+                     "bigimg":["./static/img/pic2/baojian/p3/a1.jpg","./static/img/pic2/baojian/p3/a2.jpg","./static/img/pic2/baojian/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/baojian/p3/b1.jpg","./static/img/pic2/baojian/p3/b2.jpg","./static/img/pic2/baojian/p3/b3.jpg","./static/img/pic2/baojian/p3/b4.jpg","./static/img/pic2/baojian/p3/b5.jpg","./static/img/pic2/baojian/p3/b6.jpg","./static/img/pic2/baojian/p3/b7.jpg","./static/img/pic2/baojian/p3/b8.jpg"],
+                     "title":"谷登 微量元素片200粒 改善异食癖啃墙吃土咬尾巴",
+                     "price":"39.70",
+                     "comment": 463,
+                     "buy":1281
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/baojian/p4/c.jpg",
+                     "bigimg":["./static/img/pic2/baojian/p4/a1.jpg","./static/img/pic2/baojian/p4/a2.jpg","./static/img/pic2/baojian/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/baojian/p4/b1.jpg","./static/img/pic2/baojian/p4/b2.jpg","./static/img/pic2/baojian/p4/b3.jpg","./static/img/pic2/baojian/p4/b4.jpg","./static/img/pic2/baojian/p4/b5.jpg","./static/img/pic2/baojian/p4/b6.jpg","./static/img/pic2/baojian/p4/b7.jpg","./static/img/pic2/baojian/p4/b8.jpg"],
+                     "title":"新宠之康 出口型宠物专用羊奶粉380g",
+                     "price":"35.00",
+                     "comment": 274,
+                     "buy":581
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/baojian/p5/c.jpg",
+                     "bigimg":["./static/img/pic2/baojian/p5/a1.jpg","./static/img/pic2/baojian/p5/a2.jpg","./static/img/pic2/baojian/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/baojian/p5/b1.jpg","./static/img/pic2/baojian/p5/b2.jpg","./static/img/pic2/baojian/p5/b3.jpg","./static/img/pic2/baojian/p5/b4.jpg","./static/img/pic2/baojian/p5/b5.jpg","./static/img/pic2/baojian/p5/b6.jpg","./static/img/pic2/baojian/p5/b7.jpg","./static/img/pic2/baojian/p5/b8.jpg","./static/img/pic2/baojian/p5/b9.jpg","./static/img/pic2/baojian/p5/b10.jpg"],
+                     "title":"怡亲 猫狗多可特营养膏120.5g",
+                     "price":"9.90",
+                     "comment": 73,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/baojian/p6/c.jpg",
+                     "bigimg":["./static/img/pic2/baojian/p6/a1.jpg","./static/img/pic2/baojian/p6/a2.jpg","./static/img/pic2/baojian/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/baojian/p6/b1.jpg","./static/img/pic2/baojian/p6/b2.jpg","./static/img/pic2/baojian/p6/b3.jpg","./static/img/pic2/baojian/p6/b4.jpg","./static/img/pic2/baojian/p6/b5.jpg","./static/img/pic2/baojian/p6/b6.jpg","./static/img/pic2/baojian/p6/b7.jpg","./static/img/pic2/baojian/p6/b8.jpg"],
+                     "title":"佑达发育宝 整肠配方350g(原幼犬)+钙胃能450g套装",
+                     "price":"219.90",
+                     "comment": 273,
+                     "buy":583
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/baojian/p7/c.jpg",
+                     "bigimg":["./static/img/pic2/baojian/p7/a1.jpg","./static/img/pic2/baojian/p7/a2.jpg","./static/img/pic2/baojian/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/baojian/p7/b1.jpg","./static/img/pic2/baojian/p7/b2.jpg","./static/img/pic2/baojian/p7/b3.jpg","./static/img/pic2/baojian/p7/b4.jpg","./static/img/pic2/baojian/p7/b5.jpg","./static/img/pic2/baojian/p7/b6.jpg","./static/img/pic2/baojian/p7/b7.jpg","./static/img/pic2/baojian/p7/b8.jpg","./static/img/pic2/baojian/p7/b9.jpg","./static/img/pic2/baojian/p7/b10.jpg","./static/img/pic2/baojian/p7/b11.jpg","./static/img/pic2/baojian/p7/b12.jpg","./static/img/pic2/baojian/p7/b13.jpg"],
+                     "title":"维斯康 复合维生素咀嚼片150片/瓶 提高免疫力",
+                     "price":"99.90",
+                     "comment": 373,
+                     "buy":1081
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/baojian/p8/c.jpg",
+                     "bigimg":["./static/img/pic2/baojian/p8/a1.jpg","./static/img/pic2/baojian/p8/a2.jpg","./static/img/pic2/baojian/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/baojian/p1/p8.jpg","./static/img/pic2/baojian/p8/b2.jpg","./static/img/pic2/baojian/p8/b3.jpg","./static/img/pic2/baojian/p8/b4.jpg","./static/img/pic2/baojian/p8/b5.jpg","./static/img/pic2/baojian/p8/b6.jpg","./static/img/pic2/baojian/p8/b7.jpg","./static/img/pic2/baojian/p8/b8.jpg","./static/img/pic2/baojian/p8/b9.jpg"],
+                     "title":"麦德氏in-basic 宠物消食片150片/罐 调理肠胃改善食欲",
+                     "price":"32.90",
+                     "comment": 53,
+                     "buy":781
+                   }
+                  ],
+                  "yiliao":[
+               {
+                     "smallimg":"./static/img/pic2/yiliao/p1/c.jpg",
+                     "bigimg":["./static/img/pic2/yiliao/p1/a1.jpg","./static/img/pic2/yiliao/p1/a2.jpg","./static/img/pic2/yiliao/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yiliao/p1/b1.jpg","./static/img/pic2/yiliao/p1/b2.jpg","./static/img/pic2/yiliao/p1/b3.jpg","./static/img/pic2/yiliao/p1/b4.jpg","./static/img/pic2/yiliao/p1/b5.jpg","./static/img/pic2/yiliao/p1/b6.jpg"],
+                     "title":"小宠EHD 洁耳舒50ml 滴耳液洗耳水预防耳螨耳炎",
+                     "price":"22.90",
+                     "comment":1383,
+                     "buy":3181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yiliao/p2/c.jpg",
+                     "bigimg":["./static/img/pic2/yiliao/p2/a1.jpg","./static/img/pic2/yiliao/p2/a2.jpg","./static/img/pic2/yiliao/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yiliao/p2/b1.jpg","./static/img/pic2/yiliao/p2/b2.jpg","./static/img/pic2/yiliao/p2/b3.jpg","./static/img/pic2/yiliao/p2/b4.jpg","./static/img/pic2/yiliao/p2/b5.jpg","./static/img/pic2/yiliao/p2/b6.jpg","./static/img/pic2/yiliao/p2/b7.jpg","./static/img/pic2/yiliao/p2/b8.jpg"],
+                     "title":"福来恩  猫用增效灭虱滴剂加强版0.5ml 单支装无说明书 驱杀跳蚤蜱虫虫卵幼虫",
+                     "price":"42.90",
+                     "comment": 573,
+                     "buy":881
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yiliao/p3/c.jpg",
+                     "bigimg":["./static/img/pic2/yiliao/p3/a1.jpg","./static/img/pic2/yiliao/p3/a2.jpg","./static/img/pic2/yiliao/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yiliao/p3/b1.jpg","./static/img/pic2/yiliao/p3/b2.jpg","./static/img/pic2/yiliao/p3/b3.jpg","./static/img/pic2/yiliao/p3/b4.jpg","./static/img/pic2/yiliao/p3/b5.jpg","./static/img/pic2/yiliao/p3/b6.jpg","./static/img/pic2/yiliao/p3/b7.jpg","./static/img/pic2/yiliao/p3/b8.jpg","./static/img/pic2/yiliao/p3/b9.jpg"],
+                     "title":"森巴 芬苯达唑片 犬猫专用内驱  1片/盒 驱杀蛔虫球虫绦虫钩虫等寄生虫",
+                     "price":"25.20",
+                     "comment": 483,
+                     "buy":1581
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yiliao/p4/c.jpg",
+                     "bigimg":["./static/img/pic2/yiliao/p4/a1.jpg","./static/img/pic2/yiliao/p4/a2.jpg","./static/img/pic2/yiliao/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yiliao/p4/b1.jpg","./static/img/pic2/yiliao/p4/b2.jpg","./static/img/pic2/yiliao/p4/b3.jpg","./static/img/pic2/yiliao/p4/b4.jpg","./static/img/pic2/yiliao/p4/b5.jpg"],
+                     "title":"雷米高Ramical 驱虫一粒清猫狗打虫药6片装 绦虫体内寄生虫驱虫药",
+                     "price":"25.00",
+                     "comment": 483,
+                     "buy":4281
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yiliao/p5/c.jpg",
+                     "bigimg":["./static/img/pic2/yiliao/p5/a1.jpg","./static/img/pic2/yiliao/p5/a2.jpg","./static/img/pic2/yiliao/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yiliao/p5/b1.jpg","./static/img/pic2/yiliao/p5/b2.jpg","./static/img/pic2/yiliao/p5/b3.jpg","./static/img/pic2/yiliao/p5/b4.jpg","./static/img/pic2/yiliao/p5/b5.jpg","./static/img/pic2/yiliao/p5/b6.jpg"],
+                     "title":"法国维克Virbac 耳漂耳部护理125ml 清洁耳道杀耳螨消炎除臭",
+                     "price":"126.90",
+                     "comment": 313,
+                     "buy":2181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yiliao/p6/c.jpg",
+                     "bigimg":["./static/img/pic2/yiliao/p6/a1.jpg","./static/img/pic2/yiliao/p6/a2.jpg","./static/img/pic2/yiliao/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yiliao/p6/b1.jpg","./static/img/pic2/yiliao/p6/b2.jpg","./static/img/pic2/yiliao/p6/b3.jpg","./static/img/pic2/yiliao/p6/b4.jpg","./static/img/pic2/yiliao/p6/b5.jpg","./static/img/pic2/yiliao/p6/b6.jpg","./static/img/pic2/yiliao/p6/b7.jpg","./static/img/pic2/yiliao/p6/b8.jpg"],
+                     "title":"湃特安琪儿 滴眼液18ml 杀菌消炎止痒润眼",
+                     "price":"29.90",
+                     "comment": 73,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yiliao/p7/c.jpg",
+                     "bigimg":["./static/img/pic2/yiliao/p7/a1.jpg","./static/img/pic2/yiliao/p7/a2.jpg","./static/img/pic2/yiliao/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yiliao/p7/b1.jpg","./static/img/pic2/yiliao/p7/b2.jpg","./static/img/pic2/yiliao/p7/b3.jpg","./static/img/pic2/yiliao/p7/b4.jpg","./static/img/pic2/yiliao/p7/b5.jpg","./static/img/pic2/yiliao/p7/b6.jpg"],
+                     "title":"雷米高Ramical 驱虫一粒清猫狗广谱驱虫药打虫药1片装 线虫绦虫吸虫等体内寄生虫感染",
+                     "price":"5.30",
+                     "comment": 723,
+                     "buy":1883
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yiliao/p8/c.jpg",
+                     "bigimg":["./static/img/pic2/yiliao/p8/a1.jpg","./static/img/pic2/yiliao/p8/a2.jpg","./static/img/pic2/yiliao/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yiliao/p1/p8.jpg","./static/img/pic2/yiliao/p8/b2.jpg","./static/img/pic2/yiliao/p8/b3.jpg","./static/img/pic2/yiliao/p8/b4.jpg","./static/img/pic2/yiliao/p8/b5.jpg","./static/img/pic2/yiliao/p8/b6.jpg","./static/img/pic2/yiliao/p8/b7.jpg","./static/img/pic2/yiliao/p8/b8.jpg"],
+                     "title":"魔金 宠物洁耳液/洗耳水50g 温和配方耳部护理",
+                     "price":"13.50",
+                     "comment": 113,
+                     "buy":1381
+                   }
+                  ],
+                  "xiangbo":[
+                 {
+                     "smallimg":"./static/img/pic2/xiangbo/p1/c.jpg",
+                     "bigimg":["./static/img/pic2/xiangbo/p1/a1.jpg","./static/img/pic2/xiangbo/p1/a2.jpg","./static/img/pic2/xiangbo/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/xiangbo/p1/b1.jpg","./static/img/pic2/xiangbo/p1/b2.jpg","./static/img/pic2/xiangbo/p1/b3.jpg","./static/img/pic2/xiangbo/p1/b4.jpg","./static/img/pic2/xiangbo/p1/b5.jpg","./static/img/pic2/xiangbo/p1/b6.jpg","./static/img/pic2/xiangbo/p1/b7.jpg","./static/img/pic2/xiangbo/p1/b8.jpg"],
+                     "title":"怡亲多可特 免洗泡沫香波 犬猫通用 250ml",
+                     "price":"16.90",
+                     "comment": 373,
+                     "buy":1642
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/xiangbo/p2/c.jpg",
+                     "bigimg":["./static/img/pic2/xiangbo/p2/a1.jpg","./static/img/pic2/xiangbo/p2/a2.jpg","./static/img/pic2/xiangbo/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/xiangbo/p2/b1.jpg","./static/img/pic2/xiangbo/p2/b2.jpg","./static/img/pic2/xiangbo/p2/b3.jpg","./static/img/pic2/xiangbo/p2/b4.jpg","./static/img/pic2/xiangbo/p2/b5.jpg","./static/img/pic2/xiangbo/p2/b6.jpg","./static/img/pic2/xiangbo/p2/b7.jpg","./static/img/pic2/xiangbo/p2/b8.jpg","./static/img/pic2/xiangbo/p2/b9.jpg"],
+                     "title":"狮王LION 护肤二合一香波花卉草本香型 猫用 330ml",
+                     "price":"54.30",
+                     "comment": 73,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/xiangbo/p3/c.jpg",
+                     "bigimg":["./static/img/pic2/xiangbo/p3/a1.jpg","./static/img/pic2/xiangbo/p3/a2.jpg","./static/img/pic2/xiangbo/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/xiangbo/p3/b1.jpg","./static/img/pic2/xiangbo/p3/b2.jpg","./static/img/pic2/xiangbo/p3/b3.jpg","./static/img/pic2/xiangbo/p3/b4.jpg","./static/img/pic2/xiangbo/p3/b5.jpg","./static/img/pic2/xiangbo/p3/b6.jpg","./static/img/pic2/xiangbo/p3/b7.jpg","./static/img/pic2/xiangbo/p3/b8.jpg","./static/img/pic2/xiangbo/p3/b9.jpg","./static/img/pic2/xiangbo/p3/b10.jpg","./static/img/pic2/xiangbo/p3/b11.jpg","./static/img/pic2/xiangbo/p3/b12.jpg"],
+                     "title":"怡亲多可特 水润保湿洁净香波 猫用 470ml",
+                     "price":"42.90",
+                     "comment": 973,
+                     "buy":3381
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/xiangbo/p4/c.jpg",
+                     "bigimg":["./static/img/pic2/xiangbo/p4/a1.jpg","./static/img/pic2/xiangbo/p4/a2.jpg","./static/img/pic2/xiangbo/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/xiangbo/p4/b1.jpg","./static/img/pic2/xiangbo/p4/b2.jpg","./static/img/pic2/xiangbo/p4/b3.jpg","./static/img/pic2/xiangbo/p4/b4.jpg","./static/img/pic2/xiangbo/p4/b5.jpg","./static/img/pic2/xiangbo/p4/b6.jpg","./static/img/pic2/xiangbo/p4/b7.jpg","./static/img/pic2/xiangbo/p4/b8.jpg"],
+                     "title":"狮王LION 祛跳蚤二合一香波替换装 草本花香型 犬猫通用 400ml",
+                     "price":"31.20",
+                     "comment": 644,
+                     "buy":2381
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/xiangbo/p5/c.jpg",
+                     "bigimg":["./static/img/pic2/xiangbo/p5/a1.jpg","./static/img/pic2/xiangbo/p5/a2.jpg","./static/img/pic2/xiangbo/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/xiangbo/p5/b1.jpg","./static/img/pic2/xiangbo/p5/b2.jpg","./static/img/pic2/xiangbo/p5/b3.jpg","./static/img/pic2/xiangbo/p5/b4.jpg","./static/img/pic2/xiangbo/p5/b5.jpg","./static/img/pic2/xiangbo/p5/b6.jpg","./static/img/pic2/xiangbo/p5/b7.jpg","./static/img/pic2/xiangbo/p5/b8.jpg"],
+                     "title":"魔金 除虱驱螨香波 12周龄以上犬猫沐浴露 500ml",
+                     "price":"24.30",
+                     "comment": 73,
+                     "buy":411
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/xiangbo/p6/c.jpg",
+                     "bigimg":["./static/img/pic2/xiangbo/p6/a1.jpg","./static/img/pic2/xiangbo/p6/a2.jpg","./static/img/pic2/xiangbo/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/xiangbo/p6/b1.jpg","./static/img/pic2/xiangbo/p6/b2.jpg","./static/img/pic2/xiangbo/p6/b3.jpg","./static/img/pic2/xiangbo/p6/b4.jpg","./static/img/pic2/xiangbo/p6/b5.jpg","./static/img/pic2/xiangbo/p6/b6.jpg","./static/img/pic2/xiangbo/p6/b7.jpg","./static/img/pic2/xiangbo/p6/b8.jpg","./static/img/pic2/xiangbo/p6/b9.jpg","./static/img/pic2/xiangbo/p6/b10.jpg","./static/img/pic2/xiangbo/p6/b11.jpg","./static/img/pic2/xiangbo/p6/b12.jpg"],
+                     "title":"魔金  去味添香免洗宠物干洗粉 犬猫通用 100g ",
+                     "price":"14.30",
+                     "comment": 53,
+                     "buy":436
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/xiangbo/p7/c.jpg",
+                     "bigimg":["./static/img/pic2/xiangbo/p7/a1.jpg","./static/img/pic2/xiangbo/p7/a2.jpg","./static/img/pic2/xiangbo/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/xiangbo/p7/b1.jpg","./static/img/pic2/xiangbo/p7/b2.jpg","./static/img/pic2/xiangbo/p7/b3.jpg","./static/img/pic2/xiangbo/p7/b4.jpg","./static/img/pic2/xiangbo/p7/b5.jpg","./static/img/pic2/xiangbo/p7/b6.jpg"],
+                     "title":"派锐 天然干粉免洗香波清洁去异味 犬猫通用 226g",
+                     "price":"9.90",
+                     "comment": 73,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/xiangbo/p8/c.jpg",
+                     "bigimg":["./static/img/pic2/xiangbo/p8/a1.jpg","./static/img/pic2/xiangbo/p8/a2.jpg","./static/img/pic2/xiangbo/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/xiangbo/p1/p8.jpg","./static/img/pic2/xiangbo/p8/b2.jpg","./static/img/pic2/xiangbo/p8/b3.jpg","./static/img/pic2/xiangbo/p8/b4.jpg","./static/img/pic2/xiangbo/p8/b5.jpg","./static/img/pic2/xiangbo/p8/b6.jpg","./static/img/pic2/xiangbo/p8/b7.jpg","./static/img/pic2/xiangbo/p8/b8.jpg"],
+                     "title":"湃特安琪儿 宠物除蚤香波沐浴露 犬猫通用 500ml",
+                     "price":"45.00",
+                     "comment": 723,
+                     "buy":2581
+                   }
+                  ],
+                  "yongpin":[
+               {
+                     "smallimg":"./static/img/pic2/yongpin/p1/c.jpg",
+                     "bigimg":["./static/img/pic2/yongpin/p1/a1.jpg","./static/img/pic2/yongpin/p1/a2.jpg","./static/img/pic2/yongpin/p1/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yongpin/p1/b1.jpg","./static/img/pic2/yongpin/p1/b2.jpg","./static/img/pic2/yongpin/p1/b3.jpg","./static/img/pic2/yongpin/p1/b4.jpg","./static/img/pic2/yongpin/p1/b5.jpg","./static/img/pic2/yongpin/p1/b6.jpg","./static/img/pic2/yongpin/p1/b7.jpg","./static/img/pic2/yongpin/p1/b8.jpg"],
+                     "title":"怡亲多可特 柠檬香型膨润土猫砂(5L)4kg",
+                     "price":"9.90",
+                     "comment": 358,
+                     "buy":1281
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yongpin/p2/c.jpg",
+                     "bigimg":["./static/img/pic2/yongpin/p2/a1.jpg","./static/img/pic2/yongpin/p2/a2.jpg","./static/img/pic2/yongpin/p2/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yongpin/p2/b1.jpg","./static/img/pic2/yongpin/p2/b2.jpg","./static/img/pic2/yongpin/p2/b3.jpg","./static/img/pic2/yongpin/p2/b4.jpg","./static/img/pic2/yongpin/p2/b5.jpg","./static/img/pic2/yongpin/p2/b6.jpg","./static/img/pic2/yongpin/p2/b7.jpg","./static/img/pic2/yongpin/p2/b8.jpg","./static/img/pic2/yongpin/p2/b9.jpg","./static/img/pic2/yongpin/p2/b10.jpg","./static/img/pic2/yongpin/p2/b11.jpg","./static/img/pic2/yongpin/p2/b12.jpg","./static/img/pic2/yongpin/p2/b13.jpg","./static/img/pic2/yongpin/p2/b14.jpg","./static/img/pic2/yongpin/p2/b15.jpg","./static/img/pic2/yongpin/p2/b16.jpg","./static/img/pic2/yongpin/p2/b17.jpg","./static/img/pic2/yongpin/p2/b18.jpg","./static/img/pic2/yongpin/p2/b19.jpg"],
+                     "title":"怡亲多可特 宠物尿片狗尿布尿垫 整包",
+                     "price":"13.50",
+                     "comment": 3458,
+                     "buy":12181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yongpin/p3/c.jpg",
+                     "bigimg":["./static/img/pic2/yongpin/p3/a1.jpg","./static/img/pic2/yongpin/p3/a2.jpg","./static/img/pic2/yongpin/p3/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yongpin/p3/b1.jpg","./static/img/pic2/yongpin/p3/b2.jpg","./static/img/pic2/yongpin/p3/b3.jpg","./static/img/pic2/yongpin/p3/b4.jpg","./static/img/pic2/yongpin/p3/b5.jpg","./static/img/pic2/yongpin/p3/b6.jpg","./static/img/pic2/yongpin/p3/b7.jpg","./static/img/pic2/yongpin/p3/b8.jpg","./static/img/pic2/yongpin/p3/b9.jpg","./static/img/pic2/yongpin/p3/b10.jpg"],
+                     "title":"莎美特Sanmate 吸水耐用型膨润土猫砂(10L) 7.5kg",
+                     "price":"9.90",
+                     "comment": 58,
+                     "buy":181
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yongpin/p4/c.jpg",
+                     "bigimg":["./static/img/pic2/yongpin/p4/a1.jpg","./static/img/pic2/yongpin/p4/a2.jpg","./static/img/pic2/yongpin/p4/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yongpin/p4/b1.jpg","./static/img/pic2/yongpin/p4/b2.jpg","./static/img/pic2/yongpin/p4/b3.jpg","./static/img/pic2/yongpin/p4/b4.jpg","./static/img/pic2/yongpin/p4/b5.jpg","./static/img/pic2/yongpin/p4/b6.jpg","./static/img/pic2/yongpin/p4/b7.jpg","./static/img/pic2/yongpin/p4/b8.jpg"],
+                     "title":"怡亲多可特 半封闭式经济型猫砂盆 送猫砂铲 猫厕所猫便盆",
+                     "price":"59.30",
+                     "comment": 358,
+                     "buy":1281
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yongpin/p5/c.jpg",
+                     "bigimg":["./static/img/pic2/yongpin/p5/a1.jpg","./static/img/pic2/yongpin/p5/a2.jpg","./static/img/pic2/yongpin/p5/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yongpin/p5/b1.jpg","./static/img/pic2/yongpin/p5/b2.jpg","./static/img/pic2/yongpin/p5/b3.jpg","./static/img/pic2/yongpin/p5/b4.jpg","./static/img/pic2/yongpin/p5/b5.jpg","./static/img/pic2/yongpin/p5/b6.jpg","./static/img/pic2/yongpin/p5/b7.jpg","./static/img/pic2/yongpin/p5/b8.jpg"],
+                     "title":"爱丽思IRIS 全封闭式宽敞门猫砂盆 猫厕所",
+                     "price":"79.20",
+                     "comment": 562,
+                     "buy":1801
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yongpin/p6/c.jpg",
+                     "bigimg":["./static/img/pic2/yongpin/p6/a1.jpg","./static/img/pic2/yongpin/p6/a2.jpg","./static/img/pic2/yongpin/p6/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yongpin/p6/b1.jpg","./static/img/pic2/yongpin/p6/b2.jpg","./static/img/pic2/yongpin/p6/b3.jpg","./static/img/pic2/yongpin/p6/b4.jpg","./static/img/pic2/yongpin/p6/b5.jpg","./static/img/pic2/yongpin/p6/b6.jpg"],
+                     "title":"捣蛋鬼 优质塑料猫砂铲食物铲",
+                     "price":"19.50",
+                     "comment": 458,
+                     "buy":1281
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yongpin/p7/c.jpg",
+                     "bigimg":["./static/img/pic2/yongpin/p7/a1.jpg","./static/img/pic2/yongpin/p7/a2.jpg","./static/img/pic2/yongpin/p7/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yongpin/p7/b1.jpg","./static/img/pic2/yongpin/p7/b2.jpg","./static/img/pic2/yongpin/p7/b3.jpg","./static/img/pic2/yongpin/p7/b4.jpg","./static/img/pic2/yongpin/p7/b5.jpg","./static/img/pic2/yongpin/p7/b6.jpg","./static/img/pic2/yongpin/p7/b7.jpg","./static/img/pic2/yongpin/p7/b8.jpg"],
+                     "title":"怡亲多可特  经典狗爪脚印烤漆狗碗食盆水碗",
+                     "price":"5.30",
+                     "comment": 1058,
+                     "buy":15781
+                   },
+                   {
+                     "smallimg":"./static/img/pic2/yongpin/p8/c.jpg",
+                     "bigimg":["./static/img/pic2/yongpin/p8/a1.jpg","./static/img/pic2/yongpin/p8/a2.jpg","./static/img/pic2/yongpin/p8/a3.jpg"],
+                     "graphicimg":["./static/img/pic2/yongpin/p1/p8.jpg","./static/img/pic2/yongpin/p8/b2.jpg","./static/img/pic2/yongpin/p8/b3.jpg","./static/img/pic2/yongpin/p8/b4.jpg","./static/img/pic2/yongpin/p8/b5.jpg","./static/img/pic2/yongpin/p8/b6.jpg","./static/img/pic2/yongpin/p8/b7.jpg","./static/img/pic2/yongpin/p8/b8.jpg"],
+                     "title":"AFP 宠物活氧循环自动饮水机 2.1L水容量",
+                     "price":"20.30",
+                     "comment": 58,
+                     "buy":181
+                   }
+                  ]
 		}
 	}
 }
