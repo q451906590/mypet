@@ -13,6 +13,9 @@ import user from '@/components/user'
 import login from '@/components/user/login'
 import register from '@/components/user/register'
 import search from '@/components/search'
+import mine from '@/components/mine'
+
+
 Vue.use(Router)
 
 export default new Router({
@@ -85,6 +88,11 @@ export default new Router({
     		path:"/search",
     		name:'search',
     		component:search
-   },  
+   }, 
+   {
+   		path:"/mine",
+   		name:"mine",
+   		component:mine
+   }
   ]
 })

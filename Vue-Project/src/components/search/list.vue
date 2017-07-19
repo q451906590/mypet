@@ -17,6 +17,7 @@
 				<p class="foot"><span class="price">{{item.price}}元</span><span class="buy">已售：{{item.buy}}</span> <span class="comment">评价：{{item.comment}}</span></p>
 			</div>
 		</div>
+		<div class="nomore">没有更多商品了......</div>
 	</div>
 </template>
 
@@ -171,6 +172,11 @@
 			}
 		}
 	}
-	
 }
+		.nomore{
+			text-align: center;
+			font-size: px2em(28px);
+			height: px2em(50px);
+			line-height: px2em(50px);
+		}
 </style>
