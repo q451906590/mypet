@@ -1,6 +1,7 @@
 {
 	"result":{
 		"dog":{
+<<<<<<< HEAD
       "dogfood":[
         {
           "smallimg":"./static/img/pic/dogfood/p1/dog-food-small1.jpg",
@@ -76,6 +77,9 @@
         }
       ],
 			"guantou":[
+=======
+			"guantou":[     
+>>>>>>> neng
 			           {
 			             "smallimg":"./static/img/pic/guantou/p1/c.jpg",
 			             "bigimg":["./static/img/pic/guantou/p1/a1.jpg","./static/img/pic/guantou/p1/a2.jpg","./static/img/pic/guantou/p1/a3.jpg"],
@@ -147,7 +151,11 @@
 			             "price":"39.90",
 			             "comment": 73,
 			             "buy":181
+<<<<<<< HEAD
 			           }
+=======
+			           } 
+>>>>>>> neng
 			             ],
 			             "lingshi":[
 				                   {
@@ -158,7 +166,11 @@
 				             "price":"9.90",
 				             "comment": 73,
 				             "buy":181
+<<<<<<< HEAD
 				           },
+=======
+				           }, 
+>>>>>>> neng
 				           {
 				             "smallimg":"./static/img/pic/lingshi/p2/c.jpg",
 				             "bigimg":["./static/img/pic/lingshi/p2/a1.jpg","./static/img/pic/lingshi/p2/a2.jpg","./static/img/pic/lingshi/p2/a3.jpg"],
@@ -167,7 +179,11 @@
 				             "price":"11.20",
 				             "comment": 723,
 				             "buy":1141
+<<<<<<< HEAD
 				           },
+=======
+				           }, 
+>>>>>>> neng
 				           {
 				             "smallimg":"./static/img/pic/lingshi/p3/c.jpg",
 				             "bigimg":["./static/img/pic/lingshi/p3/a1.jpg","./static/img/pic/lingshi/p3/a2.jpg","./static/img/pic/lingshi/p3/a3.jpg"],
@@ -176,7 +192,11 @@
 				             "price":"29.90",
 				             "comment": 273,
 				             "buy":681
+<<<<<<< HEAD
 				           },
+=======
+				           }, 
+>>>>>>> neng
 				           {
 				             "smallimg":"./static/img/pic/lingshi/p4/c.jpg",
 				             "bigimg":["./static/img/pic/lingshi/p4/a1.jpg","./static/img/pic/lingshi/p4/a2.jpg","./static/img/pic/lingshi/p4/a3.jpg"],
@@ -185,7 +205,11 @@
 				             "price":"29.90",
 				             "comment": 673,
 				             "buy":281
+<<<<<<< HEAD
 				           },
+=======
+				           }, 
+>>>>>>> neng
 				           {
 				             "smallimg":"./static/img/pic/lingshi/p5/c.jpg",
 				             "bigimg":["./static/img/pic/lingshi/p5/a1.jpg","./static/img/pic/lingshi/p5/a2.jpg","./static/img/pic/lingshi/p5/a3.jpg"],
@@ -194,7 +218,11 @@
 				             "price":"15.90",
 				             "comment": 73,
 				             "buy":381
+<<<<<<< HEAD
 				           },
+=======
+				           }, 
+>>>>>>> neng
 				           {
 				             "smallimg":"./static/img/pic/lingshi/p6/c.jpg",
 				             "bigimg":["./static/img/pic/lingshi/p6/a1.jpg","./static/img/pic/lingshi/p6/a2.jpg","./static/img/pic/lingshi/p6/a3.jpg"],
@@ -203,7 +231,11 @@
 				             "price":"20.90",
 				             "comment": 481,
 				             "buy":1026
+<<<<<<< HEAD
 				           },
+=======
+				           }, 
+>>>>>>> neng
 				           {
 				             "smallimg":"./static/img/pic/lingshi/p7/c.jpg",
 				             "bigimg":["./static/img/pic/lingshi/p7/a1.jpg","./static/img/pic/lingshi/p7/a2.jpg","./static/img/pic/lingshi/p7/a3.jpg"],
@@ -212,7 +244,11 @@
 				             "price":"9.90",
 				             "comment": 744,
 				             "buy":1481
+<<<<<<< HEAD
 				           },
+=======
+				           }, 
+>>>>>>> neng
 				           {
 				             "smallimg":"./static/img/pic/lingshi/p8/c.jpg",
 				             "bigimg":["./static/img/pic/lingshi/p8/a1.jpg","./static/img/pic/lingshi/p8/a2.jpg","./static/img/pic/lingshi/p8/a3.jpg"],
@@ -232,7 +268,11 @@
     "price":"95.30",
     "comment": 473,
     "buy":2281
+<<<<<<< HEAD
   },
+=======
+  }, 
+>>>>>>> neng
   {
     "smallimg":"./static/img/pic/baojian/p2/c.jpg",
     "bigimg":["./static/img/pic/baojian/p2/a1.jpg","./static/img/pic/baojian/p2/a2.jpg","./static/img/pic/baojian/p2/a3.jpg"],
@@ -241,7 +281,11 @@
     "price":"49.90",
     "comment": 373,
     "buy":781
+<<<<<<< HEAD
   },
+=======
+  }, 
+>>>>>>> neng
   {
     "smallimg":"./static/img/pic/baojian/p3/c.jpg",
     "bigimg":["./static/img/pic/baojian/p3/a1.jpg","./static/img/pic/baojian/p3/a2.jpg","./static/img/pic/baojian/p3/a3.jpg"],
@@ -250,7 +294,11 @@
     "price":"9.90",
     "comment": 73,
     "buy":181
+<<<<<<< HEAD
   },
+=======
+  }, 
+>>>>>>> neng
   {
     "smallimg":"./static/img/pic/baojian/p4/c.jpg",
     "bigimg":["./static/img/pic/baojian/p4/a1.jpg","./static/img/pic/baojian/p4/a2.jpg","./static/img/pic/baojian/p4/a3.jpg"],
@@ -259,7 +307,11 @@
     "price":"35.90",
     "comment": 373,
     "buy":126
+<<<<<<< HEAD
   },
+=======
+  }, 
+>>>>>>> neng
   {
     "smallimg":"./static/img/pic/baojian/p5/c.jpg",
     "bigimg":["./static/img/pic/baojian/p5/a1.jpg","./static/img/pic/baojian/p5/a2.jpg","./static/img/pic/baojian/p5/a3.jpg"],
@@ -268,7 +320,11 @@
     "price":"32.40",
     "comment": 93,
     "buy":881
+<<<<<<< HEAD
   },
+=======
+  }, 
+>>>>>>> neng
   {
     "smallimg":"./static/img/pic/baojian/p6/c.jpg",
     "bigimg":["./static/img/pic/baojian/p6/a1.jpg","./static/img/pic/baojian/p6/a2.jpg","./static/img/pic/baojian/p6/a3.jpg"],
@@ -277,7 +333,11 @@
     "price":"23.20",
     "comment": 113,
     "buy":615
+<<<<<<< HEAD
   },
+=======
+  }, 
+>>>>>>> neng
   {
     "smallimg":"./static/img/pic/baojian/p7/c.jpg",
     "bigimg":["./static/img/pic/baojian/p7/a1.jpg","./static/img/pic/baojian/p7/a2.jpg","./static/img/pic/baojian/p7/a3.jpg"],
@@ -286,7 +346,11 @@
     "price":"189.90",
     "comment": 73,
     "buy":181
+<<<<<<< HEAD
   },
+=======
+  }, 
+>>>>>>> neng
   {
     "smallimg":"./static/img/pic/baojian/p8/c.jpg",
     "bigimg":["./static/img/pic/baojian/p8/a1.jpg","./static/img/pic/baojian/p8/a2.jpg","./static/img/pic/baojian/p8/a3.jpg"],
@@ -295,7 +359,11 @@
     "price":"99.80",
     "comment": 13,
     "buy":221
+<<<<<<< HEAD
   }
+=======
+  } 			                    
+>>>>>>> neng
 			         ],
 			         "yiliao":[
 {
@@ -306,7 +374,11 @@
                      "price":"49.90",
                      "comment": 173,
                      "buy":783
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yiliao/p2/c.jpg",
                      "bigimg":["./static/img/pic/yiliao/p2/a1.jpg","./static/img/pic/yiliao/p2/a2.jpg","./static/img/pic/yiliao/p2/a3.jpg"],
@@ -315,7 +387,11 @@
                      "price":"22.30",
                      "comment": 713,
                      "buy":2184
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yiliao/p3/c.jpg",
                      "bigimg":["./static/img/pic/yiliao/p3/a1.jpg","./static/img/pic/yiliao/p3/a2.jpg","./static/img/pic/yiliao/p3/a3.jpg"],
@@ -324,7 +400,11 @@
                      "price":"24.10",
                      "comment": 373,
                      "buy":382
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yiliao/p4/c.jpg",
                      "bigimg":["./static/img/pic/yiliao/p4/a1.jpg","./static/img/pic/yiliao/p4/a2.jpg","./static/img/pic/yiliao/p4/a3.jpg"],
@@ -333,7 +413,11 @@
                      "price":"25.4",
                      "comment": 371,
                      "buy":881
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yiliao/p5/c.jpg",
                      "bigimg":["./static/img/pic/yiliao/p5/a1.jpg","./static/img/pic/yiliao/p5/a2.jpg","./static/img/pic/yiliao/p5/a3.jpg"],
@@ -342,7 +426,11 @@
                      "price":"19.30",
                      "comment": 561,
                      "buy":2182
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yiliao/p6/c.jpg",
                      "bigimg":["./static/img/pic/yiliao/p6/a1.jpg","./static/img/pic/yiliao/p6/a2.jpg","./static/img/pic/yiliao/p6/a3.jpg"],
@@ -351,7 +439,11 @@
                      "price":"25.90",
                      "comment": 343,
                      "buy":1085
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yiliao/p7/c.jpg",
                      "bigimg":["./static/img/pic/yiliao/p7/a1.jpg","./static/img/pic/yiliao/p7/a2.jpg","./static/img/pic/yiliao/p7/a3.jpg"],
@@ -360,7 +452,11 @@
                      "price":"126.90",
                      "comment": 1273,
                      "buy":351
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yiliao/p8/c.jpg",
                      "bigimg":["./static/img/pic/yiliao/p8/a1.jpg","./static/img/pic/yiliao/p8/a2.jpg","./static/img/pic/yiliao/p8/a3.jpg"],
@@ -369,7 +465,11 @@
                      "price":"30.00",
                      "comment": 83,
                      "buy":416
+<<<<<<< HEAD
                    }
+=======
+                   } 		                    
+>>>>>>> neng
 					 ],
 					 "xiangbo":[
 {
@@ -380,7 +480,11 @@
                      "price":"25.00",
                      "comment": 103,
                      "buy":352
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/xiangbo/p2/c.jpg",
                      "bigimg":["./static/img/pic/xiangbo/p2/a1.jpg","./static/img/pic/xiangbo/p2/a2.jpg","./static/img/pic/xiangbo/p2/a3.jpg"],
@@ -389,7 +493,11 @@
                      "price":"25.90",
                      "comment": 73,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/xiangbo/p3/c.jpg",
                      "bigimg":["./static/img/pic/xiangbo/p3/a1.jpg","./static/img/pic/xiangbo/p3/a2.jpg","./static/img/pic/xiangbo/p3/a3.jpg"],
@@ -398,7 +506,11 @@
                      "price":"12.90",
                      "comment": 723,
                      "buy":5181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/xiangbo/p4/c.jpg",
                      "bigimg":["./static/img/pic/xiangbo/p4/a1.jpg","./static/img/pic/xiangbo/p4/a2.jpg","./static/img/pic/xiangbo/p4/a3.jpg"],
@@ -407,7 +519,11 @@
                      "price":"47.40",
                      "comment": 43,
                      "buy":385
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/xiangbo/p5/c.jpg",
                      "bigimg":["./static/img/pic/xiangbo/p5/a1.jpg","./static/img/pic/xiangbo/p5/a2.jpg","./static/img/pic/xiangbo/p5/a3.jpg"],
@@ -416,7 +532,11 @@
                      "price":"16.50",
                      "comment": 273,
                      "buy":33
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/xiangbo/p6/c.jpg",
                      "bigimg":["./static/img/pic/xiangbo/p6/a1.jpg","./static/img/pic/xiangbo/p6/a2.jpg","./static/img/pic/xiangbo/p6/a3.jpg"],
@@ -425,7 +545,11 @@
                      "price":"32.00",
                      "comment": 173,
                      "buy":1281
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/xiangbo/p7/c.jpg",
                      "bigimg":["./static/img/pic/xiangbo/p7/a1.jpg","./static/img/pic/xiangbo/p7/a2.jpg","./static/img/pic/xiangbo/p7/a3.jpg"],
@@ -434,7 +558,11 @@
                      "price":"39.90",
                      "comment": 723,
                      "buy":1481
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/xiangbo/p8/c.jpg",
                      "bigimg":["./static/img/pic/xiangbo/p8/a1.jpg","./static/img/pic/xiangbo/p8/a2.jpg","./static/img/pic/xiangbo/p8/a3.jpg"],
@@ -443,7 +571,11 @@
                      "price":"89.90",
                      "comment": 3,
                      "buy":81
+<<<<<<< HEAD
                    }
+=======
+                   } 			                    
+>>>>>>> neng
 					 ],
 					 "yongpin":[
 {
@@ -454,7 +586,11 @@
                      "price":"13.55",
                      "comment": 1173,
                      "buy":3381
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yongpin/p2/c.jpg",
                      "bigimg":["./static/img/pic/yongpin/p2/a1.jpg","./static/img/pic/yongpin/p2/a2.jpg","./static/img/pic/yongpin/p2/a3.jpg"],
@@ -463,7 +599,11 @@
                      "price":"23.90",
                      "comment": 473,
                      "buy":2135
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yongpin/p3/c.jpg",
                      "bigimg":["./static/img/pic/yongpin/p3/a1.jpg","./static/img/pic/yongpin/p3/a2.jpg","./static/img/pic/yongpin/p3/a3.jpg"],
@@ -472,7 +612,11 @@
                      "price":"18.20",
                      "comment": 266,
                      "buy":581
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yongpin/p4/c.jpg",
                      "bigimg":["./static/img/pic/yongpin/p4/a1.jpg","./static/img/pic/yongpin/p4/a2.jpg","./static/img/pic/yongpin/p4/a3.jpg"],
@@ -481,7 +625,11 @@
                      "price":"22.40",
                      "comment": 223,
                      "buy":681
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yongpin/p5/c.jpg",
                      "bigimg":["./static/img/pic/yongpin/p5/a1.jpg","./static/img/pic/yongpin/p5/a2.jpg","./static/img/pic/yongpin/p5/a3.jpg"],
@@ -490,7 +638,11 @@
                      "price":"35.90",
                      "comment": 1273,
                      "buy":3181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yongpin/p6/c.jpg",
                      "bigimg":["./static/img/pic/yongpin/p6/a1.jpg","./static/img/pic/yongpin/p6/a2.jpg","./static/img/pic/yongpin/p6/a3.jpg"],
@@ -499,7 +651,11 @@
                      "price":"19.90",
                      "comment": 2053,
                      "buy":13081
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yongpin/p7/c.jpg",
                      "bigimg":["./static/img/pic/yongpin/p7/a1.jpg","./static/img/pic/yongpin/p7/a2.jpg","./static/img/pic/yongpin/p7/a3.jpg"],
@@ -508,7 +664,11 @@
                      "price":"34.90",
                      "comment": 73,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic/yongpin/p8/c.jpg",
                      "bigimg":["./static/img/pic/yongpin/p8/a1.jpg","./static/img/pic/yongpin/p8/a2.jpg","./static/img/pic/yongpin/p8/a3.jpg"],
@@ -517,7 +677,11 @@
                      "price":"33.60",
                      "comment": 163,
                      "buy":488
+<<<<<<< HEAD
                    }
+=======
+                   } 			                    
+>>>>>>> neng
 					 ]
 		},
 		"cat":{
@@ -530,7 +694,11 @@
                      "price":"123.40",
                      "comment": 2373,
                      "buy":11381
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/dry/p2/c.jpg",
                      "bigimg":["./static/img/pic2/dry/p2/a1.jpg","./static/img/pic2/dry/p2/a2.jpg","./static/img/pic2/dry/p2/a3.jpg"],
@@ -539,7 +707,11 @@
                      "price":"119.90",
                      "comment": 3773,
                      "buy":11581
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/dry/p3/c.jpg",
                      "bigimg":["./static/img/pic2/dry/p3/a1.jpg","./static/img/pic2/dry/p3/a2.jpg","./static/img/pic2/dry/p3/a3.jpg"],
@@ -548,7 +720,11 @@
                      "price":"233.90",
                      "comment": 73,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/dry/p4/c.jpg",
                      "bigimg":["./static/img/pic2/dry/p4/a1.jpg","./static/img/pic2/dry/p4/a2.jpg","./static/img/pic2/dry/p4/a3.jpg"],
@@ -557,7 +733,11 @@
                      "price":"38.70",
                      "comment": 660,
                      "buy":2381
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/dry/p5/c.jpg",
                      "bigimg":["./static/img/pic2/dry/p5/a1.jpg","./static/img/pic2/dry/p5/a2.jpg","./static/img/pic2/dry/p5/a3.jpg"],
@@ -566,7 +746,11 @@
                      "price":"127.50",
                      "comment": 673,
                      "buy":4181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/dry/p6/c.jpg",
                      "bigimg":["./static/img/pic2/dry/p6/a1.jpg","./static/img/pic2/dry/p6/a2.jpg","./static/img/pic2/dry/p6/a3.jpg"],
@@ -575,7 +759,11 @@
                      "price":"48.70",
                      "comment": 475,
                      "buy":898
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/dry/p7/c.jpg",
                      "bigimg":["./static/img/pic2/dry/p7/a1.jpg","./static/img/pic2/dry/p7/a2.jpg","./static/img/pic2/dry/p7/a3.jpg"],
@@ -584,7 +772,11 @@
                      "price":"99.90",
                      "comment": 753,
                      "buy":1801
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/dry/p8/c.jpg",
                      "bigimg":["./static/img/pic2/dry/p8/a1.jpg","./static/img/pic2/dry/p8/a2.jpg","./static/img/pic2/dry/p8/a3.jpg"],
@@ -593,7 +785,11 @@
                      "price":"129.90",
                      "comment": 3773,
                      "buy":11581
+<<<<<<< HEAD
                    }
+=======
+                   }                       
+>>>>>>> neng
                   ],
                   "wet":[
                {
@@ -604,7 +800,11 @@
                      "price":"4.90",
                      "comment": 475,
                      "buy":732
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/wet/p2/c.jpg",
                      "bigimg":["./static/img/pic2/wet/p2/a1.jpg","./static/img/pic2/wet/p2/a2.jpg","./static/img/pic2/wet/p2/a3.jpg"],
@@ -613,7 +813,11 @@
                      "price":"3.90",
                      "comment": 243,
                      "buy":683
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/wet/p3/c.jpg",
                      "bigimg":["./static/img/pic2/wet/p3/a1.jpg","./static/img/pic2/wet/p3/a2.jpg","./static/img/pic2/wet/p3/a3.jpg"],
@@ -622,7 +826,11 @@
                      "price":"9.90",
                      "comment": 26,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/wet/p4/c.jpg",
                      "bigimg":["./static/img/pic2/wet/p4/a1.jpg","./static/img/pic2/wet/p4/a2.jpg","./static/img/pic2/wet/p4/a3.jpg"],
@@ -631,7 +839,11 @@
                      "price":"3.50",
                      "comment": 673,
                      "buy":1281
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/wet/p5/c.jpg",
                      "bigimg":["./static/img/pic2/wet/p5/a1.jpg","./static/img/pic2/wet/p5/a2.jpg","./static/img/pic2/wet/p5/a3.jpg"],
@@ -640,7 +852,11 @@
                      "price":"4.00",
                      "comment": 371,
                      "buy":1281
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/wet/p6/c.jpg",
                      "bigimg":["./static/img/pic2/wet/p6/a1.jpg","./static/img/pic2/wet/p6/a2.jpg","./static/img/pic2/wet/p6/a3.jpg"],
@@ -649,7 +865,11 @@
                      "price":"3.30",
                      "comment": 1073,
                      "buy":4581
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/wet/p7/c.jpg",
                      "bigimg":["./static/img/pic2/wet/p7/a1.jpg","./static/img/pic2/wet/p7/a2.jpg","./static/img/pic2/wet/p7/a3.jpg"],
@@ -658,7 +878,11 @@
                      "price":"54.20",
                      "comment": 353,
                      "buy":61073
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/wet/p8/c.jpg",
                      "bigimg":["./static/img/pic2/wet/p8/a1.jpg","./static/img/pic2/wet/p8/a2.jpg","./static/img/pic2/wet/p8/a3.jpg"],
@@ -678,7 +902,11 @@
                      "price":"8.90",
                      "comment": 374,
                      "buy":1781
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/lingshi/p2/c.jpg",
                      "bigimg":["./static/img/pic2/lingshi/p2/a1.jpg","./static/img/pic2/lingshi/p2/a2.jpg","./static/img/pic2/lingshi/p2/a3.jpg"],
@@ -687,7 +915,11 @@
                      "price":"15.90",
                      "comment": 273,
                      "buy":681
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/lingshi/p3/c.jpg",
                      "bigimg":["./static/img/pic2/lingshi/p3/a1.jpg","./static/img/pic2/lingshi/p3/a2.jpg","./static/img/pic2/lingshi/p3/a3.jpg"],
@@ -696,7 +928,11 @@
                      "price":"19.70",
                      "comment": 373,
                      "buy":871
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/lingshi/p4/c.jpg",
                      "bigimg":["./static/img/pic2/lingshi/p4/a1.jpg","./static/img/pic2/lingshi/p4/a2.jpg","./static/img/pic2/lingshi/p4/a3.jpg"],
@@ -705,7 +941,11 @@
                      "price":"39.90",
                      "comment": 121,
                      "buy":631
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/lingshi/p5/c.jpg",
                      "bigimg":["./static/img/pic2/lingshi/p5/a1.jpg","./static/img/pic2/lingshi/p5/a2.jpg","./static/img/pic2/lingshi/p5/a3.jpg"],
@@ -714,7 +954,11 @@
                      "price":"9.90",
                      "comment": 473,
                      "buy":1581
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/lingshi/p6/c.jpg",
                      "bigimg":["./static/img/pic2/lingshi/p6/a1.jpg","./static/img/pic2/lingshi/p6/a2.jpg","./static/img/pic2/lingshi/p6/a3.jpg"],
@@ -723,7 +967,11 @@
                      "price":"6.30",
                      "comment": 713,
                      "buy":2181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/lingshi/p7/c.jpg",
                      "bigimg":["./static/img/pic2/lingshi/p7/a1.jpg","./static/img/pic2/lingshi/p7/a2.jpg","./static/img/pic2/lingshi/p7/a3.jpg"],
@@ -732,7 +980,11 @@
                      "price":"5.90",
                      "comment": 273,
                      "buy":851
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/lingshi/p8/c.jpg",
                      "bigimg":["./static/img/pic2/lingshi/p8/a1.jpg","./static/img/pic2/lingshi/p8/a2.jpg","./static/img/pic2/lingshi/p8/a3.jpg"],
@@ -752,7 +1004,11 @@
                      "price":"35.90",
                      "comment": 273,
                      "buy":2584
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/baojian/p2/c.jpg",
                      "bigimg":["./static/img/pic2/baojian/p2/a1.jpg","./static/img/pic2/baojian/p2/a2.jpg","./static/img/pic2/baojian/p2/a3.jpg"],
@@ -761,7 +1017,11 @@
                      "price":"98.90",
                      "comment": 378,
                      "buy":20181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/baojian/p3/c.jpg",
                      "bigimg":["./static/img/pic2/baojian/p3/a1.jpg","./static/img/pic2/baojian/p3/a2.jpg","./static/img/pic2/baojian/p3/a3.jpg"],
@@ -770,7 +1030,11 @@
                      "price":"39.70",
                      "comment": 463,
                      "buy":1281
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/baojian/p4/c.jpg",
                      "bigimg":["./static/img/pic2/baojian/p4/a1.jpg","./static/img/pic2/baojian/p4/a2.jpg","./static/img/pic2/baojian/p4/a3.jpg"],
@@ -779,7 +1043,11 @@
                      "price":"35.00",
                      "comment": 274,
                      "buy":581
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/baojian/p5/c.jpg",
                      "bigimg":["./static/img/pic2/baojian/p5/a1.jpg","./static/img/pic2/baojian/p5/a2.jpg","./static/img/pic2/baojian/p5/a3.jpg"],
@@ -788,7 +1056,11 @@
                      "price":"9.90",
                      "comment": 73,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/baojian/p6/c.jpg",
                      "bigimg":["./static/img/pic2/baojian/p6/a1.jpg","./static/img/pic2/baojian/p6/a2.jpg","./static/img/pic2/baojian/p6/a3.jpg"],
@@ -797,7 +1069,11 @@
                      "price":"219.90",
                      "comment": 273,
                      "buy":583
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/baojian/p7/c.jpg",
                      "bigimg":["./static/img/pic2/baojian/p7/a1.jpg","./static/img/pic2/baojian/p7/a2.jpg","./static/img/pic2/baojian/p7/a3.jpg"],
@@ -806,7 +1082,11 @@
                      "price":"99.90",
                      "comment": 373,
                      "buy":1081
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/baojian/p8/c.jpg",
                      "bigimg":["./static/img/pic2/baojian/p8/a1.jpg","./static/img/pic2/baojian/p8/a2.jpg","./static/img/pic2/baojian/p8/a3.jpg"],
@@ -815,7 +1095,11 @@
                      "price":"32.90",
                      "comment": 53,
                      "buy":781
+<<<<<<< HEAD
                    }
+=======
+                   } 
+>>>>>>> neng
                   ],
                   "yiliao":[
                {
@@ -826,7 +1110,11 @@
                      "price":"22.90",
                      "comment":1383,
                      "buy":3181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yiliao/p2/c.jpg",
                      "bigimg":["./static/img/pic2/yiliao/p2/a1.jpg","./static/img/pic2/yiliao/p2/a2.jpg","./static/img/pic2/yiliao/p2/a3.jpg"],
@@ -835,7 +1123,11 @@
                      "price":"42.90",
                      "comment": 573,
                      "buy":881
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yiliao/p3/c.jpg",
                      "bigimg":["./static/img/pic2/yiliao/p3/a1.jpg","./static/img/pic2/yiliao/p3/a2.jpg","./static/img/pic2/yiliao/p3/a3.jpg"],
@@ -844,7 +1136,11 @@
                      "price":"25.20",
                      "comment": 483,
                      "buy":1581
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yiliao/p4/c.jpg",
                      "bigimg":["./static/img/pic2/yiliao/p4/a1.jpg","./static/img/pic2/yiliao/p4/a2.jpg","./static/img/pic2/yiliao/p4/a3.jpg"],
@@ -853,7 +1149,11 @@
                      "price":"25.00",
                      "comment": 483,
                      "buy":4281
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yiliao/p5/c.jpg",
                      "bigimg":["./static/img/pic2/yiliao/p5/a1.jpg","./static/img/pic2/yiliao/p5/a2.jpg","./static/img/pic2/yiliao/p5/a3.jpg"],
@@ -862,7 +1162,11 @@
                      "price":"126.90",
                      "comment": 313,
                      "buy":2181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yiliao/p6/c.jpg",
                      "bigimg":["./static/img/pic2/yiliao/p6/a1.jpg","./static/img/pic2/yiliao/p6/a2.jpg","./static/img/pic2/yiliao/p6/a3.jpg"],
@@ -871,7 +1175,11 @@
                      "price":"29.90",
                      "comment": 73,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yiliao/p7/c.jpg",
                      "bigimg":["./static/img/pic2/yiliao/p7/a1.jpg","./static/img/pic2/yiliao/p7/a2.jpg","./static/img/pic2/yiliao/p7/a3.jpg"],
@@ -880,7 +1188,11 @@
                      "price":"5.30",
                      "comment": 723,
                      "buy":1883
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yiliao/p8/c.jpg",
                      "bigimg":["./static/img/pic2/yiliao/p8/a1.jpg","./static/img/pic2/yiliao/p8/a2.jpg","./static/img/pic2/yiliao/p8/a3.jpg"],
@@ -889,7 +1201,11 @@
                      "price":"13.50",
                      "comment": 113,
                      "buy":1381
+<<<<<<< HEAD
                    }
+=======
+                   }                   
+>>>>>>> neng
                   ],
                   "xiangbo":[
                  {
@@ -900,7 +1216,11 @@
                      "price":"16.90",
                      "comment": 373,
                      "buy":1642
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/xiangbo/p2/c.jpg",
                      "bigimg":["./static/img/pic2/xiangbo/p2/a1.jpg","./static/img/pic2/xiangbo/p2/a2.jpg","./static/img/pic2/xiangbo/p2/a3.jpg"],
@@ -909,7 +1229,11 @@
                      "price":"54.30",
                      "comment": 73,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/xiangbo/p3/c.jpg",
                      "bigimg":["./static/img/pic2/xiangbo/p3/a1.jpg","./static/img/pic2/xiangbo/p3/a2.jpg","./static/img/pic2/xiangbo/p3/a3.jpg"],
@@ -918,7 +1242,11 @@
                      "price":"42.90",
                      "comment": 973,
                      "buy":3381
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/xiangbo/p4/c.jpg",
                      "bigimg":["./static/img/pic2/xiangbo/p4/a1.jpg","./static/img/pic2/xiangbo/p4/a2.jpg","./static/img/pic2/xiangbo/p4/a3.jpg"],
@@ -927,7 +1255,11 @@
                      "price":"31.20",
                      "comment": 644,
                      "buy":2381
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/xiangbo/p5/c.jpg",
                      "bigimg":["./static/img/pic2/xiangbo/p5/a1.jpg","./static/img/pic2/xiangbo/p5/a2.jpg","./static/img/pic2/xiangbo/p5/a3.jpg"],
@@ -936,7 +1268,11 @@
                      "price":"24.30",
                      "comment": 73,
                      "buy":411
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/xiangbo/p6/c.jpg",
                      "bigimg":["./static/img/pic2/xiangbo/p6/a1.jpg","./static/img/pic2/xiangbo/p6/a2.jpg","./static/img/pic2/xiangbo/p6/a3.jpg"],
@@ -945,7 +1281,11 @@
                      "price":"14.30",
                      "comment": 53,
                      "buy":436
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/xiangbo/p7/c.jpg",
                      "bigimg":["./static/img/pic2/xiangbo/p7/a1.jpg","./static/img/pic2/xiangbo/p7/a2.jpg","./static/img/pic2/xiangbo/p7/a3.jpg"],
@@ -954,7 +1294,11 @@
                      "price":"9.90",
                      "comment": 73,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/xiangbo/p8/c.jpg",
                      "bigimg":["./static/img/pic2/xiangbo/p8/a1.jpg","./static/img/pic2/xiangbo/p8/a2.jpg","./static/img/pic2/xiangbo/p8/a3.jpg"],
@@ -963,7 +1307,11 @@
                      "price":"45.00",
                      "comment": 723,
                      "buy":2581
+<<<<<<< HEAD
                    }
+=======
+                   } 
+>>>>>>> neng
                   ],
                   "yongpin":[
                {
@@ -974,7 +1322,11 @@
                      "price":"9.90",
                      "comment": 358,
                      "buy":1281
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yongpin/p2/c.jpg",
                      "bigimg":["./static/img/pic2/yongpin/p2/a1.jpg","./static/img/pic2/yongpin/p2/a2.jpg","./static/img/pic2/yongpin/p2/a3.jpg"],
@@ -983,7 +1335,11 @@
                      "price":"13.50",
                      "comment": 3458,
                      "buy":12181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yongpin/p3/c.jpg",
                      "bigimg":["./static/img/pic2/yongpin/p3/a1.jpg","./static/img/pic2/yongpin/p3/a2.jpg","./static/img/pic2/yongpin/p3/a3.jpg"],
@@ -992,7 +1348,11 @@
                      "price":"9.90",
                      "comment": 58,
                      "buy":181
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yongpin/p4/c.jpg",
                      "bigimg":["./static/img/pic2/yongpin/p4/a1.jpg","./static/img/pic2/yongpin/p4/a2.jpg","./static/img/pic2/yongpin/p4/a3.jpg"],
@@ -1001,7 +1361,11 @@
                      "price":"59.30",
                      "comment": 358,
                      "buy":1281
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yongpin/p5/c.jpg",
                      "bigimg":["./static/img/pic2/yongpin/p5/a1.jpg","./static/img/pic2/yongpin/p5/a2.jpg","./static/img/pic2/yongpin/p5/a3.jpg"],
@@ -1010,7 +1374,11 @@
                      "price":"79.20",
                      "comment": 562,
                      "buy":1801
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yongpin/p6/c.jpg",
                      "bigimg":["./static/img/pic2/yongpin/p6/a1.jpg","./static/img/pic2/yongpin/p6/a2.jpg","./static/img/pic2/yongpin/p6/a3.jpg"],
@@ -1019,7 +1387,11 @@
                      "price":"19.50",
                      "comment": 458,
                      "buy":1281
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yongpin/p7/c.jpg",
                      "bigimg":["./static/img/pic2/yongpin/p7/a1.jpg","./static/img/pic2/yongpin/p7/a2.jpg","./static/img/pic2/yongpin/p7/a3.jpg"],
@@ -1028,7 +1400,11 @@
                      "price":"5.30",
                      "comment": 1058,
                      "buy":15781
+<<<<<<< HEAD
                    },
+=======
+                   }, 
+>>>>>>> neng
                    {
                      "smallimg":"./static/img/pic2/yongpin/p8/c.jpg",
                      "bigimg":["./static/img/pic2/yongpin/p8/a1.jpg","./static/img/pic2/yongpin/p8/a2.jpg","./static/img/pic2/yongpin/p8/a3.jpg"],
@@ -1037,8 +1413,16 @@
                      "price":"20.30",
                      "comment": 58,
                      "buy":181
+<<<<<<< HEAD
                    }
                   ]
 		}
 	}
 }
+=======
+                   } 
+                  ]
+		}
+	}
+}
+>>>>>>> neng
