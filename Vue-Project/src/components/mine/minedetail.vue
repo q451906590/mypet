@@ -22,6 +22,7 @@
 				
 			}
 		},
+		
 		methods:{
 			back(){
 				this.$router.push({path:"/mine"})
@@ -43,6 +44,7 @@
 <style lang="scss" scoped type="text/css">
 	@import "../../assets/func.scss";
 	.minedetail{
+		font-size:px2em(20px);
 		.head{
 		 height:px2em(80px);
 		 overflow:hidden;

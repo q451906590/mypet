@@ -20,7 +20,9 @@ const store = new Vuex.Store({
 			value:"",
 			title:""
 		},
-		showcart:false
+		showcart:false,
+		col:1,
+		messageArr:[]
 	},
 	mutations:{
 		CHANGE_TYPE(state,obj){
@@ -49,6 +51,12 @@ const store = new Vuex.Store({
 		},
 		CHANGE_SHOWCART(state,bol){
 			state.showcart=bol
+		},
+		CHANGE_COLOR(state,num){
+			state.col=num
+		},
+		SEND_MESSAGE(state,arr){
+			state.messageArr = arr;
 		}
 	},
 	actions:{
@@ -72,6 +80,12 @@ const store = new Vuex.Store({
 		},
 		changeshowcart({commit},bol){
 			commit("CHANGE_SHOWCART",bol)
+		},
+		changescolor({commit},num){
+			commit("CHANGE_COLOR",num)
+		},
+		sendMessage({commit},arr){
+			commit("SEND_MESSAGE",arr)
 		}
 	}
 })

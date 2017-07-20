@@ -1,7 +1,7 @@
 <template>
 	<div class="mine">
 		<div class="head">
-		   <span class="fa fa-angle-left back"></span>
+		   <span class="fa fa-angle-left back" @click="backhome"></span>
 		   <p>个人主页</p >
   		</div>	
   		<div class="wrap">
@@ -59,6 +59,9 @@
 </template>
 
 <script>
+	import axios from 'axios'
+	import product from "../../static/product.json"
+	import search from "../../static/search.json"
 	export default{
 		data:function(){
 			return {
@@ -79,17 +82,75 @@
 				this.$router.push({path:"/account"})
 			},
 			coupon(){
-				this.$router.push({path:"/coupon"})
+				this.$router.push({path:"/cue"});				
 			},
 			gift(){
-				this.$router.push({path:"/gift"})
+				this.$router.push({path:"/gift"});	
 			},
 			favour(){
-				this.$router.push({path:"/favour"})
+				this.$router.push({path:"/favour"});	
 			},
 			person(){
 				this.$router.push({path:"/account"})
 			}
+		},
+		mounted:function(){
+			axios.get("http://3.class11.applinzi.com/user.php",{
+		         params:{
+		           user:this.$store.state.user,
+		           action:"select"
+		      }
+		    }).then((res)=>{ 
+		     	var data = res.data.split("|");
+		     	for(var i=0;i<data.length-1;i++){
+		     		data[i]=JSON.parse(data[i]);
+		     	}
+		     	var arr = [];
+				var messageArr = data;
+				for(var i=0;i<messageArr.length;i++){					
+					if(messageArr[i].pet=="prod"){	
+						for(var l in product){
+							if(l=="dog"||l=="cat"){
+								for(var j = 0;j<product[l].length;j++){						
+								for(var k = 0;k<product[l][j].content.length;k++){
+									if(messageArr[i].name==product[l][j].content[k].name){
+										var obj  =  product[l][j].content[k];
+										var prod={
+											smallimg:obj.img,
+											num:messageArr[i].num,
+											price:obj.price,
+											title:obj.name,
+										}
+										arr.push(prod);	
+									}
+								}
+							  }
+							}							
+						}						
+					}else{						
+						for(var k in search.result){							
+							for(var j in search.result[k]){							
+								for(var l in search.result[k][j]){
+									if(messageArr[i].name==search.result[k][j][l].title){
+									var obj  =  search.result[k][j][l];
+										obj.num = messageArr[i].num;
+										var prod={
+											smallimg:obj.smallimg,
+											num:messageArr[i].num,
+											price:obj.price,
+											title:obj.title,
+										}
+										arr.push(prod);
+								 }
+								}
+							}
+						}
+					}
+				}
+				console.log(arr);
+		     	this.$store.dispatch("sendMessage",arr);
+		     	
+		     })
 		}
 	}
 </script>
@@ -223,6 +284,7 @@
 			height: px2em(400px);
 			position: relative;
 			img{
+				width: px2em(120px);
 				position: absolute;
 				top: 50%;
 				left: px2em(30px);
