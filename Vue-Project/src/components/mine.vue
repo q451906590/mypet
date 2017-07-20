@@ -9,18 +9,18 @@
   			<md-avatar class="md-large top">
 			  	<img src="../../static/img/mine/head.gif" alt="无法加载" @click="person">
 			</md-avatar>
-			<p class="username">{{username}}</p>
+			<p class="username">mobo{{username}}</p>
 			<div class="level">
 				<img src="../../static/img/mine/level.png" alt="无法加载" /><span>1</span>
 			</div>
   		</div>
   		<div class="shoppinglist">
-  			<h4 class="shop">商城订单</h4>
+  			<h4 class="shop" @click="mydetail">商城订单 <span class="fa fa-angle-right goshop"></span></h4>
   			<div class="list" @click="mydetail">
   				<img src="../../static/img/mine/wallet.png"/>
   				<p>待付款</p>
   			</div>
-  			<div class="list" @click="mydetail">
+  			<div class="list" @click="no">
   				<img src="../../static/img/mine/car.png"/>
   				<p>待发货</p>
   			</div>
@@ -65,7 +65,7 @@
 	export default{
 		data:function(){
 			return {
-				username:"mobo1357944"			
+				username:this.$store.state.user.substring(7,11)			
 			}
 		},
 		methods:{
@@ -105,51 +105,10 @@
 		     	for(var i=0;i<data.length-1;i++){
 		     		data[i]=JSON.parse(data[i]);
 		     	}
-		     	var arr = [];
 				var messageArr = data;
-				for(var i=0;i<messageArr.length;i++){					
-					if(messageArr[i].pet=="prod"){	
-						for(var l in product){
-							if(l=="dog"||l=="cat"){
-								for(var j = 0;j<product[l].length;j++){						
-								for(var k = 0;k<product[l][j].content.length;k++){
-									if(messageArr[i].name==product[l][j].content[k].name){
-										var obj  =  product[l][j].content[k];
-										var prod={
-											smallimg:obj.img,
-											num:messageArr[i].num,
-											price:obj.price,
-											title:obj.name,
-										}
-										arr.push(prod);	
-									}
-								}
-							  }
-							}							
-						}						
-					}else{						
-						for(var k in search.result){							
-							for(var j in search.result[k]){							
-								for(var l in search.result[k][j]){
-									if(messageArr[i].name==search.result[k][j][l].title){
-									var obj  =  search.result[k][j][l];
-										obj.num = messageArr[i].num;
-										var prod={
-											smallimg:obj.smallimg,
-											num:messageArr[i].num,
-											price:obj.price,
-											title:obj.title,
-										}
-										arr.push(prod);
-								 }
-								}
-							}
-						}
-					}
-				}
-				console.log(arr);
-		     	this.$store.dispatch("sendMessage",arr);
-		     	
+				messageArr.pop()
+				console.log(messageArr);
+		     	this.$store.dispatch("sendMessage",messageArr);
 		     })
 		}
 	}
@@ -227,6 +186,13 @@
 			font-size: px2em(30px);
 			font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 			background-Color:#fff;
+			.goshop{
+			    float: right;
+			    color: #fc4a00;
+			    font-size: px2em(50px);
+			    margin-right: px2em(30px);
+			    margin-top: px2em(10px);
+			   }
 			.shop{
 				height: px2em(80px);
 				line-height:px2em(80px);

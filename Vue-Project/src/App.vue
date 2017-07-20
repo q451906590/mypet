@@ -10,6 +10,14 @@ export default {
 }
 </script>
 
-<style>
-
+<style  lang="scss"  type="text/css">
+@import "assets/func.scss";
+.mint-toast{
+	width: 200px;
+	height: 80px;
+	span{
+		font-size: px2em(35px);
+		margin-top: px2em(18px);
+	}
+}
 </style>

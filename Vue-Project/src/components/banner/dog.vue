@@ -68,6 +68,7 @@ export default{
 			var obj={
 				banner:banner,
 				index:index,
+				pet:"dog",
 				json:"prod",
 			}
 			this.$store.dispatch("changedetail",obj);
@@ -94,6 +95,11 @@ export default{
 	overflow:hidden;
 	padding-left: 0;
 	padding-right: 0;
+	.title{
+		img{
+			width: 100%;
+		}
+	}
 	.big{
 		width:px2em(335px);
 		float: left;

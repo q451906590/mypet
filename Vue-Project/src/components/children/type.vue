@@ -39,10 +39,12 @@ export default{
 			if(id=="search"){
 				this.$router.push({name:id,params:{bol:false}})
 				var keyword={
+					title:title,
 					value:value,
-					title:title
 				}
+				console.log(keyword)
 				this.$store.dispatch("changekeyword",keyword)
+				console.log(this.$store.state.keyword)
 			}
 			window.event.stopPropagation()
 		}

@@ -19,17 +19,20 @@
   			<img src="../../../static/img/mine/home.png" alt="无法加载" @click="backhome"/>
   			
   		</div>
-  		<md-button class="md-raised md-warn">退出当前账户</md-button>
+  		<md-button class="md-raised md-warn" @click="logout">退出当前账户</md-button>
+  		 
 	</div>
 </template>
 
 <script>
+	import { Toast } from 'mint-ui';
 	export default{
 		data:function(){
 			return{
 				person:{
 					phone:"137*****521"
-				}
+				},
+				show2: true
 			}
 		},
 		methods:{
@@ -38,6 +41,18 @@
 			},
 			back(){
 				this.$router.push({path:"/mine"});
+			},
+			logout(){
+				this.$store.dispatch("changeuser","");
+				this.$store.dispatch("sendMessage","")
+				Toast({
+				  message: '退出成功',
+				  position: 'middle',
+				  duration: 600
+				});
+				setTimeout(()=>{
+					this.$router.push({path:"/"})
+				},600)
 			}
 		}
 	}
@@ -46,11 +61,14 @@
 <style lang="scss" scoped type="text/css">
 @import "../../assets/func.scss";
 .account{
+	  position:relative;
 	 background-Color:#efefef;
+	 
 	.head{
 		 height:px2em(80px);
 		 overflow:hidden;
 		 background-Color:#fff;
+		 
 		 .back{
 		  font-size: px2em(60px);
 		  margin-left:  px2em(10px);
@@ -92,7 +110,11 @@
 			.right2{
 				float: right;
 		     	color: darkslategray;
+
+			    /*font-size: px2em(28px);*/
+
 			    font-size: px2em(28px);
+
 				margin-right: px2em(50px);
 			}
 			.left{
@@ -105,7 +127,10 @@
 			position: relative;
 			img{
 				position: absolute;
+
+
 				width: px2em(120px);
+
 				top: 50%;
 				left: px2em(30px);
 				transform: translateY(-50%);

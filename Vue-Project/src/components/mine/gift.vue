@@ -85,10 +85,17 @@
 			margin:px2em(70px) px2em(30px) 0 px2em(90px);
 		}
 			.el-button{
+				width: px2em(120px);
+				height: px2em(60px);
 				background-color: #fc4a00;
 				border-color:#fc4a00;
 				font-size: px2em(30px);
 				font-weight: bolder;
+			}
+			.el-input{
+				display: inline-block;
+				width: px2em(300px);
+				font-size: px2em(30px);
 			}
 		}
 		.gray {

@@ -1,7 +1,7 @@
 <template>
- <div class="login">
+ <div class="register" v-loading="loading" element-loading-text="拼命加载中">
   <div class="head">
-   <span class="fa fa-angle-left back"></span>
+   <span class="fa fa-angle-left back" @click="backhome"></span>
    <p>新用户注册</p >
    <span class="register" @click="goto">登录</span>
   </div>
@@ -66,12 +66,16 @@
     yzmbol:false,
     yzmres:"",
     mes:"",
-    blurbol:""
+    blurbol:"",
+    loading:false
    }
   },
   methods:{
    goto(){
     this.$router.push({path:"login"})
+   },
+   backhome(){
+   	 this.$router.push({path:"/"})
    },
    register(){
    	if(!(/^1[3|4|5|7|8][0-9]\d{8}$/.test(this.tel))){
@@ -90,6 +94,7 @@
    		
    	}
    	else{
+   		this.loading=true
    		axios.get("http://3.class11.applinzi.com/user.php",{
    			params:{
     				user:this.tel,
@@ -98,7 +103,9 @@
 			}
 		}).then((res)=>{
 			if(res.data=="注册成功"){
-				console.log(res)
+				this.loading=false;
+				this.$store.dispatch("changeuser",this.tel)
+				this.$router.push({name:"mine"})
 			}
 		
 		})
@@ -154,7 +161,8 @@
 .head{
  height:px2em(60px);
  overflow:hidden;
- .back{
+ .back{	
+ color:#fc4a00;
   font-size: px2em(60px);
   margin-left:  px2em(10px);
   float:left;

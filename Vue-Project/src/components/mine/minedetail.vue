@@ -22,13 +22,15 @@
 				
 			}
 		},
+
+
 		
+
 		methods:{
 			back(){
 				this.$router.push({path:"/mine"})
 			},
 			go(){	
-				console.log(this.$el.querySelector(".md-active span").innerText)
 				if(this.$el.querySelector(".md-active span").innerText=="全部"){
 					this.$router.push({path:"all"})
 				}else if(this.$el.querySelector(".md-active span").innerText=="待付款"){
@@ -44,6 +46,7 @@
 <style lang="scss" scoped type="text/css">
 	@import "../../assets/func.scss";
 	.minedetail{
+
 		font-size:px2em(20px);
 		.head{
 		 height:px2em(80px);

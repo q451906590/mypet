@@ -13,6 +13,8 @@ import user from '@/components/user'
 import login from '@/components/user/login'
 import register from '@/components/user/register'
 import search from '@/components/search'
+import cart from '@/components/cart'
+import total from '@/components/shoppingcart/total'
 import mine from '@/components/mine'
 import minedetail from '@/components/mine/minedetail'
 import all from '@/components/mine/all'
@@ -23,10 +25,7 @@ import cue from '@/components/mine/cue'
 import have from '@/components/mine/have'
 import gift from '@/components/mine/gift'
 import favour from '@/components/mine/favour'
-
-
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -93,7 +92,18 @@ export default new Router({
     		path:"/search",
     		name:'search',
     		component:search
+
+   },  
+    {
+    		path:"/cart",
+    		name:'cart',
+    		component:cart
    }, 
+   {
+    		path:"/total",
+    		name:'total',
+    		component:total
+   },  
    {
    		path:"/mine",
    		name:"mine",
@@ -123,6 +133,7 @@ export default new Router({
    		path:"/account",
    		name:"account",
    		component:account	
+
    },
    {
    		path:"/cue",
@@ -149,6 +160,7 @@ export default new Router({
    		path:"/favour",
    		name:"favour",
    		component:favour	,
+
    }
   ]
 })

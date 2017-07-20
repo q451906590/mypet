@@ -33,16 +33,22 @@ import search from "../../../static/search.json"
 		},
 		data(){
 			return{
-				name:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].name:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].title,
-				price:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].price:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price,
-				oldprice:this.$store.state.detail.json=="prod"?Math.round((prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].price*1.1)*100)/100:Math.round((search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price*1.1)*100)/100,
-				buy:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].buy:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].buy,
+				name:this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].name:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].title,
+				price:this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].price:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price,
+				oldprice:this.$store.state.detail.json=="prod"?Math.round((prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].price*1.1)*100)/100:Math.round((search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price*1.1)*100)/100,
+				buy:this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].buy:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].buy,
 				loading:false
 			}
 		},
 		mounted:function(){
-	
+			console.log(this.$store.state.detail.pet)
 		},
+		watch:{
+			name(){
+				console.log(123)	
+			}
+		},
+		
 		methods:{
 			goto(id){
 				this.loading=true
@@ -51,8 +57,6 @@ import search from "../../../static/search.json"
 						this.$router.push({path:id})
 						this.$store.dispatch("changearr",[false,true,false])
 				},2000)
-					
-				
 			}
 		}
 	}

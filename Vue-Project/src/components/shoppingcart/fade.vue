@@ -18,7 +18,7 @@
 			
 		</div>
 		<div class="add">
-			<span>数量：</span><el-input-number v-model="num" :min="1" :max="10" size="large"></el-input-number>
+			<span>数量：</span><el-input-number v-model="num" :min="1" :max="10" size="large" @change="change"></el-input-number>
 		</div>
 			</div>
 		</transition>
@@ -33,10 +33,27 @@ import prod from "../../../static/product.json"
 		mounted:function(){
 			var cart=document.querySelector(".addcart");
 			this.$el.style.height=window.scrollY+window.innerHeight-cart.offsetHeight+"px";
+			var obj={
+					name:this.name,
+					num:this.num,
+					smallimg:this.img,
+					price:this.price
+			}
+			this.$store.dispatch("changeaddprod",obj)
 		},
+
 		methods:{
 			fadeout(){
 				this.$store.dispatch("changeshowcart",false)
+			},
+			change(){
+				var obj={
+					name:this.name,
+					num:this.num,
+					smallimg:this.img,
+					price:this.price
+				}
+				this.$store.dispatch("changeaddprod",obj)
 			}
 		},
 		computed:{
@@ -49,9 +66,10 @@ import prod from "../../../static/product.json"
 				name:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].name:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].title,
 				price:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].price:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price,
 				img:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].img:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].smallimg,
-				num:""
+				num:0
 			}
 		}
+		
 	}
 </script>
 
