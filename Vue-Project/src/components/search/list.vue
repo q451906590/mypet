@@ -31,14 +31,58 @@
 					buy:true,
 					price:true,
 					comment:true
-				}
+				},
+				title:"",
+				value:""
 			}
 		},
 		computed:{
 			keyword(){
-				if(this.$store.state.keyword.title="狗狗"){
+				if(this.$store.state.keyword.title=="狗狗"){
+					this.title="dog"
 					if(this.$store.state.keyword.value=="罐头"){
+						this.value="guantou"
 						this.listarr=search.result.dog.guantou;	
+					}else if(this.$store.state.keyword.value=="零食"){
+						this.value="lingshi"
+						this.listarr=search.result.dog.lingshi;	
+					}else if(this.$store.state.keyword.value=="保健"){
+						this.value="baojian"
+						this.listarr=search.result.dog.baojian;	
+					}else if(this.$store.state.keyword.value=="医疗"){
+						this.value="yiliao"
+						this.listarr=search.result.dog.yiliao;	
+					}else if(this.$store.state.keyword.value=="香波"){
+						this.value="xiangbo"
+						this.listarr=search.result.dog.xiangbo;	
+					}else if(this.$store.state.keyword.value=="用品"){
+						this.value="yongpin"
+						this.listarr=search.result.dog.yongpin;	
+					}
+				}else if(this.$store.state.keyword.title=="猫猫"){
+					this.title="cat"
+					if(this.$store.state.keyword.value=="干粮"){
+						this.value="dry"
+						this.listarr=search.result.cat.dry;	
+					}
+					else if(this.$store.state.keyword.value=="湿粮"){
+						this.value="wet"
+						this.listarr=search.result.cat.wet;	
+					}else if(this.$store.state.keyword.value=="零食"){
+						this.value="lingshi"
+						this.listarr=search.result.cat.lingshi;	
+					}else if(this.$store.state.keyword.value=="保健"){
+						this.value="baojian"
+						this.listarr=search.result.cat.baojian;	
+					}else if(this.$store.state.keyword.value=="医疗"){
+						this.value="yiliao"
+						this.listarr=search.result.cat.yiliao;	
+					}else if(this.$store.state.keyword.value=="香波"){
+						this.value="xiangbo"
+						this.listarr=search.result.cat.xiangbo;	
+					}else if(this.$store.state.keyword.value=="用品"){
+						this.value="yongpin"
+						this.listarr=search.result.cat.yongpin;	
 					}
 				}
 				
@@ -47,10 +91,12 @@
 		},
 		watch:{
 			keyword(){
+				console.log(this.$store.state.keyword)
 				console.log(123)
 			}
 		},
 		mounted:function(){
+//			console.log(this.$store.state.keyword)
 			for(var i =0;i<this.listarr.length;i++){
 				this.oldarr.push(this.listarr[i])
 			}
@@ -59,8 +105,8 @@
 			goto(index){
 				this.$router.push({path:"/detail"})
 				var obj={
-					pet:"dog",
-					type:"guantou",
+					pet:this.title,
+					type:this.value,
 					index:index,
 					json:"search"
 				}
@@ -76,7 +122,9 @@
 					}
 				}else{
 					for(var i in this.bol){
-						this.bol[i]=true;
+						if(i!=id){
+						 this.bol[i]=true;	
+						}
 					}
 						this.bol[id]=!this.bol[id]
 						this.listarr.sort(this.compare(id))
