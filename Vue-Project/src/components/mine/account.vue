@@ -92,7 +92,11 @@
 			.right2{
 				float: right;
 		     	color: darkslategray;
+<<<<<<< HEAD
 			    /*font-size: px2em(28px);*/
+=======
+			    font-size: px2em(28px);
+>>>>>>> ruan
 				margin-right: px2em(50px);
 			}
 			.left{
@@ -105,6 +109,10 @@
 			position: relative;
 			img{
 				position: absolute;
+<<<<<<< HEAD
+=======
+				width: px2em(120px);
+>>>>>>> ruan
 				top: 50%;
 				left: px2em(30px);
 				transform: translateY(-50%);

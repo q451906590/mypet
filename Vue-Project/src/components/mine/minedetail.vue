@@ -22,6 +22,10 @@
 				
 			}
 		},
+<<<<<<< HEAD
+=======
+		
+>>>>>>> ruan
 		methods:{
 			back(){
 				this.$router.push({path:"/mine"})
@@ -43,6 +47,10 @@
 <style lang="scss" scoped type="text/css">
 	@import "../../assets/func.scss";
 	.minedetail{
+<<<<<<< HEAD
+=======
+		font-size:px2em(20px);
+>>>>>>> ruan
 		.head{
 		 height:px2em(80px);
 		 overflow:hidden;

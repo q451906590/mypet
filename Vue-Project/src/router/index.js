@@ -13,14 +13,26 @@ import user from '@/components/user'
 import login from '@/components/user/login'
 import register from '@/components/user/register'
 import search from '@/components/search'
+<<<<<<< HEAD
 import cart from '@/components/cart'
 import total from '@/components/shoppingcart/total'
+=======
+>>>>>>> ruan
 import mine from '@/components/mine'
 import minedetail from '@/components/mine/minedetail'
 import all from '@/components/mine/all'
 import pay from '@/components/mine/pay'
 import no from '@/components/mine/no'
 import account from '@/components/mine/account'
+<<<<<<< HEAD
+=======
+import cue from '@/components/mine/cue'
+import have from '@/components/mine/have'
+import gift from '@/components/mine/gift'
+import favour from '@/components/mine/favour'
+
+
+>>>>>>> ruan
 Vue.use(Router)
 
 export default new Router({
@@ -89,6 +101,7 @@ export default new Router({
     		path:"/search",
     		name:'search',
     		component:search
+<<<<<<< HEAD
    },  
     {
     		path:"/cart",
@@ -100,6 +113,10 @@ export default new Router({
     		name:'total',
     		component:total
    }, {
+=======
+   }, 
+   {
+>>>>>>> ruan
    		path:"/mine",
    		name:"mine",
    		component:mine		   		
@@ -128,6 +145,35 @@ export default new Router({
    		path:"/account",
    		name:"account",
    		component:account	
+<<<<<<< HEAD
+=======
+   },
+   {
+   		path:"/cue",
+   		name:"cue",
+   		component:cue,
+   		redirect:"cue/have",
+   		children:[
+   			{
+   				path:"no",
+				component:no
+   			},
+   			{
+   				path:"have",
+   				component:have
+   			}
+   		]
+   },
+   {
+   		path:"/gift",
+   		name:"gift",
+   		component:gift	,
+   },
+   {
+   		path:"/favour",
+   		name:"favour",
+   		component:favour	,
+>>>>>>> ruan
    }
   ]
 })
