@@ -9,6 +9,9 @@ import store from './store/store'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 import $ from 'jquery'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+Vue.use(MintUI);
 Vue.config.productionTip = false
 Vue.use(VueMaterial)
 Vue.use(ElementUI)
@@ -31,11 +34,12 @@ Vue.material.registerTheme('gray', {
   background: 'gray'
 })
 Vue.material.registerTheme('green', {
-  primary: 'blue',
+  primary: 'green',
   accent: 'green',
-  warn: 'red',
+  warn: 'green',
   background: 'gray'
 })
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -22,12 +22,12 @@
 	 <md-card-header>热门活动</md-card-header>
 	 <md-card-content>
 
-	 	<div class="myswiper" v-for="item in cat">
+	 	<div class="myswiper" v-for="(item,banner) in cat">
 	 		<div class="swiper-title">
 	 			<img :src="item.title" alt="" />
 	 		</div>
 	 	<swiper :options="swiperOption">
-	      <swiper-slide v-for="slide in item.content"> 
+	      <swiper-slide v-for="(slide,index) in item.content" @click.native="gotodeatil(banner,index)"> 
 	      	<img :src="slide.img"/>
 	      	<p class="text">{{slide.name}}</p>
 	      	<p class="price">{{slide.price}}元</p>
@@ -63,6 +63,18 @@ export default{
         }
 		}
 	},
+	methods:{
+		gotodeatil(banner,index,pet){
+			var obj={
+				banner:banner,
+				index:index,
+				pet:"cat",
+				json:"prod",
+			}
+			this.$store.dispatch("changedetail",obj);
+			this.$router.push({path:"detail"})
+		}
+	},
 	mounted:function(){
 		var text=this.$el.querySelectorAll(".text");
 		for(var i=0;i<text.length;i++){
@@ -83,6 +95,11 @@ export default{
 	overflow:hidden;
 	padding-left: 0;
 	padding-right: 0;
+	.title{
+		img{
+			width: 100%;
+		}
+	}
 	.big{
 		width:px2em(335px);
 		float: left;

@@ -20,7 +20,16 @@ export default{
 	
 	methods:{
 		goto(id){
-			this.$router.push({path:"/"+id})
+			if(id=="user"){
+				console.log(this.$store.state.user)
+				if(this.$store.state.user==""){
+					this.$router.push({path:"/"+id})
+				}else{
+					this.$router.push({path:"/mine"})
+				}
+			}else{
+				this.$router.push({path:"/"+id})	
+			}
 		}
 	}
 }

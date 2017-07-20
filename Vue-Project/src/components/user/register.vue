@@ -154,7 +154,8 @@
 .head{
  height:px2em(60px);
  overflow:hidden;
- .back{
+ .back{	
+ color:#fc4a00;
   font-size: px2em(60px);
   margin-left:  px2em(10px);
   float:left;

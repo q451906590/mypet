@@ -35,7 +35,7 @@ export default{
 	computed:{
 		swiperSlides(){
 			if(this.$store.state.detail.json=="prod"){
-				return prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].swiperimg
+				return prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].swiperimg
 			}else if(this.$store.state.detail.json=="search"){
 				return search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].bigimg
 			}

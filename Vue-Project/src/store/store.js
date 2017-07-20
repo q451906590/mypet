@@ -17,10 +17,18 @@ const store = new Vuex.Store({
 		},
 		view:"",
 		keyword:{
+			title:"",
 			value:"",
-			title:""
 		},
-		showcart:false
+		bannerindex:"",
+		showcart:false,
+		user:"",
+		addprod:{
+			name:"",
+			num:"",
+			pet:""
+		},
+		messageArr:[]
 	},
 	mutations:{
 		CHANGE_TYPE(state,obj){
@@ -34,6 +42,7 @@ const store = new Vuex.Store({
 			state.detail.banner=obj.banner;
 			state.detail.index=obj.index;
 			state.detail.json=obj.json;
+			state.detail.pet=obj.pet;			
 		},
 		CHANGE_DETAIL2(state,obj){
 			state.detail.pet=obj.pet;
@@ -45,11 +54,24 @@ const store = new Vuex.Store({
 			state.view=view
 		},
 		CHANGE_KEYWORD(state,keyword){
-			state.keyword=keyword
+			state.keyword=keyword;
+			
 		},
 		CHANGE_SHOWCART(state,bol){
 			state.showcart=bol
-		}
+		},
+		CHANGE_BANNERINDEX(state,index){
+			state.bannerindex=index
+		},
+		CHANGE_USER(state,user){
+			state.user=user
+		},
+		CHANGE_ADDPROD(state,obj){
+			state.addprod=obj
+		},
+		SEND_MESSAGE(state,arr){
+		   state.messageArr = arr;
+		 }
 	},
 	actions:{
 		changetype({commit},obj){
@@ -72,6 +94,18 @@ const store = new Vuex.Store({
 		},
 		changeshowcart({commit},bol){
 			commit("CHANGE_SHOWCART",bol)
+		},
+		changebannerindex({commit},index){
+			commit("CHANGE_BANNERINDEX",index)
+		},
+		changeuser({commit},user){
+			commit("CHANGE_USER",user)
+		},
+		changeaddprod({commit},obj){
+			commit("CHANGE_ADDPROD",obj)
+		},
+		sendMessage({commit},arr){
+		   commit("SEND_MESSAGE",arr)
 		}
 	}
 })
