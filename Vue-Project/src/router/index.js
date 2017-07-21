@@ -25,6 +25,9 @@ import cue from '@/components/mine/cue'
 import have from '@/components/mine/have'
 import gift from '@/components/mine/gift'
 import favour from '@/components/mine/favour'
+import address from '@/components/mine/address'
+import addaddress from '@/components/mine/addaddress'
+import updateadd from '@/components/mine/updateadd'
 Vue.use(Router)
 export default new Router({
   routes: [
@@ -161,6 +164,21 @@ export default new Router({
    		name:"favour",
    		component:favour	,
 
+   },
+   {
+   		path:"/address",
+   		name:"address",
+   		component:address,
+   },
+   {
+   		path:"/addaddress",
+   		name:"addaddress",
+   		component:addaddress,
+   },
+   {
+   		path:"/updateadd",
+   		name:"updateadd",
+   		component:updateadd,
    }
   ]
 })

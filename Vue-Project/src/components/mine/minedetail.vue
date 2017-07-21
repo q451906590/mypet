@@ -18,8 +18,7 @@
 	export default{
 		data(){
 			return{
-				detailArr:["全部","待付款","待发货","待收货","待评价"]
-				
+				detailArr:["全部","待付款","待发货","待收货","待评价"]			
 			}
 		},
 
@@ -46,7 +45,6 @@
 <style lang="scss" scoped type="text/css">
 	@import "../../assets/func.scss";
 	.minedetail{
-
 		font-size:px2em(20px);
 		.head{
 		 height:px2em(80px);

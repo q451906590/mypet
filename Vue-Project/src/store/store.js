@@ -32,7 +32,8 @@ const store = new Vuex.Store({
 
 		showcart:false,
 		col:1,
-		messageArr:[]
+		messageArr:[],
+		index:-1
 	},
 	mutations:{
 		CHANGE_TYPE(state,obj){
@@ -79,6 +80,9 @@ const store = new Vuex.Store({
 		},
 		SEND_MESSAGE(state,arr){
 			state.messageArr = arr;
+		},
+		CHANGE_INDEX(state,newindex){
+			state.index = newindex
 		}
 
 	},
@@ -120,7 +124,9 @@ const store = new Vuex.Store({
 		},
 		sendMessage({commit},arr){
 			commit("SEND_MESSAGE",arr)
-
+		},
+		changeindex({commit},newindex){
+			commit("CHANGE_INDEX",newindex)
 		}
 	}
 })
