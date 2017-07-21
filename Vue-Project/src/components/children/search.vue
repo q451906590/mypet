@@ -4,11 +4,11 @@
 			<img src="../../../static/img/logo/logo.png"/>
 		</div>
 		<div class="ipt">
-			<span class="fa fa-search search-logo"></span>
-			<input type="text" />
+			<span class="fa fa-search search-logo" @click="goto('keyword')"></span>
+			<input type="text"  @keydown.13="goto('keyword')" v-model="ipt" />
 		</div>
 		<div class="smallicon">
-			<span class="fa fa-group" @click="goto('search')"></span>
+			<img src="../../../static/img/logo/fire.png" alt=""  @click="goto('search')"/>
 			<span class="fa fa-user-o" @click="goto('user')"></span>
 		</div>
 	</div>
@@ -17,18 +17,24 @@
 <script>
 import "../../../static/font/css/font-awesome.css"
 export default{
-	
+	data(){
+		return{
+			ipt:""
+		}
+	},
 	methods:{
 		goto(id){
 			if(id=="user"){
-				console.log(this.$store.state.user)
 				if(this.$store.state.user==""){
 					this.$router.push({path:"/"+id})
 				}else{
 					this.$router.push({path:"/mine"})
 				}
-			}else{
+			}else if(id=="search"){
+				this.$store.dispatch("changekeyword","")
 				this.$router.push({path:"/"+id})	
+			}else if(id=="keyword"){
+				this.$router.push({name:"search",params:{detail:this.ipt}})					
 			}
 		}
 	}
@@ -83,6 +89,9 @@ export default{
 		color: white;
 		span{
 			margin-left:  px2em(15px);
+		}
+		img{
+			width: px2em(45px)
 		}
 	}
 }

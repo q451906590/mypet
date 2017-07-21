@@ -92,7 +92,11 @@
 			.right2{
 				float: right;
 		     	color: darkslategray;
+
 			    /*font-size: px2em(28px);*/
+
+			    font-size: px2em(28px);
+
 				margin-right: px2em(50px);
 			}
 			.left{
@@ -105,6 +109,10 @@
 			position: relative;
 			img{
 				position: absolute;
+
+
+				width: px2em(120px);
+
 				top: 50%;
 				left: px2em(30px);
 				transform: translateY(-50%);

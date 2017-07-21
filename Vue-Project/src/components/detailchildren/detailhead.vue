@@ -1,6 +1,6 @@
 <template>
 	<div class="detailhead">
-		<span class="fa fa-chevron-left left" @click="goto('/')"></span>
+		<span class="fa fa-chevron-left left" @click="goto"></span>
 		<p class="content">
 			<span :class="{red:arr[0]}" @click="show(0)">商品</span>
 			<span :class="{red:arr[1]}" @click="show(1)">详情</span>
@@ -40,7 +40,7 @@
 				}
 			},
 			goto(id){
-				this.$router.push({path:id})
+				this.$router.push({path:history.go(-1)})
 				this.$store.dispatch("changearr",[true,false,false])
 			}
 		}

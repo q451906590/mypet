@@ -21,8 +21,12 @@ import all from '@/components/mine/all'
 import pay from '@/components/mine/pay'
 import no from '@/components/mine/no'
 import account from '@/components/mine/account'
+import cue from '@/components/mine/cue'
+import have from '@/components/mine/have'
+import gift from '@/components/mine/gift'
+import favour from '@/components/mine/favour'
+import activity from '@/components/activity'
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -89,6 +93,7 @@ export default new Router({
     		path:"/search",
     		name:'search',
     		component:search
+
    },  
     {
     		path:"/cart",
@@ -99,7 +104,8 @@ export default new Router({
     		path:"/total",
     		name:'total',
     		component:total
-   }, {
+   },  
+   {
    		path:"/mine",
    		name:"mine",
    		component:mine		   		
@@ -128,6 +134,39 @@ export default new Router({
    		path:"/account",
    		name:"account",
    		component:account	
+
+   },
+   {
+   		path:"/cue",
+   		name:"cue",
+   		component:cue,
+   		redirect:"cue/have",
+   		children:[
+   			{
+   				path:"no",
+				component:no
+   			},
+   			{
+   				path:"have",
+   				component:have
+   			}
+   		]
+   },
+   {
+   		path:"/gift",
+   		name:"gift",
+   		component:gift	,
+   },
+   {
+   		path:"/favour",
+   		name:"favour",
+   		component:favour	,
+
+   },
+   {
+    path: "/activity",
+    name: 'activity',
+    component: activity
    }
   ]
 })

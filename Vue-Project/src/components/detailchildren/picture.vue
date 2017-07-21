@@ -1,7 +1,7 @@
 <template>
 	<div class="picture">
 		<div class="drag" v-loading="loading" element-loading-text="拼命加载中">
-			<p @click="goto('buy')"><span class="fa fa-angle-double-up"></span> 向下滑动，查看图文详情 <span class="fa fa-angle-double-up"></span></p>
+			<p @click="goto('buy')"><span class="fa fa-angle-double-up"></span> 点击回到详情页 <span class="fa fa-angle-double-up"></span></p>
 		</div>
 		<div class="bigpicture" v-for="item in picture">
 			<img :src="item" alt="" />
@@ -55,7 +55,9 @@ import draggable from 'vuedraggable'
 @import "../../assets/func.scss";
 .picture{
 padding-top: px2em(68px) ;
-
+img{
+	width:100%;
+}
 }
 .drag{
 	height: px2em(100px);

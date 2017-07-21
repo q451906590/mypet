@@ -28,6 +28,7 @@ export default{
              paginationClickable :true,
              mousewheelControl : true,
              observeParents:true,
+             autoplayDisableOnInteraction : false,
              loop : true,
          }
 		}

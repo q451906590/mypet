@@ -1,7 +1,7 @@
 <template>
 	<div class="addcart">
-		<div class="cart">
-			<span class="item" v-model="num" v-show="bol">{{num}}</span>
+		<div class="cart" @click="goto">
+			<span class="item" v-model="num" v-show="num">{{num}}</span>
 			<p><span class="fa fa-shopping-cart"></span></p>
 			<p>购物车</p>
 		</div>
@@ -16,31 +16,80 @@
 
 <script>
 import axios from "axios"
+import { Toast } from 'mint-ui';
 	export default{
 		data(){
 			return{
-				num:0,
-				bol:false
+				
+			}
+		},
+		computed:{
+			num(){
+				if(this.$store.state.messageArr.length>0){
+					return this.$store.state.messageArr.length
+				}else{
+					return false;
+				}
 			}
 		},
 		methods:{
+			goto(){
+				this.$router.push({name:"cart"})
+			},
 			showcart(){
 				if(this.$store.state.showcart==true){
-					console.log(this.$store.state.user)
-		   			axios.get("http://3.class11.applinzi.com/user.php",{
-			   			params:{
-			    				user:this.$store.state.user,
-							prod:JSON.stringify(this.$store.state.addprod),
-			    				action:"add"
-						}
-					}).then((res)=>{	
-						this.bol=true;
-						this.num=this.num+1;
-					})
+					if(this.$store.state.user==""){
+						this.open("请先登录")
+						this.$router.push({path:"/user/login"})
+					}else if(this.$store.state.addprod.num==0){
+						this.open("数量不能为空")
+					}else{
+						axios.get("http://3.class11.applinzi.com/user.php",{
+				   			params:{
+				    				user:this.$store.state.user,
+								prod:JSON.stringify(this.$store.state.addprod),
+				    				action:"add"
+							}
+						}).then((res)=>{	
+							this.open("加入成功")
+							axios.get("http://3.class11.applinzi.com/user.php",{
+						         params:{
+						           user:this.$store.state.user,
+						           action:"select"
+						      }
+						    }).then((res)=>{ 
+						     	var data = res.data.split("|");
+						     	for(var i=0;i<data.length-1;i++){
+						     		data[i]=JSON.parse(data[i]);
+						     	}
+								var messageArr = data;
+								messageArr.pop();
+								for(var i=0;i<messageArr.length;i++){
+								var obj=messageArr[i];
+								for(var j=i+1;j<messageArr.length;){
+								if(obj.name==messageArr[j].name){
+									messageArr[i].num+=messageArr[j].num;
+									messageArr.splice(j,1);
+										}else{
+											j++;
+										}
+									}
+								}
+								console.log(messageArr);
+						     	this.$store.dispatch("sendMessage",messageArr);
+						     })
+						})
+					}
 				}
 				this.$store.dispatch("changeshowcart",!this.$store.state.showcart)
-				console.log(this.$store.state.showcart)
 			},
+			open(mes){
+				Toast({
+				  message: mes,
+				  position: 'middle',
+				  duration: 2000
+				});
+			}
 		}
 	}
 </script>
@@ -49,7 +98,7 @@ import axios from "axios"
 @import "../../assets/func.scss";
 .addcart{
 	width: px2em(750px);
-
+	
 	height:px2em(80px) ;
 	background-color:white;
 	.cart{

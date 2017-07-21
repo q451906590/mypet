@@ -1,7 +1,7 @@
 <template>
 	<div class="total">
 	<div class="head">
-	   <span class="fa fa-angle-left back"></span>
+	   <span class="fa fa-angle-left back" @click="goto"></span>
 	   <p>结算订单</p >
   	</div>
   	<div class="user">
@@ -70,7 +70,7 @@
   					Total
   				</span>
   				<span>
-  					19.30元
+  					{{total}}.00元
   				</span>
   			</p>
   			 <p>
@@ -89,7 +89,15 @@ import { Switch } from 'mint-ui';
 				radio:"",
 				radio1:"",
 				value:false,
-				value1:false
+				value1:false,
+				total:this.$route.params.total
+			}
+		},
+		mounted:function(){
+		},
+		methods:{
+			goto(){
+				this.$router.push({path:history.go(-1)})
 			}
 		}
 	}

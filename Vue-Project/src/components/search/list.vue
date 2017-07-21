@@ -1,6 +1,6 @@
 <template>
 	<div class="list">
-		<div class="sort">
+		<div class="sort" v-show="sortbol">
 			<span @click="change('default')">分类</span>
 			<span @click="change('buy')">销量<span class="fa fa-long-arrow-up" v-show="bol.buy"></span><span class="fa fa-long-arrow-down" v-show="!bol.buy"></span></span>
 			<span @click="change('price')">价格 <span class="fa fa-long-arrow-up" v-show="bol.price"></span><span class="fa fa-long-arrow-down" v-show="!bol.price"></span></span>
@@ -17,6 +17,7 @@
 				<p class="foot"><span class="price">{{item.price}}元</span><span class="buy">已售：{{item.buy}}</span> <span class="comment">评价：{{item.comment}}</span></p>
 			</div>
 		</div>
+		<div class="nomore" v-show="sortbol">没有更多商品了......</div>
 	</div>
 </template>
 
@@ -33,14 +34,19 @@
 					comment:true
 				},
 				title:"",
-				value:""
+				value:"",
+				sortbol:this.$store.state.keyword==""?false:true,
 			}
 		},
 		computed:{
 			keyword(){
 				if(this.$store.state.keyword.title=="狗狗"){
 					this.title="dog"
-					if(this.$store.state.keyword.value=="罐头"){
+					if(this.$store.state.keyword.value=="狗粮"){
+						this.value="dogfood"
+						this.listarr=search.result.dog.dogfood;	
+					}
+					else if(this.$store.state.keyword.value=="罐头"){
 						this.value="guantou"
 						this.listarr=search.result.dog.guantou;	
 					}else if(this.$store.state.keyword.value=="零食"){
@@ -60,7 +66,7 @@
 						this.listarr=search.result.dog.yongpin;	
 					}
 				}else if(this.$store.state.keyword.title=="猫猫"){
-					this.title="cat"
+				this.title="cat"
 					if(this.$store.state.keyword.value=="干粮"){
 						this.value="dry"
 						this.listarr=search.result.cat.dry;	
@@ -84,15 +90,61 @@
 						this.value="yongpin"
 						this.listarr=search.result.cat.yongpin;	
 					}
+				}else if(this.$store.state.keyword.title=="小宠"){
+					this.title="smallpet"
+					if(this.$store.state.keyword.value=="兔兔用品"){
+						this.value="rabbit"
+						this.listarr=search.result.smallpet.rabbit;	
+					}
+					else if(this.$store.state.keyword.value=="仓鼠用品"){
+						this.value="hamster"
+						this.listarr=search.result.smallpet.hamster;	
+					}else if(this.$store.state.keyword.value=="龙猫用品"){
+						this.value="totoro"
+						this.listarr=search.result.smallpet.totoro;	
+					}else if(this.$store.state.keyword.value=="荷兰猪用品"){
+						this.value="pig"
+						this.listarr=search.result.smallpet.pig;	
+					}
+				}else if(this.$store.state.keyword.title=="水族"){
+					this.title="water"
+					if(this.$store.state.keyword.value=="水族箱"){
+						this.value="aquarium"
+						this.listarr=search.result.water.aquarium;	
+					}
+					else if(this.$store.state.keyword.value=="鱼饲料"){
+						this.value="fish"
+						this.listarr=search.result.water.fish;	
+					}else if(this.$store.state.keyword.value=="过滤器"){
+						this.value="filter"
+						this.listarr=search.result.water.filter;	
+					}else if(this.$store.state.keyword.value=="药水"){
+						this.value="potion"
+						this.listarr=search.result.water.potion;	
+					}else if(this.$store.state.keyword.value=="装饰"){
+						this.value="decorate"
+						this.listarr=search.result.water.decorate;	
+					}else if(this.$store.state.keyword.value=="陆龟用品"){
+						this.value="turtle"
+						this.listarr=search.result.water.turtle;	
+					}else if(this.$store.state.keyword.value=="蜥蜴用品"){
+						this.value="lizard"
+						this.listarr=search.result.water.lizard;	
+					}
+				}else if(this.$store.state.keyword.title=="search"){
+					var arr=[];
+					for(var i=0;i<this.$store.state.searchArr.length;i++){
+						arr.push(this.$store.state.searchArr[i].content)
+						this.oldarr.push(this.$store.state.searchArr[i].content)
+					}
+					this.listarr=arr;	
 				}
-				
 				return this.$store.state.keyword
 			}
 		},
 		watch:{
 			keyword(){
-				console.log(this.$store.state.keyword)
-				console.log(123)
+
 			}
 		},
 		mounted:function(){
@@ -103,14 +155,27 @@
 		},
 		methods:{
 			goto(index){
-				this.$router.push({path:"/detail"})
-				var obj={
-					pet:this.title,
-					type:this.value,
-					index:index,
-					json:"search"
+				if(this.$store.state.keyword.title=="search"){
+					this.$router.push({path:"/detail"})
+					var obj={
+						pet:this.$store.state.searchArr[index].pet,
+						type:this.$store.state.searchArr[index].type,
+						index:this.$store.state.searchArr[index].index,
+						json:"search"
+					}
+					console.log(obj)
+					this.$store.dispatch("changedetail2",obj);
+				}else{
+					this.$router.push({path:"/detail"})
+					var obj={
+						pet:this.title,
+						type:this.value,
+						index:index,
+						json:"search"
+					}
+					this.$store.dispatch("changedetail2",obj);
 				}
-				this.$store.dispatch("changedetail2",obj);
+
 			},
 			change(id){
 				if(id=="default"){
@@ -133,8 +198,8 @@
 			},
 			compare(propertyname){
 				return (obj1,obj2)=>{
-					var v1=obj1[propertyname];
-					var v2=obj2[propertyname];
+					var v1=parseInt(obj1[propertyname]);
+					var v2=parseInt(obj2[propertyname]);
 					if(v1>v2){
 						if(this.bol[propertyname]==true){
 								return 1;
@@ -219,6 +284,11 @@
 			}
 		}
 	}
-	
 }
+		.nomore{
+			text-align: center;
+			font-size: px2em(28px);
+			height: px2em(50px);
+			line-height: px2em(50px);
+		}
 </style>

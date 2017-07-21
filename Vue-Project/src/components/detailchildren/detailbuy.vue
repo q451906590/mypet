@@ -33,11 +33,21 @@ import search from "../../../static/search.json"
 		},
 		data(){
 			return{
-				name:this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].name:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].title,
-				price:this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].price:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price,
-				oldprice:this.$store.state.detail.json=="prod"?Math.round((prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].price*1.1)*100)/100:Math.round((search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price*1.1)*100)/100,
-				buy:this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].buy:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].buy,
 				loading:false
+			}
+		},
+		computed:{
+			name(){
+				return this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].name:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].title
+			},
+			price(){
+				return this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].price:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price
+			},
+			oldprice(){
+				return this.$store.state.detail.json=="prod"?Math.round((prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].price*1.1)*100)/100:Math.round((search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price*1.1)*100)/100
+			},
+			buy(){
+				return this.$store.state.detail.json=="prod"?prod[this.$store.state.detail.pet][this.$store.state.detail.banner].content[this.$store.state.detail.index].buy:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].buy
 			}
 		},
 		mounted:function(){
@@ -45,7 +55,6 @@ import search from "../../../static/search.json"
 		},
 		watch:{
 			name(){
-				console.log(123)	
 			}
 		},
 		

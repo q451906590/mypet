@@ -3,7 +3,7 @@
 		<md-tabs md-fixed class="md-accent" @click.native="goto">
 		  <md-tab v-for="item in arr"  :md-label="item.title" >
 				<div class="type" v-for="a in item.bb">
-					<img :src="a.img" alt="" @click="goto('search',a.name,item.title)"/>
+					<img v-lazy="a.img" alt="" @click="goto('search',a.name,item.title)"/>
 					<p>{{a.name}}</p>
 				</div>
 				<div class="more">
@@ -16,6 +16,9 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import { Lazyload } from 'mint-ui';
+Vue.use(Lazyload);
 import prod from "../../../static/product.json"
 export default{
 	data(){
@@ -42,9 +45,7 @@ export default{
 					title:title,
 					value:value,
 				}
-				console.log(keyword)
 				this.$store.dispatch("changekeyword",keyword)
-				console.log(this.$store.state.keyword)
 			}
 			window.event.stopPropagation()
 		}
@@ -62,8 +63,12 @@ export default{
 	height: px2em(150px);
 	margin: px2em(25px) px2em(10px);
 	float: left;
-	img{
+	img[lazy=loading]{
 
+		width:px2em(100px) ;
+		margin-left:px2em(25px) ;
+	}
+	img{
 		width:px2em(100px) ;
 		margin-left:px2em(25px) ;
 	}
@@ -73,13 +78,11 @@ export default{
 	}
 }
 .more{
-
 	float: left;
 	width: px2em(150px);
 	height: px2em(150px);
 	margin: px2em(35px) px2em(10px);
 	img{
-
 		width:px2em(90px) ;
 		margin-left:px2em(30px) ;
 	}

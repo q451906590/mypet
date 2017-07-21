@@ -1,43 +1,44 @@
 <template>
- <div class="login">
+ <div class="register" v-loading="loading" element-loading-text="拼命加载中">
   <div class="head">
-   <span class="fa fa-angle-left back"></span>
+   <span class="fa fa-angle-left back" @click="backhome"></span>
    <p>新用户注册</p >
    <span class="register" @click="goto">登录</span>
   </div>
   <div class="content">
    <div>
     <input type="text" placeholder="手机号" v-model="tel" onkeyup="this.value=this.value.replace(/[^0-9]+/,'')" @blur="blur"/>
-    <md-button class="md-icon-button md-raised md-warn" v-show="telbol">
-	  <md-icon><span class="fa fa-exclamation"></span></md-icon>
-	  <md-tooltip md-direction="top">{{mes}}</md-tooltip>
-	</md-button>
-	<md-button class="md-icon-button md-raised md-primary" v-show="blurbol" >
-	  <md-icon><span class="fa fa-check"></span></md-icon>
-	  <md-tooltip md-direction="top">{{mes}}</md-tooltip>
-	</md-button>
+    	<button class=" btn" v-show="telbol">
+		<span class="fa fa-exclamation"></span>
+		 <md-tooltip md-direction="top">{{mes}}</md-tooltip>
+	</button>
+	<button class=" btn" v-show="blurbol">
+		<span class="fa fa-check"></span>
+		 <md-tooltip md-direction="top">{{mes}}</md-tooltip>
+	</button>
+
    </div>
    <div>
     <input type="password" placeholder="密码:字母开头，长度在6~18之间" v-model="pwd"/>
-    <md-button class="md-icon-button md-raised md-warn" v-show="pwdbol">
-	  <md-icon><span class="fa fa-exclamation"></span></md-icon>
-	  <md-tooltip md-direction="top">{{mes}}</md-tooltip>
-	</md-button>
+	<button class=" btn" v-show="pwdbol">
+		<span class="fa fa-exclamation"></span>
+		 <md-tooltip md-direction="top">{{mes}}</md-tooltip>
+	</button>
    </div>
    <div>
     <input type="password" placeholder="再次输入密码" v-model="againpwd"/>
-     <md-button class="md-icon-button md-raised md-warn" v-show="againbol">
-	  <md-icon><span class="fa fa-exclamation"></span></md-icon>
-	  <md-tooltip md-direction="top">{{mes}}</md-tooltip>
-	</md-button>
+	<button class=" btn" v-show="againbol">
+		<span class="fa fa-exclamation"></span>
+		 <md-tooltip md-direction="top">{{mes}}</md-tooltip>
+	</button>
    </div>
    <div id="CodeWrap">
     <input type="text" placeholder="请输入验证码" v-model="yzm"/>
     <div id="code"></div>
-     <md-button class="md-icon-button md-raised md-warn yzm" v-show="yzmbol">
-	  <md-icon><span class="fa fa-exclamation"></span></md-icon>
-	  <md-tooltip md-direction="top">{{mes}}</md-tooltip>
-	</md-button>
+	<button class=" btn" v-show="yzmbol">
+		<span class="fa fa-exclamation"></span>
+		 <md-tooltip md-direction="top">{{mes}}</md-tooltip>
+	</button>
    </div>
    <div  class="checkbox">
     <md-checkbox id="my-test3" name="my-test3" v-model="checkbox" class="md-warn">我已经阅读并同意</md-checkbox>
@@ -66,12 +67,16 @@
     yzmbol:false,
     yzmres:"",
     mes:"",
-    blurbol:""
+    blurbol:"",
+    loading:false
    }
   },
   methods:{
    goto(){
     this.$router.push({path:"login"})
+   },
+   backhome(){
+   	 this.$router.push({path:"/"})
    },
    register(){
    	if(!(/^1[3|4|5|7|8][0-9]\d{8}$/.test(this.tel))){
@@ -90,6 +95,7 @@
    		
    	}
    	else{
+   		this.loading=true
    		axios.get("http://3.class11.applinzi.com/user.php",{
    			params:{
     				user:this.tel,
@@ -98,7 +104,9 @@
 			}
 		}).then((res)=>{
 			if(res.data=="注册成功"){
-				console.log(res)
+				this.loading=false;
+				this.$store.dispatch("changeuser",this.tel)
+				this.$router.push({name:"mine"})
 			}
 		
 		})
@@ -188,15 +196,20 @@
   width:px2em(650px);
   padding:px2em(20px) px2em(20px);
   }
-  .md-button{
-  	position: absolute;
+  .btn{
+   	border: none;
+   	 position: absolute;
   	width: px2em(50px);
  	height: px2em(50px);
- 	top: px2em(-20px);
+ 	top: px2em(15px);
+ 	border-radius: 50%;
+ 	background-color: red;
+ 	font-size: px2em(30px);
+ 	color: white;
  	right: px2em(0px);
   }
-  .yzm{
-  	right: px2em(200px);
+   .yzm{
+  	right: px2em(220px);
   }
  }
  #CodeWrap{

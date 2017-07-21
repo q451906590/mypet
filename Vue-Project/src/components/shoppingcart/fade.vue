@@ -4,7 +4,7 @@
 			
 		</div>
 		<transition name="move">
-						<div class="cart" v-show="showcart">
+		<div class="cart" v-show="showcart">
 		<div class="content" >
 			<div class="card">
 				<div class="img">
@@ -18,7 +18,8 @@
 			
 		</div>
 		<div class="add">
-			<span>数量：</span><el-input-number v-model="num" :min="1" :max="10" size="large" @change="change"></el-input-number>
+			<span>数量：</span>
+			<button @click="add">+</button><button @click="reduce">-</button><input type="text" class="number" v-model="num"  ref="nums" readonly="readonly"/>
 		</div>
 			</div>
 		</transition>
@@ -32,16 +33,28 @@ import prod from "../../../static/product.json"
 	export default{
 		mounted:function(){
 			var cart=document.querySelector(".addcart");
-			this.$el.style.height=window.scrollY+window.innerHeight-cart.offsetHeight+"px";
 			var obj={
-				name:this.name,
-				num:this.num,
-				pet:this.$store.state.detail.json,
+					name:this.name,
+					num:this.num,
+					smallimg:this.img,
+					price:this.price
 			}
 			this.$store.dispatch("changeaddprod",obj)
 		},
-
+		watch:{
+			num(){
+				this.change()
+			}
+		},
 		methods:{
+			add(){
+					this.num++
+			},
+			reduce(){
+				if(this.num>0){
+					this.num--
+				}
+			},
 			fadeout(){
 				this.$store.dispatch("changeshowcart",false)
 			},
@@ -49,7 +62,8 @@ import prod from "../../../static/product.json"
 				var obj={
 					name:this.name,
 					num:this.num,
-					pet:this.$store.state.detail.json,
+					smallimg:this.img,
+					price:this.price
 				}
 				this.$store.dispatch("changeaddprod",obj)
 			}
@@ -57,16 +71,22 @@ import prod from "../../../static/product.json"
 		computed:{
 			showcart(){
 				return this.$store.state.showcart
+			},
+			name(){
+				return this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].name:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].title
+			},
+			price(){
+				return this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].price:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price
+			},
+			img(){
+				return this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].img:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].smallimg
 			}
 		},
 		data(){
 			return{
-				name:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].name:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].title,
-				price:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].price:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].price,
-				img:this.$store.state.detail.json=="prod"?prod.dog[this.$store.state.detail.banner].content[this.$store.state.detail.index].img:search.result[this.$store.state.detail.pet][this.$store.state.detail.type][this.$store.state.detail.index].smallimg,
 				num:0
 			}
-		}
+		},
 		
 	}
 </script>
@@ -75,6 +95,7 @@ import prod from "../../../static/product.json"
 @import "../../assets/func.scss";
 
 	.fade{
+		height:100%;
 		position: fixed;
 		width: 100%;
 		top: 0;
@@ -84,7 +105,8 @@ import prod from "../../../static/product.json"
 			height:px2em(800px);
 		}
 		.cart{
-			height:px2em(455px);
+			transform: translateY(px2em(-150px));;
+			height:px2em(605px);
 			background-color: white;
 		}
 	}
@@ -123,19 +145,41 @@ import prod from "../../../static/product.json"
 	
 }
 .add{
-	margin-top: px2em(30px);
+	margin: px2em(30px) px2em(30px);
 	width: px2em(300px);
 	font-size: px2em(30px);
 	float: right;
+    .number{
+	margin-top: px2em(-10px);
+     float: right;
+     border-top: 1px solid gray;
+     border-bottom: 1px solid gray;
+     border-left: 1px solid gray;
+     width: px2em(120px);
+     height: px2em(40px);
+     font-size: px2em(20px);
+     padding-left: px2em(10px);
+    }
+    button{
+   margin-top: px2em(-10px);
+     float: right;
+     border: 1px solid gray;
+     width: px2em(40px); 
+     font-size: px2em(28px);
+     height: px2em(40px); 
+     background: white;   
+    }
+   
 }
 
 .move-enter-active,.move-leave-active{
+		transform: translateY(px2em(-150px));
 		transition: all 0.5s ease-out; 
 	}
-	.move-enter{
-		transform: translateY(600px);
+	.move-enter .move-leave-to{
+		transform: translateY(px2em(600px));
 	}
 	.move-leave-active{
-		transform: translateY(600px);
+		transform: translateY(px2em(600px));
 	}
 </style>
