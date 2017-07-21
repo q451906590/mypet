@@ -21,6 +21,10 @@ const store = new Vuex.Store({
 			value:"",
 		},
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> neng
 		bannerindex:"",
 		showcart:false,
 		user:"",
@@ -29,11 +33,22 @@ const store = new Vuex.Store({
 			num:"",
 			pet:""
 		},
+<<<<<<< HEAD
 =======
 		showcart:false,
 		col:1,
 >>>>>>> ruan
 		messageArr:[]
+=======
+		showcart:false,
+		col:1,
+		activity: {
+		   pet: "",
+		   index: ""
+		},
+		messageArr:[],
+		searchArr:[]
+>>>>>>> neng
 	},
 	mutations:{
 		CHANGE_TYPE(state,obj){
@@ -66,6 +81,10 @@ const store = new Vuex.Store({
 			state.showcart=bol
 		},
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> neng
 		CHANGE_BANNERINDEX(state,index){
 			state.bannerindex=index
 		},
@@ -75,7 +94,11 @@ const store = new Vuex.Store({
 		CHANGE_ADDPROD(state,obj){
 			state.addprod=obj
 		},
+		CHANGE_COLOR(state,num){
+			state.col=num
+		},
 		SEND_MESSAGE(state,arr){
+<<<<<<< HEAD
 		   state.messageArr = arr;
 		 }
 =======
@@ -86,6 +109,18 @@ const store = new Vuex.Store({
 			state.messageArr = arr;
 		}
 >>>>>>> ruan
+=======
+			state.messageArr = arr;
+		},
+		CHANGE_ACTIVITY(state, obj) {
+		   state.activity.pet = obj.pet;
+		   state.activity.index = obj.index;
+		},
+		CHANGE_SEARCHARR(state,arr){
+		   state.searchArr = arr;
+		}
+
+>>>>>>> neng
 	},
 	actions:{
 		changetype({commit},obj){
@@ -110,6 +145,10 @@ const store = new Vuex.Store({
 			commit("CHANGE_SHOWCART",bol)
 		},
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> neng
 		changebannerindex({commit},index){
 			commit("CHANGE_BANNERINDEX",index)
 		},
@@ -119,7 +158,12 @@ const store = new Vuex.Store({
 		changeaddprod({commit},obj){
 			commit("CHANGE_ADDPROD",obj)
 		},
+
+		changescolor({commit},num){
+			commit("CHANGE_COLOR",num)
+		},
 		sendMessage({commit},arr){
+<<<<<<< HEAD
 		   commit("SEND_MESSAGE",arr)
 =======
 		changescolor({commit},num){
@@ -129,6 +173,17 @@ const store = new Vuex.Store({
 			commit("SEND_MESSAGE",arr)
 >>>>>>> ruan
 		}
+=======
+			commit("SEND_MESSAGE",arr)
+
+		},
+		changeactivity({commit},activity){
+            commit("CHANGE_ACTIVITY",activity)
+       },
+       changesearcharr({commit},arr){
+       		commit("CHANGE_SEARCHARR",arr)
+       }
+>>>>>>> neng
 	}
 })
 export default store

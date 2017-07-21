@@ -25,16 +25,22 @@ import pay from '@/components/mine/pay'
 import no from '@/components/mine/no'
 import account from '@/components/mine/account'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> neng
 import cue from '@/components/mine/cue'
 import have from '@/components/mine/have'
 import gift from '@/components/mine/gift'
 import favour from '@/components/mine/favour'
+<<<<<<< HEAD
 
 
 >>>>>>> ruan
+=======
+import activity from '@/components/activity'
+>>>>>>> neng
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -102,6 +108,10 @@ export default new Router({
     		name:'search',
     		component:search
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> neng
    },  
     {
     		path:"/cart",
@@ -112,11 +122,16 @@ export default new Router({
     		path:"/total",
     		name:'total',
     		component:total
+<<<<<<< HEAD
    }, {
 =======
    }, 
    {
 >>>>>>> ruan
+=======
+   },  
+   {
+>>>>>>> neng
    		path:"/mine",
    		name:"mine",
    		component:mine		   		
@@ -146,7 +161,11 @@ export default new Router({
    		name:"account",
    		component:account	
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> neng
    },
    {
    		path:"/cue",
@@ -173,7 +192,16 @@ export default new Router({
    		path:"/favour",
    		name:"favour",
    		component:favour	,
+<<<<<<< HEAD
 >>>>>>> ruan
+=======
+
+   },
+   {
+    path: "/activity",
+    name: 'activity',
+    component: activity
+>>>>>>> neng
    }
   ]
 })

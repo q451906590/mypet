@@ -1,20 +1,20 @@
 <template>
 <div class="cat">
-<md-card :md-theme="'white'" v-for="item in banner">
+<md-card :md-theme="'white'" v-for="(item,index) in banner">
   <md-card-header>{{item.header}}</md-card-header>
   <md-card-content>
-  	<div class="title">
-  		<img :src="item.title"/>
+  	<div class="title" @click="gotoActivity('cat',index)">
+  		<img  v-lazy="item.title"/>
   	</div>
   	<div class="big">
-  		<img :src="item.big"/>
+  		<img v-lazy="item.big"/>
   	</div>
   	<div class="middle">
-  		<img v-for="m in item.middle" :src="m" alt="" />
+  		<img v-for="m in item.middle" v-lazy="m" alt="" />
   		
   	</div>
   	<div class="small">
-		<img v-for="s in item.small" :src="s" alt="" />  		  		  		
+		<img v-for="s in item.small" v-lazy="s" alt="" />  		  		  		
   	</div>
   </md-card-content>
 </md-card>
@@ -24,11 +24,11 @@
 
 	 	<div class="myswiper" v-for="(item,banner) in cat">
 	 		<div class="swiper-title">
-	 			<img :src="item.title" alt="" />
+	 			<img v-lazy="item.title" alt="" />
 	 		</div>
 	 	<swiper :options="swiperOption">
 	      <swiper-slide v-for="(slide,index) in item.content" @click.native="gotodeatil(banner,index)"> 
-	      	<img :src="slide.img"/>
+	      	<img v-lazy="slide.img"/>
 	      	<p class="text">{{slide.name}}</p>
 	      	<p class="price">{{slide.price}}元</p>
 	      </swiper-slide>
@@ -46,6 +46,8 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 Vue.use(VueAwesomeSwiper)
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 import prod from "../../../static/product.json"
+import { Lazyload } from 'mint-ui';
+Vue.use(Lazyload);
 export default{
 	 components: {
         swiper,
@@ -64,7 +66,7 @@ export default{
 		}
 	},
 	methods:{
-		gotodeatil(banner,index,pet){
+		gotodeatil(banner,index){
 			var obj={
 				banner:banner,
 				index:index,
@@ -73,7 +75,15 @@ export default{
 			}
 			this.$store.dispatch("changedetail",obj);
 			this.$router.push({path:"detail"})
-		}
+		},
+		gotoActivity(pet,index){
+      var obj={
+        index:index,
+          pet:pet
+        }
+      this.$store.dispatch("changeactivity",obj);
+        this.$router.push({path:"/activity"});
+    }
 	},
 	mounted:function(){
 		var text=this.$el.querySelectorAll(".text");
@@ -96,29 +106,39 @@ export default{
 	padding-left: 0;
 	padding-right: 0;
 	.title{
-		img{
+		img[lazy=loading] {
 			width: 100%;
 		}
 	}
 	.big{
 		width:px2em(335px);
 		float: left;
+		img[lazy=loading]{
+			width: 100%;
+		}
 	}
 	.middle{
 		width:px2em(335px);
 		float:right;
+		img[lazy=loading]{
+			width: 100%;
+		}
 	}
 	.small{
 		float: left;
 	}
-	.small img{
+	.small img[lazy=loading]{
 		width:px2em(375px);
 		float: left;
+	}
+	.small img{
+		width:px2em(375px);
+		float: left;	
 	}
 }
 .myswiper{
 	width: px2em(750px);
-	img{
+	img[lazy=loading]{
 		width:100%
 	}
 	.text{

@@ -4,6 +4,13 @@
 		   <span class="fa fa-angle-left back" @click="back"></span>
 		   <p>我的收藏</p >
   		</div>
+<<<<<<< HEAD
+=======
+  		<div class="sorry">
+			<img src="../../../static/img/mine/cat.png"/>
+			<p>抱歉，我们没有找到相关的数据！</p>
+		</div>
+>>>>>>> neng
 	</div>
 </template>
 
@@ -20,6 +27,10 @@
 <style lang="scss" scoped type="text/css">
 @import "../../assets/func.scss";
 .favour{
+<<<<<<< HEAD
+=======
+	background: #efefef;
+>>>>>>> neng
 	.head{
 		 height:px2em(80px);
 		 overflow:hidden;
@@ -41,5 +52,27 @@
 		  float: left;
 		 }		 
 		}
+<<<<<<< HEAD
+=======
+		.sorry{			
+			/*position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);*/
+			height: px2em(600px);
+			img{
+			width: px2em(220px);	
+			margin-left: px2em(250px);
+			margin-top: px2em(120px);	
+			}
+			p{
+				width: px2em(400px);
+				text-align: center;
+				height: px2em(50px);
+				line-height: px2em(50px);
+				margin-left: px2em(170px);
+			}
+		}
+>>>>>>> neng
 }
 </style>

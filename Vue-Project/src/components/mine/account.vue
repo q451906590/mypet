@@ -93,10 +93,18 @@
 				float: right;
 		     	color: darkslategray;
 <<<<<<< HEAD
+<<<<<<< HEAD
 			    /*font-size: px2em(28px);*/
 =======
 			    font-size: px2em(28px);
 >>>>>>> ruan
+=======
+
+			    /*font-size: px2em(28px);*/
+
+			    font-size: px2em(28px);
+
+>>>>>>> neng
 				margin-right: px2em(50px);
 			}
 			.left{
@@ -110,9 +118,16 @@
 			img{
 				position: absolute;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 				width: px2em(120px);
 >>>>>>> ruan
+=======
+
+
+				width: px2em(120px);
+
+>>>>>>> neng
 				top: 50%;
 				left: px2em(30px);
 				transform: translateY(-50%);

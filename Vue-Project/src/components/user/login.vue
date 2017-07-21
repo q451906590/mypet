@@ -1,32 +1,32 @@
 <template>
- <div class="login">
+ <div class="login" v-loading="loading" element-loading-text="拼命加载中">
   <div class="head">
    <span class="fa fa-angle-left back" @click="backhome"></span>
    <p>绑定手机</p >
    <span class="register" @click="goto">注册</span>
   </div>
-  <div class="content">
+  <div class="content" >
    <div>
-    <input type="text" placeholder="请输入手机" v-model="tel" />
-    <md-button class="md-icon-button md-raised md-warn" v-show="telbol">
-	  <md-icon><span class="fa fa-exclamation"></span></md-icon>
-	  <md-tooltip md-direction="top">{{mes}}</md-tooltip>
-	</md-button>
+    <input type="text" placeholder="请输入手机" v-model="tel"   onkeyup="this.value=this.value.replace(/[^0-9]+/,'')"/>
+	<button class=" btn" v-show="telbol">
+		<span class="fa fa-exclamation"></span>
+		 <md-tooltip md-direction="top">{{mes}}</md-tooltip>
+	</button>
    </div>
    <div>
     <input type="password" placeholder="请输入密码" v-model="pwd"/>
-    <md-button class="md-icon-button md-raised md-warn" v-show="pwdbol">
-	  <md-icon><span class="fa fa-exclamation"></span></md-icon>
-	  <md-tooltip md-direction="top">{{mes}}</md-tooltip>
-	</md-button>
+	<button class=" btn" v-show="pwdbol">
+		<span class="fa fa-exclamation"></span>
+		 <md-tooltip md-direction="top">{{mes}}</md-tooltip>
+	</button>
    </div>
    <div id="CodeWrap">
     <input type="text" placeholder="请输入验证码" v-model="yzm"/> 
     <div id="code"></div>
-     <md-button class="md-icon-button md-raised md-warn yzm" v-show="!yzmbol">
-	  <md-icon><span class="fa fa-exclamation"></span></md-icon>
-	  <md-tooltip md-direction="top">{{mes}}</md-tooltip>
-	</md-button>
+	<button class="yzm btn" v-show="!yzmbol">
+		<span class="fa fa-exclamation"></span>
+		 <md-tooltip md-direction="top">{{mes}}</md-tooltip>
+	</button>
    </div>
   <md-button class="md-raised md-warn" id="su" @click.native="login">确认登录</md-button>
   </div>
@@ -46,7 +46,8 @@
     telbol:false,
     pwdbol:false,
     yzmbol:true,
-    mes:""
+    mes:"",
+    loading:false
    }
   },
   methods:{
@@ -58,6 +59,7 @@
 	},
    login(){
    	if(this.yzmbol!=false){
+   		this.loading=true;
    		axios.get("http://3.class11.applinzi.com/user.php",{
    			params:{
     				user:this.tel,
@@ -68,6 +70,16 @@
 			if(res.data=="密码正确"){
 				this.$store.dispatch("changeuser",this.tel)
 				this.$router.push({path:"/mine"})
+				this.loading=false;
+				sessionStorage.userName = this.tel;
+			}else if(res.data=="密码错误"){
+				this.pwdbol=true;
+				this.mes=res.data;
+				this.loading=false;
+			}else if(res.data=="用户名错误"){
+				this.telbol=true;
+				this.mes=res.data;
+				this.loading=false;
 			}
 		})
    	}	
@@ -130,15 +142,20 @@
   width:px2em(650px) ;
   padding:px2em(20px) px2em(20px);
   }
-  .md-button{
-  	position: absolute;
+  .btn{
+   	border: none;
+   	 position: absolute;
   	width: px2em(50px);
  	height: px2em(50px);
- 	top: px2em(-20px);
+ 	top: px2em(15px);
+ 	border-radius: 50%;
+ 	background-color: red;
+ 	font-size: px2em(30px);
+ 	color: white;
  	right: px2em(0px);
   }
    .yzm{
-  	right: px2em(200px);
+  	right: px2em(220px);
   }
  }
  #CodeWrap{

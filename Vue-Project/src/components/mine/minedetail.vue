@@ -23,15 +23,22 @@
 			}
 		},
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		
 >>>>>>> ruan
+=======
+
+
+		
+
+>>>>>>> neng
 		methods:{
 			back(){
 				this.$router.push({path:"/mine"})
 			},
 			go(){	
-				console.log(this.$el.querySelector(".md-active span").innerText)
+
 				if(this.$el.querySelector(".md-active span").innerText=="全部"){
 					this.$router.push({path:"all"})
 				}else if(this.$el.querySelector(".md-active span").innerText=="待付款"){
@@ -48,9 +55,14 @@
 	@import "../../assets/func.scss";
 	.minedetail{
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		font-size:px2em(20px);
 >>>>>>> ruan
+=======
+ 		background-Color:#efefef;
+		font-size:px2em(20px);
+>>>>>>> neng
 		.head{
 		 height:px2em(80px);
 		 overflow:hidden;

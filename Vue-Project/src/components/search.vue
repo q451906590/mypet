@@ -1,9 +1,9 @@
-<template>
+0<template>
 	<div class="search">
 		<div class="head">
 			<span class="fa fa-close" v-show="bol" @click="back('/')"></span>
 			<span class="fa fa-angle-left" v-show="!bol" @click="back('/')"></span>
-			<span class="fa fa-search search-icon"></span>
+			<span class="fa fa-search search-icon" @click="search(ipt)"></span>
 	<div class="ipt">
 	<el-dropdown trigger="click">
       <span class="el-dropdown-link">
@@ -16,18 +16,18 @@
         <el-dropdown-item>水族</el-dropdown-item>
       </el-dropdown-menu>
     </el-dropdown>
-    <input type="text" placeholder="请输入"/>
+    <input type="text" placeholder="请输入" v-model="ipt" @keydown.13="search(ipt)"/>
 			</div>
 		</div>
 		<div class="btn" v-show="bol">
-		<md-button class="md-raised" :md-theme="'white'" v-for="item in btnarr">{{item}}</md-button>
+		<md-button class="md-raised" :md-theme="'white'" v-for="item in btnarr" @click="search(item)">{{item}}</md-button>
 		</div>	
 		<list></list>
 	</div>
 </template>
-
 <script>
 	import list from "./search/list.vue"
+	import search from "../../static/search.json"
 	export default{
 		components:{
 			list
@@ -36,16 +36,65 @@
 			return{
 				input:"",
 				select:"",
-				btnarr:["狗衣服","保健品","医疗","狗玩具","狗罐头","狗零食","狗粮食","猫零食","狗妙鲜包","狗沐浴露"],
-				bol:this.$route.params.bol==undefined?true:this.$route.params.bol
+				btnarr:["怡亲","泰迪","宝路","顽皮","狗罐头","狗零食","狗粮","猫零食","狗妙鲜包","火腿肠"],
+				bol:"",
+				ipt:""
 			}
 		},
 		mounted:function(){
-		
+			if(this.$store.state.keyword==""){
+				this.bol=true
+			}else{
+				this.bol=false
+			}
+		},
+		computed:{
+			item(){
+				if(this.ipt==""){
+				var a=this.$route.params.detail;
+				this.search(a);	
+				return this.$route.params
+				}
+			}
+		},
+		watch:{
+			item(){}
 		},
 		methods:{
 			back(id){
 				this.$router.push({path:id})		
+			},
+			search(item){
+				if(item!=undefined){
+				var arr=item.split("")
+				var arr1=[];
+				for(var i in search.result){
+					for(var j in search.result[i]){
+						for(var k=0;k<search.result[i][j].length;k++){
+							for(var l=0;l<arr.length;l++){
+								if(search.result[i][j][k].title.indexOf(arr[l])==-1){
+									break
+								}else if(l==arr.length-1) {
+									var obj={
+										pet:i,
+										type:j,
+										index:k,
+										content:search.result[i][j][k]
+									}
+									arr1.push(obj)
+								}
+							}
+						}
+					}
+				}
+				console.log(arr1)
+				this.$store.dispatch("changesearcharr",arr1)
+				console.log(this.$store.state.searchArr)
+				var keyword={
+					title:"search"
+				}
+				this.$store.dispatch("changekeyword",keyword)					
+				}
 			}
 		}
 	}

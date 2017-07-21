@@ -5,12 +5,12 @@
 		</div>
 	 	<div class="myswiper">
 	 	<swiper :options="swiperOption">
-	      <swiper-slide v-for="slide in swiperSlides"> 
-	      	<img :src="slide.img"/>
-	      	<p class="text">{{slide.name}}</p>
+	      <swiper-slide  v-for="(slide,index) in swiperSlides"  @click.native="godetail(index)">
+	      	<img :src="slide.smallimg" />
+	      	<p class="text">{{slide.title}}</p>
 	      	<p class="price">{{slide.price}}元</p>
 	      </swiper-slide>
-	  	 </swiper> 
+	  	 </swiper>
 	 	</div>
 	</div>
 </template>
@@ -18,9 +18,9 @@
 <script>
 import Vue from 'vue'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
-Vue.use(VueAwesomeSwiper)
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
-import prod from "../../../static/product.json"
+import search from "../../../static/search.json"
+Vue.use(VueAwesomeSwiper);
 	export default{
 	components: {
         swiper,
@@ -28,27 +28,67 @@ import prod from "../../../static/product.json"
    },
    data() {
         return {
+          type:"",
  		swiperOption: {
              setWrapperSize :true,
              mousewheelControl : true,
              observeParents:true,
              slidesPerView :3,
       },
+          prodarr:[]
 		}
 	},
+    mounted(){
+    },
 	computed:{
 		swiperSlides(){
 			var arr=[];
-			for(var i=0;i<10;i++){
-				var banner=Math.round(Math.random()*10+1);
-				var num =Math.round(Math.random()*3+1);
-				var pro=prod.dog[banner].content[num];
-				arr.push(pro)
-			}
+			var typearr=[];
+			for(var i in search.result[this.$store.state.detail.pet]){
+			     typearr.push(i)
+      }
+      for(var i in search.result[this.$store.state.detail.pet]){
+              typearr=typearr.sort(function () {
+                return 0.5-Math.random()
+              })
+              if(this.$store.state.detail.pet == "smallpet"){
+                var num =Math.round(Math.random()*3+0);
+              }else{
+                num =Math.round(Math.random()*6+0);
+              }
+              this.type=typearr[num];
+              var obj={
+                type:typearr[num],
+                pet:this.$store.state.detail.pet,
+                index:num,
+                json:"search"
+              }
+              this.prodarr.push(obj);
+             arr.push(search.result[this.$store.state.detail.pet][this.type][num])
+      }
 			return arr
-		}
-	}
- }	
+		},
+    detail2(){
+		  return this.$store.state.detail2
+    }
+	},
+    watch:{
+	  detail2(){
+    }
+    },
+   methods:{
+     godetail(index){
+       var obj={
+         pet:this.prodarr[index].pet,
+         type:this.prodarr[index].type,
+         index:this.prodarr[index].index,
+         json:"search"
+       }
+       this.$store.dispatch("changedetail2",obj);
+       this.$router.push({path:"/detail/buy"});
+     }
+   }
+ }
 </script>
 
 <style  lang="scss" scoped type="text/css">
